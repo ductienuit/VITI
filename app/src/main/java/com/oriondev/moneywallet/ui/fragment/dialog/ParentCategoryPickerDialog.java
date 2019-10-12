@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.fragment.dialog;
+package com.oriondev.Viti.ui.fragment.dialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -38,16 +38,16 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.Category;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.ui.activity.NewEditCategoryActivity;
-import com.oriondev.moneywallet.ui.adapter.recycler.ParentCategorySelectorCursorAdapter;
-import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.Category;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.ui.activity.NewEditCategoryActivity;
+import com.oriondev.Viti.ui.adapter.recycler.ParentCategorySelectorCursorAdapter;
+import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**
- * Created by andre on 19/03/2018.
+ * Created by andre on 19/03/2019.
  */
 public class ParentCategoryPickerDialog extends DialogFragment implements ParentCategorySelectorCursorAdapter.Controller, LoaderManager.LoaderCallbacks<Cursor> {
 

@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.broadcast;
+package com.oriondev.Viti.broadcast;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -30,10 +30,10 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.oriondev.moneywallet.service.RecurrenceHandlerIntentService;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.utils.DateUtils;
+import com.oriondev.Viti.service.RecurrenceHandlerIntentService;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.utils.DateUtils;
 
 import java.util.Date;
 

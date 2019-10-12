@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.storage.database.data.pdf;
+package com.oriondev.Viti.storage.database.data.pdf;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -16,13 +16,13 @@ import com.itextpdf.text.PageSize;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.model.Wallet;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.data.AbstractDataExporter;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.MoneyFormatter;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.model.Wallet;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.data.AbstractDataExporter;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.MoneyFormatter;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -52,7 +52,7 @@ public class PDFDataExporter extends AbstractDataExporter {
         } catch (DocumentException e) {
             throw new IOException(e);
         }
-        mDocument.addAuthor("MoneyWallet - Expense Manager");
+        mDocument.addAuthor("Viti - Expense Manager");
         mDocument.open();
     }
 

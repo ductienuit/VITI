@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.storage.database;
+package com.oriondev.Viti.storage.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -29,10 +29,10 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.util.SparseLongArray;
 
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.DateUtils;
-import com.oriondev.moneywallet.utils.MoneyFormatter;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.DateUtils;
+import com.oriondev.Viti.utils.MoneyFormatter;
 
 import org.dmfs.rfc5545.DateTime;
 import org.dmfs.rfc5545.recur.InvalidRecurrenceRuleException;
@@ -1731,7 +1731,7 @@ import java.util.UUID;
     /**
      * This method is called by the content provider when the user is inserting a new category.
      * Some data consistency check is done before the insertion. If an error is detected an exception
-     * is thrown with an {@link com.oriondev.moneywallet.storage.database.Contract.ErrorCode}.
+     * is thrown with an {@link com.oriondev.Viti.storage.database.Contract.ErrorCode}.
      *
      * @param contentValues bundle that contains the data from the content provider.
      * @return the id of the new item if inserted, -1 if an error occurs.
@@ -1783,7 +1783,7 @@ import java.util.UUID;
     /**
      * This method is called by the content provider when the user is updating an existing category.
      * Some data consistency check is done before the update. If an error is detected an exception
-     * is thrown with an {@link com.oriondev.moneywallet.storage.database.Contract.ErrorCode}.
+     * is thrown with an {@link com.oriondev.Viti.storage.database.Contract.ErrorCode}.
      *
      * @param categoryId id of the category to update.
      * @param contentValues bundle that contains the values to update.

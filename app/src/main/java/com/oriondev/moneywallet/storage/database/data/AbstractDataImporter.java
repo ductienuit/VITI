@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.storage.database.data;
+package com.oriondev.Viti.storage.database.data;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -8,14 +8,14 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.oriondev.moneywallet.model.ColorIcon;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.model.Icon;
-import com.oriondev.moneywallet.picker.IconPicker;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.utils.DateUtils;
-import com.oriondev.moneywallet.utils.Utils;
+import com.oriondev.Viti.model.ColorIcon;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.model.Icon;
+import com.oriondev.Viti.picker.IconPicker;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.utils.DateUtils;
+import com.oriondev.Viti.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;

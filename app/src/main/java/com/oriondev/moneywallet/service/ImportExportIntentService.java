@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.service;
+package com.oriondev.Viti.service;
 
 import android.app.IntentService;
 import android.content.ContentResolver;
@@ -11,18 +11,18 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.FileProvider;
 import android.support.v4.content.LocalBroadcastManager;
 
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.model.DataFormat;
-import com.oriondev.moneywallet.model.Wallet;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.database.data.AbstractDataExporter;
-import com.oriondev.moneywallet.storage.database.data.AbstractDataImporter;
-import com.oriondev.moneywallet.storage.database.data.csv.CSVDataExporter;
-import com.oriondev.moneywallet.storage.database.data.csv.CSVDataImporter;
-import com.oriondev.moneywallet.storage.database.data.pdf.PDFDataExporter;
-import com.oriondev.moneywallet.storage.database.data.xls.XLSDataExporter;
-import com.oriondev.moneywallet.utils.DateUtils;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.model.DataFormat;
+import com.oriondev.Viti.model.Wallet;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.database.data.AbstractDataExporter;
+import com.oriondev.Viti.storage.database.data.AbstractDataImporter;
+import com.oriondev.Viti.storage.database.data.csv.CSVDataExporter;
+import com.oriondev.Viti.storage.database.data.csv.CSVDataImporter;
+import com.oriondev.Viti.storage.database.data.pdf.PDFDataExporter;
+import com.oriondev.Viti.storage.database.data.xls.XLSDataExporter;
+import com.oriondev.Viti.utils.DateUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -185,7 +185,7 @@ public class ImportExportIntentService extends IntentService {
             // if no exception has been thrown so far, we can ask the exporter
             // for the output file: we can pass the uri of this file inside the intent
             // Uri resultUri = Uri.fromFile(dataExporter.getOutputFile());
-            String authority = "com.oriondev.moneywallet.storage.file";
+            String authority = "com.oriondev.Viti.storage.file";
             File outputFile = dataExporter.getOutputFile();
             Uri resultUri = FileProvider.getUriForFile(this, authority, outputFile);
             String resultType = dataExporter.getResultType();

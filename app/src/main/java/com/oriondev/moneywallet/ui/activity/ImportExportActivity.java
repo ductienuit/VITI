@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.ui.activity;
+package com.oriondev.Viti.ui.activity;
 
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
@@ -21,24 +21,24 @@ import android.widget.CheckBox;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.model.DataFormat;
-import com.oriondev.moneywallet.model.LocalFile;
-import com.oriondev.moneywallet.model.Wallet;
-import com.oriondev.moneywallet.picker.DateTimePicker;
-import com.oriondev.moneywallet.picker.ExportColumnsPicker;
-import com.oriondev.moneywallet.picker.ImportExportFormatPicker;
-import com.oriondev.moneywallet.picker.LocalFilePicker;
-import com.oriondev.moneywallet.picker.WalletPicker;
-import com.oriondev.moneywallet.service.ImportExportIntentService;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.ui.activity.base.SinglePanelActivity;
-import com.oriondev.moneywallet.ui.fragment.dialog.GenericProgressDialog;
-import com.oriondev.moneywallet.ui.view.text.MaterialEditText;
-import com.oriondev.moneywallet.ui.view.text.Validator;
-import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
-import com.oriondev.moneywallet.utils.DateFormatter;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.model.DataFormat;
+import com.oriondev.Viti.model.LocalFile;
+import com.oriondev.Viti.model.Wallet;
+import com.oriondev.Viti.picker.DateTimePicker;
+import com.oriondev.Viti.picker.ExportColumnsPicker;
+import com.oriondev.Viti.picker.ImportExportFormatPicker;
+import com.oriondev.Viti.picker.LocalFilePicker;
+import com.oriondev.Viti.picker.WalletPicker;
+import com.oriondev.Viti.service.ImportExportIntentService;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.ui.activity.base.SinglePanelActivity;
+import com.oriondev.Viti.ui.fragment.dialog.GenericProgressDialog;
+import com.oriondev.Viti.ui.view.text.MaterialEditText;
+import com.oriondev.Viti.ui.view.text.Validator;
+import com.oriondev.Viti.ui.view.theme.ThemedDialog;
+import com.oriondev.Viti.utils.DateFormatter;
 
 import java.util.Date;
 import java.util.Locale;

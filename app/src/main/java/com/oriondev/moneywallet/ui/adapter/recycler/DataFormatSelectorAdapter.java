@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.ui.adapter.recycler;
+package com.oriondev.Viti.ui.adapter.recycler;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.DataFormat;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.DataFormat;
 
 /**
  * Created by DucTien on 20/12/19.

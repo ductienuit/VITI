@@ -1,16 +1,16 @@
-package com.oriondev.moneywallet.storage.database.data.xls;
+package com.oriondev.Viti.storage.database.data.xls;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.text.TextUtils;
 
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.model.Wallet;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.data.AbstractDataExporter;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.MoneyFormatter;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.model.Wallet;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.data.AbstractDataExporter;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.MoneyFormatter;
 
 import java.io.File;
 import java.io.IOException;

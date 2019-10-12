@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.service;
+package com.oriondev.Viti.service;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -35,34 +35,34 @@ import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 
-import com.oriondev.moneywallet.BuildConfig;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.api.BackendException;
-import com.oriondev.moneywallet.api.BackendServiceFactory;
-import com.oriondev.moneywallet.api.IBackendServiceAPI;
-import com.oriondev.moneywallet.broadcast.AutoBackupBroadcastReceiver;
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.broadcast.NotificationBroadcastReceiver;
-import com.oriondev.moneywallet.broadcast.RecurrenceBroadcastReceiver;
-import com.oriondev.moneywallet.model.IFile;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.database.ExportException;
-import com.oriondev.moneywallet.storage.database.ImportException;
-import com.oriondev.moneywallet.storage.database.SQLDatabaseImporter;
-import com.oriondev.moneywallet.storage.database.backup.AbstractBackupExporter;
-import com.oriondev.moneywallet.storage.database.backup.AbstractBackupImporter;
-import com.oriondev.moneywallet.storage.database.backup.BackupManager;
-import com.oriondev.moneywallet.storage.database.backup.DefaultBackupExporter;
-import com.oriondev.moneywallet.storage.database.backup.DefaultBackupImporter;
-import com.oriondev.moneywallet.storage.database.backup.LegacyBackupImporter;
-import com.oriondev.moneywallet.storage.preference.BackendManager;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
-import com.oriondev.moneywallet.ui.notification.NotificationContract;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.DateUtils;
-import com.oriondev.moneywallet.utils.ProgressInputStream;
-import com.oriondev.moneywallet.utils.ProgressOutputStream;
-import com.oriondev.moneywallet.utils.Utils;
+import com.oriondev.Viti.BuildConfig;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.api.BackendException;
+import com.oriondev.Viti.api.BackendServiceFactory;
+import com.oriondev.Viti.api.IBackendServiceAPI;
+import com.oriondev.Viti.broadcast.AutoBackupBroadcastReceiver;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.broadcast.NotificationBroadcastReceiver;
+import com.oriondev.Viti.broadcast.RecurrenceBroadcastReceiver;
+import com.oriondev.Viti.model.IFile;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.database.ExportException;
+import com.oriondev.Viti.storage.database.ImportException;
+import com.oriondev.Viti.storage.database.SQLDatabaseImporter;
+import com.oriondev.Viti.storage.database.backup.AbstractBackupExporter;
+import com.oriondev.Viti.storage.database.backup.AbstractBackupImporter;
+import com.oriondev.Viti.storage.database.backup.BackupManager;
+import com.oriondev.Viti.storage.database.backup.DefaultBackupExporter;
+import com.oriondev.Viti.storage.database.backup.DefaultBackupImporter;
+import com.oriondev.Viti.storage.database.backup.LegacyBackupImporter;
+import com.oriondev.Viti.storage.preference.BackendManager;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
+import com.oriondev.Viti.ui.notification.NotificationContract;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.DateUtils;
+import com.oriondev.Viti.utils.ProgressInputStream;
+import com.oriondev.Viti.utils.ProgressOutputStream;
+import com.oriondev.Viti.utils.Utils;
 
 import org.apache.commons.io.FileUtils;
 

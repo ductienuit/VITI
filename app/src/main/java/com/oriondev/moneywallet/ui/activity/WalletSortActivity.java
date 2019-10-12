@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.ui.activity;
+package com.oriondev.Viti.ui.activity;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -17,14 +17,14 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.MenuItem;
 
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.ui.activity.base.SinglePanelSimpleListActivity;
-import com.oriondev.moneywallet.ui.adapter.recycler.AbstractCursorAdapter;
-import com.oriondev.moneywallet.ui.adapter.recycler.CategorySortCursorAdapter;
-import com.oriondev.moneywallet.ui.adapter.recycler.WalletSortCursorAdapter;
-import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.ui.activity.base.SinglePanelSimpleListActivity;
+import com.oriondev.Viti.ui.adapter.recycler.AbstractCursorAdapter;
+import com.oriondev.Viti.ui.adapter.recycler.CategorySortCursorAdapter;
+import com.oriondev.Viti.ui.adapter.recycler.WalletSortCursorAdapter;
+import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 
 import java.util.List;
 

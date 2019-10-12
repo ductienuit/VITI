@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.activity;
+package com.oriondev.Viti.ui.activity;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -37,33 +37,33 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.Attachment;
-import com.oriondev.moneywallet.model.Category;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.model.Event;
-import com.oriondev.moneywallet.model.Person;
-import com.oriondev.moneywallet.model.Place;
-import com.oriondev.moneywallet.model.Wallet;
-import com.oriondev.moneywallet.picker.AttachmentPicker;
-import com.oriondev.moneywallet.picker.CategoryPicker;
-import com.oriondev.moneywallet.picker.DateTimePicker;
-import com.oriondev.moneywallet.picker.EventPicker;
-import com.oriondev.moneywallet.picker.MoneyPicker;
-import com.oriondev.moneywallet.picker.PersonPicker;
-import com.oriondev.moneywallet.picker.PlacePicker;
-import com.oriondev.moneywallet.picker.WalletPicker;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
-import com.oriondev.moneywallet.ui.view.AttachmentView;
-import com.oriondev.moneywallet.ui.view.text.MaterialEditText;
-import com.oriondev.moneywallet.ui.view.text.Validator;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.DateFormatter;
-import com.oriondev.moneywallet.utils.DateUtils;
-import com.oriondev.moneywallet.utils.IconLoader;
-import com.oriondev.moneywallet.utils.MoneyFormatter;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.Attachment;
+import com.oriondev.Viti.model.Category;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.model.Event;
+import com.oriondev.Viti.model.Person;
+import com.oriondev.Viti.model.Place;
+import com.oriondev.Viti.model.Wallet;
+import com.oriondev.Viti.picker.AttachmentPicker;
+import com.oriondev.Viti.picker.CategoryPicker;
+import com.oriondev.Viti.picker.DateTimePicker;
+import com.oriondev.Viti.picker.EventPicker;
+import com.oriondev.Viti.picker.MoneyPicker;
+import com.oriondev.Viti.picker.PersonPicker;
+import com.oriondev.Viti.picker.PlacePicker;
+import com.oriondev.Viti.picker.WalletPicker;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
+import com.oriondev.Viti.ui.view.AttachmentView;
+import com.oriondev.Viti.ui.view.text.MaterialEditText;
+import com.oriondev.Viti.ui.view.text.Validator;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.DateFormatter;
+import com.oriondev.Viti.utils.DateUtils;
+import com.oriondev.Viti.utils.IconLoader;
+import com.oriondev.Viti.utils.MoneyFormatter;
 
 import java.util.ArrayList;
 import java.util.Date;

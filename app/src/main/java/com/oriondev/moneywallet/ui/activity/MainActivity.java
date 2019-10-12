@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.activity;
+package com.oriondev.Viti.ui.activity;
 
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
@@ -59,34 +59,34 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileSettingDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.model.ColorIcon;
-import com.oriondev.moneywallet.model.Money;
-import com.oriondev.moneywallet.model.WalletAccount;
-import com.oriondev.moneywallet.service.BackupHandlerIntentService;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
-import com.oriondev.moneywallet.ui.activity.base.BaseActivity;
-import com.oriondev.moneywallet.ui.fragment.base.NavigableFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.BudgetMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.CategoryMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.DebtMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.EventMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.ModelMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.PersonMultiPanelFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.PlaceMultiPanelFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.RecurrenceMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.SettingMultiPanelFragment;
-import com.oriondev.moneywallet.ui.fragment.multipanel.TransactionMultiPanelViewPagerFragment;
-import com.oriondev.moneywallet.ui.fragment.singlepanel.OverviewSinglePanelFragment;
-import com.oriondev.moneywallet.ui.view.theme.ITheme;
-import com.oriondev.moneywallet.ui.view.theme.ThemeEngine;
-import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
-import com.oriondev.moneywallet.ui.view.theme.ThemedRecyclerView;
-import com.oriondev.moneywallet.utils.IconLoader;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.model.ColorIcon;
+import com.oriondev.Viti.model.Money;
+import com.oriondev.Viti.model.WalletAccount;
+import com.oriondev.Viti.service.BackupHandlerIntentService;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
+import com.oriondev.Viti.ui.activity.base.BaseActivity;
+import com.oriondev.Viti.ui.fragment.base.NavigableFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.BudgetMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.CategoryMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.DebtMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.EventMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.ModelMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.PersonMultiPanelFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.PlaceMultiPanelFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.RecurrenceMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.SettingMultiPanelFragment;
+import com.oriondev.Viti.ui.fragment.multipanel.TransactionMultiPanelViewPagerFragment;
+import com.oriondev.Viti.ui.fragment.singlepanel.OverviewSinglePanelFragment;
+import com.oriondev.Viti.ui.view.theme.ITheme;
+import com.oriondev.Viti.ui.view.theme.ThemeEngine;
+import com.oriondev.Viti.ui.view.theme.ThemedDialog;
+import com.oriondev.Viti.ui.view.theme.ThemedRecyclerView;
+import com.oriondev.Viti.utils.IconLoader;
 
 import java.util.Locale;
 
@@ -96,6 +96,7 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
 
     private static final int LOADER_WALLETS = 1;
 
+    private static final int ID_SECTION_HOME = -1;
     private static final int ID_SECTION_TRANSACTIONS = 0;
     private static final int ID_SECTION_CATEGORIES = 1;
     private static final int ID_SECTION_OVERVIEW = 2;

@@ -1,20 +1,20 @@
 <!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
@@ -185,7 +185,7 @@
     <string name="about_hint_version">"Version"</string>
     <string name="about_hint_changelog">"Changelog"</string>
     <string name="about_hint_translators">"Übersetzer"</string>
-    <string name="activity_launcher_first_start_title">Willkommen bei MoneyWallet</string>
+    <string name="activity_launcher_first_start_title">Willkommen bei Viti</string>
     <string name="activity_launcher_first_start_content">Benutzt du die App zum ersten Mal oder möchtest du ein Backup wiederherstellen?</string>
     <string name="activity_launcher_first_start_button_restore_backup">Backup wiederherstellen</string>
     <string name="activity_intro_title_slide_1">Keine bösen Überraschungen mehr</string>

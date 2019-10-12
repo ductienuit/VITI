@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.storage.database.data.csv;
+package com.oriondev.Viti.storage.database.data.csv;
 
 /**
  * Created by DucTien on 21/12/19.

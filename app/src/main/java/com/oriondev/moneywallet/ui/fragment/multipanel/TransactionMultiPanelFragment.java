@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.fragment.multipanel;
+package com.oriondev.Viti.ui.fragment.multipanel;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -32,20 +32,20 @@ import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.support.v7.widget.LinearLayoutManager;
 
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.Group;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.preference.CurrentWalletController;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
-import com.oriondev.moneywallet.storage.wrapper.TransactionHeaderCursor;
-import com.oriondev.moneywallet.ui.adapter.recycler.AbstractCursorAdapter;
-import com.oriondev.moneywallet.ui.adapter.recycler.TransactionCursorAdapter;
-import com.oriondev.moneywallet.ui.fragment.base.MultiPanelCursorListItemFragment;
-import com.oriondev.moneywallet.ui.fragment.base.SecondaryPanelFragment;
-import com.oriondev.moneywallet.ui.fragment.secondary.TransactionItemFragment;
-import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
-import com.oriondev.moneywallet.utils.DateUtils;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.Group;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.preference.CurrentWalletController;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
+import com.oriondev.Viti.storage.wrapper.TransactionHeaderCursor;
+import com.oriondev.Viti.ui.adapter.recycler.AbstractCursorAdapter;
+import com.oriondev.Viti.ui.adapter.recycler.TransactionCursorAdapter;
+import com.oriondev.Viti.ui.fragment.base.MultiPanelCursorListItemFragment;
+import com.oriondev.Viti.ui.fragment.base.SecondaryPanelFragment;
+import com.oriondev.Viti.ui.fragment.secondary.TransactionItemFragment;
+import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
+import com.oriondev.Viti.utils.DateUtils;
 
 import java.util.Date;
 

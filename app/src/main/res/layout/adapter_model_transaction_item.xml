@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<com.oriondev.moneywallet.ui.view.theme.ThemedCardView
+<com.oriondev.Viti.ui.view.theme.ThemedCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -62,7 +62,7 @@
                 android:orientation="horizontal"
                 app:layout_constraintGuide_begin="40dp" />
 
-            <com.oriondev.moneywallet.ui.view.theme.ThemedTextView
+            <com.oriondev.Viti.ui.view.theme.ThemedTextView
                 android:id="@+id/primary_text_view"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:text="€ 500.00" />
 
-            <com.oriondev.moneywallet.ui.view.theme.ThemedTextView
+            <com.oriondev.Viti.ui.view.theme.ThemedTextView
                 android:id="@+id/secondary_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
             android:gravity="end"
             style="?android:attr/buttonBarStyle" >
 
-            <com.oriondev.moneywallet.ui.view.theme.ThemedCardButton
+            <com.oriondev.Viti.ui.view.theme.ThemedCardButton
                 android:id="@+id/edit_button"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -127,7 +127,7 @@
                 android:background="?attr/selectableItemBackground"
                 style="?android:attr/buttonBarButtonStyle" />
 
-            <com.oriondev.moneywallet.ui.view.theme.ThemedCardButton
+            <com.oriondev.Viti.ui.view.theme.ThemedCardButton
                 android:id="@+id/add_button"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -141,4 +141,4 @@
 
     </LinearLayout>
 
-</com.oriondev.moneywallet.ui.view.theme.ThemedCardView>
+</com.oriondev.Viti.ui.view.theme.ThemedCardView>

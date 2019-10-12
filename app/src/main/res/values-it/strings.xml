@@ -1,24 +1,24 @@
 ﻿<!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">MoneyWallet</string>
+    <string name="app_name">Viti</string>
 
     <string name="menu_transaction">"Transazioni"</string>
     <string name="menu_category">"Categorie"</string>
@@ -561,7 +561,7 @@
     <string name="about_hint_translators">"Traduttori"</string>
 
     <string name="activity_launcher_legacy_edition_upgrade_title">"Aggiornamento…"</string>
-    <string name="activity_launcher_first_start_title">"Benvenuto in MoneyWallet"</string>
+    <string name="activity_launcher_first_start_title">"Benvenuto in Viti"</string>
     <string name="activity_launcher_first_start_content">"è la prima volta che usi l'applicazione o vuoi ripristinare un backup precedente?"</string>
     <string name="activity_launcher_first_start_button_first_time">"Prima volta"</string>
     <string name="activity_launcher_first_start_button_restore_backup">"Ripristina backup"</string>

@@ -11,7 +11,7 @@
     "author":"mikepenz",
     "website":"https://github.com/mikepenz/MaterialDrawer",
     "version":"6.0.8",
-    "copyright":"Copyright 2018 Mike Penz",
+    "copyright":"Copyright 2019 Mike Penz",
     "license":"APACHE"
   },{
     "name":"Material-ish Progress",
@@ -67,14 +67,14 @@
     "author":"daniel-stoneuk",
     "website":"https://github.com/daniel-stoneuk/material-about-library",
     "version":"2.2.4",
-    "copyright":"Copyright 2016-2018 Daniel Stone",
+    "copyright":"Copyright 2016-2019 Daniel Stone",
     "license":"APACHE"
   },{
     "name":"AppIntro",
     "author":"apl-devs",
     "website":"https://github.com/apl-devs/AppIntro",
     "version":"4.2.3",
-    "copyright":"Copyright 2015 Paolo Rotolo, 2018 APL Devs",
+    "copyright":"Copyright 2015 Paolo Rotolo, 2019 APL Devs",
     "license":"APACHE"
   },{
     "name":"PinLockView",
@@ -102,7 +102,7 @@
     "author":"PhilJay",
     "website":"https://github.com/PhilJay/MPAndroidChart",
     "version":"3.0.3",
-    "copyright":"Copyright 2018 Philipp Jahoda",
+    "copyright":"Copyright 2019 Philipp Jahoda",
     "license":"APACHE"
   },{
     "name":"Material-ViewPagerIndicator",

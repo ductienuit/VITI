@@ -1,34 +1,34 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.api.disk;
+package com.oriondev.Viti.api.disk;
 
 import android.os.Environment;
 import android.support.annotation.NonNull;
 
-import com.oriondev.moneywallet.api.AbstractBackendServiceAPI;
-import com.oriondev.moneywallet.api.BackendException;
-import com.oriondev.moneywallet.api.IBackendServiceAPI;
-import com.oriondev.moneywallet.model.IFile;
-import com.oriondev.moneywallet.model.LocalFile;
-import com.oriondev.moneywallet.utils.ProgressInputStream;
-import com.oriondev.moneywallet.utils.ProgressOutputStream;
+import com.oriondev.Viti.api.AbstractBackendServiceAPI;
+import com.oriondev.Viti.api.BackendException;
+import com.oriondev.Viti.api.IBackendServiceAPI;
+import com.oriondev.Viti.model.IFile;
+import com.oriondev.Viti.model.LocalFile;
+import com.oriondev.Viti.utils.ProgressInputStream;
+import com.oriondev.Viti.utils.ProgressOutputStream;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;

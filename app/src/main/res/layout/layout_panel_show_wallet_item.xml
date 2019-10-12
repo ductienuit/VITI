@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
 <FrameLayout
@@ -25,7 +25,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.oriondev.moneywallet.ui.view.theme.ThemedProgressWheel
+    <com.oriondev.Viti.ui.view.theme.ThemedProgressWheel
         android:id="@+id/secondary_panel_progress_wheel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedMaterialTextView
+        <com.oriondev.Viti.ui.view.theme.ThemedMaterialTextView
             android:id="@+id/currency_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             app:mtv_leftIcon="@drawable/ic_search_black_24dp"
             app:mtv_bottomLineEnabled="true" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedMaterialTextView
+        <com.oriondev.Viti.ui.view.theme.ThemedMaterialTextView
             android:id="@+id/start_money_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             app:mtv_leftIcon="@drawable/ic_mode_edit_black_24dp"
             app:mtv_bottomLineEnabled="true" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedMaterialTextView
+        <com.oriondev.Viti.ui.view.theme.ThemedMaterialTextView
             android:id="@+id/note_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
             app:mtv_leftIcon="@drawable/ic_content_paste_black_24dp"
             app:mtv_bottomLineEnabled="true" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedCheckBox
+        <com.oriondev.Viti.ui.view.theme.ThemedCheckBox
             android:id="@+id/not_exclude_total_check_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.ui.fragment.dialog;
+package com.oriondev.Viti.ui.fragment.dialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -9,9 +9,9 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.storage.database.data.AbstractDataExporter;
-import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.storage.database.data.AbstractDataExporter;
+import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**
  * Created by DucTien on 21/12/19.

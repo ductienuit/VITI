@@ -1,12 +1,12 @@
-package com.oriondev.moneywallet.storage.database.data;
+package com.oriondev.Viti.storage.database.data;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.support.v4.util.LongSparseArray;
 
-import com.oriondev.moneywallet.model.Wallet;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.utils.DateUtils;
+import com.oriondev.Viti.model.Wallet;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.utils.DateUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +33,7 @@ public abstract class AbstractDataExporter {
 
     protected String getDefaultFileName(String extension) {
         String dateTimeString = DateUtils.getSQLDateTimeString(new Date());
-        return "MoneyWallet_export_" + dateTimeString + extension;
+        return "Viti_export_" + dateTimeString + extension;
     }
 
     public abstract boolean isMultiWalletSupported();

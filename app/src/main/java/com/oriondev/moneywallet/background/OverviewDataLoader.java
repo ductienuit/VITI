@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.background;
+package com.oriondev.Viti.background;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -36,16 +36,16 @@ import com.github.mikephil.charting.data.RadarEntry;
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.IRadarDataSet;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.model.Money;
-import com.oriondev.moneywallet.model.OverviewData;
-import com.oriondev.moneywallet.model.OverviewSetting;
-import com.oriondev.moneywallet.model.PeriodMoney;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.DateUtils;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.model.Money;
+import com.oriondev.Viti.model.OverviewData;
+import com.oriondev.Viti.model.OverviewSetting;
+import com.oriondev.Viti.model.PeriodMoney;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.DateUtils;
 
 import java.util.ArrayList;
 import java.util.Calendar;

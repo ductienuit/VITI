@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.fragment.single;
+package com.oriondev.Viti.ui.fragment.single;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -36,14 +36,14 @@ import com.danielstone.materialaboutlibrary.model.MaterialAboutCard;
 import com.danielstone.materialaboutlibrary.model.MaterialAboutList;
 import com.danielstone.materialaboutlibrary.util.DefaultViewTypeManager;
 import com.danielstone.materialaboutlibrary.util.ViewTypeManager;
-import com.oriondev.moneywallet.BuildConfig;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.License;
-import com.oriondev.moneywallet.ui.activity.DonationActivity;
-import com.oriondev.moneywallet.ui.fragment.dialog.ChangeLogDialog;
-import com.oriondev.moneywallet.ui.fragment.dialog.LicenseDialog;
-import com.oriondev.moneywallet.ui.view.theme.ITheme;
-import com.oriondev.moneywallet.ui.view.theme.ThemeEngine;
+import com.oriondev.Viti.BuildConfig;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.License;
+import com.oriondev.Viti.ui.activity.DonationActivity;
+import com.oriondev.Viti.ui.fragment.dialog.ChangeLogDialog;
+import com.oriondev.Viti.ui.fragment.dialog.LicenseDialog;
+import com.oriondev.Viti.ui.view.theme.ITheme;
+import com.oriondev.Viti.ui.view.theme.ThemeEngine;
 
 import org.json.JSONArray;
 import org.json.JSONException;

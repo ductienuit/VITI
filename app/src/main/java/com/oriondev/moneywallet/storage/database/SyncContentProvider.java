@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.storage.database;
+package com.oriondev.Viti.storage.database;
 
 import android.annotation.SuppressLint;
 import android.content.ContentProvider;
@@ -33,7 +33,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
 
 /**
  * This content provider exposes the full SQLiteDatabase structure.
@@ -41,7 +41,7 @@ import com.oriondev.moneywallet.storage.preference.PreferenceManager;
  */
 public class SyncContentProvider extends ContentProvider {
 
-    private static final String AUTHORITY = "com.oriondev.moneywallet.storage.sync";
+    private static final String AUTHORITY = "com.oriondev.Viti.storage.sync";
 
     public static final Uri CONTENT_CURRENCIES = Uri.parse("content://" + AUTHORITY + "/currencies");
     public static final Uri CONTENT_WALLETS = Uri.parse("content://" + AUTHORITY + "/wallets");

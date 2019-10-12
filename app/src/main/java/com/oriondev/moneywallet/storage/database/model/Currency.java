@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.storage.database.model;
+package com.oriondev.Viti.storage.database.model;
 
 /**
  * This class acts as a Contract between the Schema of the SQLDatabase and the structure

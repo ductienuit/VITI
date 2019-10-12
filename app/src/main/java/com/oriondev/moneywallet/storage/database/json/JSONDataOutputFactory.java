@@ -1,47 +1,47 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.storage.database.json;
+package com.oriondev.Viti.storage.database.json;
 
-import com.oriondev.moneywallet.storage.database.model.Attachment;
-import com.oriondev.moneywallet.storage.database.model.Budget;
-import com.oriondev.moneywallet.storage.database.model.BudgetWallet;
-import com.oriondev.moneywallet.storage.database.model.Category;
-import com.oriondev.moneywallet.storage.database.model.Currency;
-import com.oriondev.moneywallet.storage.database.model.Debt;
-import com.oriondev.moneywallet.storage.database.model.DebtPerson;
-import com.oriondev.moneywallet.storage.database.model.Event;
-import com.oriondev.moneywallet.storage.database.model.EventPerson;
-import com.oriondev.moneywallet.storage.database.model.Person;
-import com.oriondev.moneywallet.storage.database.model.Place;
-import com.oriondev.moneywallet.storage.database.model.RecurrentTransaction;
-import com.oriondev.moneywallet.storage.database.model.RecurrentTransfer;
-import com.oriondev.moneywallet.storage.database.model.Saving;
-import com.oriondev.moneywallet.storage.database.model.Transaction;
-import com.oriondev.moneywallet.storage.database.model.TransactionAttachment;
-import com.oriondev.moneywallet.storage.database.model.TransactionModel;
-import com.oriondev.moneywallet.storage.database.model.TransactionPerson;
-import com.oriondev.moneywallet.storage.database.model.Transfer;
-import com.oriondev.moneywallet.storage.database.model.TransferAttachment;
-import com.oriondev.moneywallet.storage.database.model.TransferModel;
-import com.oriondev.moneywallet.storage.database.model.TransferPerson;
-import com.oriondev.moneywallet.storage.database.model.Wallet;
+import com.oriondev.Viti.storage.database.model.Attachment;
+import com.oriondev.Viti.storage.database.model.Budget;
+import com.oriondev.Viti.storage.database.model.BudgetWallet;
+import com.oriondev.Viti.storage.database.model.Category;
+import com.oriondev.Viti.storage.database.model.Currency;
+import com.oriondev.Viti.storage.database.model.Debt;
+import com.oriondev.Viti.storage.database.model.DebtPerson;
+import com.oriondev.Viti.storage.database.model.Event;
+import com.oriondev.Viti.storage.database.model.EventPerson;
+import com.oriondev.Viti.storage.database.model.Person;
+import com.oriondev.Viti.storage.database.model.Place;
+import com.oriondev.Viti.storage.database.model.RecurrentTransaction;
+import com.oriondev.Viti.storage.database.model.RecurrentTransfer;
+import com.oriondev.Viti.storage.database.model.Saving;
+import com.oriondev.Viti.storage.database.model.Transaction;
+import com.oriondev.Viti.storage.database.model.TransactionAttachment;
+import com.oriondev.Viti.storage.database.model.TransactionModel;
+import com.oriondev.Viti.storage.database.model.TransactionPerson;
+import com.oriondev.Viti.storage.database.model.Transfer;
+import com.oriondev.Viti.storage.database.model.TransferAttachment;
+import com.oriondev.Viti.storage.database.model.TransferModel;
+import com.oriondev.Viti.storage.database.model.TransferPerson;
+import com.oriondev.Viti.storage.database.model.Wallet;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
 <changelog>
 
-    <version versionName="4.0.5" versionDate="Jan 25, 2018">
+    <version versionName="4.0.5" versionDate="Jan 25, 2019">
         <change>[b]New![/b] You can now sort the wallets.</change>
         <change>[b]New![/b] You can now sort the categories.</change>
         <change>[b]New![/b] You can now manage your own currencies.</change>
         <change>Some bug fixed.</change>
     </version>
 
-    <version versionName="4.0.4" versionDate="Dec 23, 2018">
+    <version versionName="4.0.4" versionDate="Dec 23, 2019">
         <change>[b]New![/b] The application is now able to export to CSV, XLS and PDF files.</change>
         <change>[b]New![/b] The application is now able to import from CSV files.</change>
         <change>Fixed a lot of bugs.</change>
     </version>
 
-    <version versionName="4.0.3" versionDate="Dec 11, 2018">
+    <version versionName="4.0.3" versionDate="Dec 11, 2019">
         <change>[b]New![/b] The Application has been rewritten from scratch.</change>
         <change>[b]New![/b] The application is now free.</change>
         <change>[b]New![/b] The application is now open source.</change>

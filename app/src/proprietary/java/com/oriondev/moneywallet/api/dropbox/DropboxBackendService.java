@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.api.dropbox;
+package com.oriondev.Viti.api.dropbox;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,12 +27,12 @@ import android.support.annotation.NonNull;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.dropbox.core.android.Auth;
-import com.oriondev.moneywallet.BuildConfig;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.api.BackendException;
-import com.oriondev.moneywallet.api.AbstractBackendServiceDelegate;
-import com.oriondev.moneywallet.api.BackendServiceFactory;
-import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
+import com.oriondev.Viti.BuildConfig;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.api.BackendException;
+import com.oriondev.Viti.api.AbstractBackendServiceDelegate;
+import com.oriondev.Viti.api.BackendServiceFactory;
+import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**
  * Created by DucTien on 21/10/19.

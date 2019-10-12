@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<com.oriondev.moneywallet.ui.view.theme.ThemedFrameLayout
+<com.oriondev.Viti.ui.view.theme.ThemedFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         android:layout_height="match_parent"
         android:visibility="gone" >
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedTextView
+        <com.oriondev.Viti.ui.view.theme.ThemedTextView
             android:id="@+id/pin_help_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             app:layout_constraintBottom_toTopOf="@+id/pin_lock_view"
             app:layout_constraintLeft_toLeftOf="parent" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedPinLockView
+        <com.oriondev.Viti.ui.view.theme.ThemedPinLockView
             android:id="@+id/pin_lock_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
         android:layout_height="match_parent"
         android:visibility="gone" >
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedTextView
+        <com.oriondev.Viti.ui.view.theme.ThemedTextView
             android:id="@+id/sequence_help_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
             app:theme_textColor="textOverColorPrimary"
             tools:text="Insert your sequence" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedPatternLockView
+        <com.oriondev.Viti.ui.view.theme.ThemedPatternLockView
             android:id="@+id/pattern_lock_view"
             android:layout_width="@dimen/activity_lock_pattern_lock_view_width"
             android:layout_height="@dimen/activity_lock_pattern_lock_view_height"
@@ -101,7 +101,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedImageView
+        <com.oriondev.Viti.ui.view.theme.ThemedImageView
             android:id="@+id/fingerprint_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:theme_backgroundColor="colorPrimary" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedTextView
+        <com.oriondev.Viti.ui.view.theme.ThemedTextView
             android:id="@+id/fingerprint_help_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -124,4 +124,4 @@
 
     </android.support.constraint.ConstraintLayout>
 
-</com.oriondev.moneywallet.ui.view.theme.ThemedFrameLayout>
+</com.oriondev.Viti.ui.view.theme.ThemedFrameLayout>

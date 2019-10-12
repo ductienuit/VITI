@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.storage.database;
+package com.oriondev.Viti.storage.database;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -36,10 +36,10 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.LocalBroadcastManager;
 
-import com.oriondev.moneywallet.BuildConfig;
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.service.BackupHandlerIntentService;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
+import com.oriondev.Viti.BuildConfig;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.service.BackupHandlerIntentService;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
 
 import java.util.List;
 
@@ -491,95 +491,95 @@ public class DataContentProvider extends ContentProvider {
     public String getType(@NonNull Uri uri) {
         switch (mUriMatcher.match(uri)) {
             case CURRENCY_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.currency";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.currency";
             case CURRENCY_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.currency";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.currency";
             case WALLET_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.wallet";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.wallet";
             case WALLET_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.wallet";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.wallet";
             case TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case TRANSACTION_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.transaction";
             case TRANSACTION_ATTACHMENTS:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.attachments";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.attachments";
             case TRANSACTION_PEOPLE:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.person";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.person";
             case TRANSFER_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transfer";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transfer";
             case TRANSFER_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.transfer";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.transfer";
             case TRANSFER_ATTACHMENTS:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.attachments";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.attachments";
             case TRANSFER_PEOPLE:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.person";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.person";
             case CATEGORY_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.category";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.category";
             case CATEGORY_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.category";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.category";
             case CATEGORY_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case DEBT_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.debt";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.debt";
             case DEBT_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.debt";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.debt";
             case DEBT_PEOPLE:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.person";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.person";
             case DEBT_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case BUDGET_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.budget";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.budget";
             case BUDGET_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.budget";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.budget";
             case BUDGET_WALLETS:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.wallet";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.wallet";
             case BUDGET_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case SAVING_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.saving";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.saving";
             case SAVING_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.saving";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.saving";
             case SAVING_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case EVENT_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.event";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.event";
             case EVENT_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.event";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.event";
             case EVENT_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case RECURRENT_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.recurrence.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.recurrence.transaction";
             case RECURRENT_TRANSACTION_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.recurrence.transaction";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.recurrence.transaction";
             case RECURRENT_TRANSFER_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.recurrence.transfer";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.recurrence.transfer";
             case RECURRENT_TRANSFER_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.recurrence.transfer";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.recurrence.transfer";
             case TRANSACTION_MODEL_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.model.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.model.transaction";
             case TRANSACTION_MODEL_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.model.transaction";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.model.transaction";
             case TRANSFER_MODEL_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.model.transfer";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.model.transfer";
             case TRANSFER_MODEL_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.model.transfer";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.model.transfer";
             case PLACE_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.place";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.place";
             case PLACE_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.place";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.place";
             case PLACE_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case PERSON_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.person";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.person";
             case PERSON_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.person";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.person";
             case PERSON_TRANSACTION_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.transaction";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.transaction";
             case ATTACHMENT_LIST:
-                return "vnd.android.cursor.dir/vnd.com.oriondev.moneywallet.storage.attachment";
+                return "vnd.android.cursor.dir/vnd.com.oriondev.Viti.storage.attachment";
             case ATTACHMENT_ITEM:
-                return "vnd.android.cursor.item/vnd.com.oriondev.moneywallet.storage.attachment";
+                return "vnd.android.cursor.item/vnd.com.oriondev.Viti.storage.attachment";
         }
         return null;
     }

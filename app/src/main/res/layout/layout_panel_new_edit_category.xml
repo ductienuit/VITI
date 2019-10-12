@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2018.
+  ~ Copyright (c) 2019.
   ~
-  ~ This file is part of MoneyWallet.
+  ~ This file is part of Viti.
   ~
-  ~ MoneyWallet is free software: you can redistribute it and/or modify
+  ~ Viti is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ MoneyWallet is distributed in the hope that it will be useful,
+  ~ Viti is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Viti.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
 <merge
@@ -27,7 +27,7 @@
     tools:parentTag="android.widget.LinearLayout"
     tools:orientation="vertical" >
 
-    <com.oriondev.moneywallet.ui.view.theme.ThemedMaterialEditText
+    <com.oriondev.Viti.ui.view.theme.ThemedMaterialEditText
         android:id="@+id/parent_category_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,13 +46,13 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp" >
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedRadioButton
+        <com.oriondev.Viti.ui.view.theme.ThemedRadioButton
             android:id="@+id/income_radio_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hint_income" />
 
-        <com.oriondev.moneywallet.ui.view.theme.ThemedRadioButton
+        <com.oriondev.Viti.ui.view.theme.ThemedRadioButton
             android:id="@+id/expense_radio_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
 
     </RadioGroup>
 
-    <com.oriondev.moneywallet.ui.view.theme.ThemedCheckBox
+    <com.oriondev.Viti.ui.view.theme.ThemedCheckBox
         android:id="@+id/show_report_check_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

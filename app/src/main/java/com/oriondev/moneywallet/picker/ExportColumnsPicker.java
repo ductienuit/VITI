@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.picker;
+package com.oriondev.Viti.picker;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
-import com.oriondev.moneywallet.ui.fragment.dialog.ExportColumnsDialogFragment;
+import com.oriondev.Viti.ui.fragment.dialog.ExportColumnsDialogFragment;
 
 /**
  * Created by DucTien on 21/12/19.

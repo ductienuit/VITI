@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.ui.activity;
+package com.oriondev.Viti.ui.activity;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -20,17 +20,17 @@ import android.view.ViewGroup;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.storage.database.Contract;
-import com.oriondev.moneywallet.storage.database.DataContentProvider;
-import com.oriondev.moneywallet.storage.database.SQLiteDataException;
-import com.oriondev.moneywallet.ui.activity.base.SinglePanelScrollActivity;
-import com.oriondev.moneywallet.ui.view.text.MaterialEditText;
-import com.oriondev.moneywallet.ui.view.text.NonEmptyTextValidator;
-import com.oriondev.moneywallet.ui.view.text.Validator;
-import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
-import com.oriondev.moneywallet.utils.CurrencyManager;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.storage.database.Contract;
+import com.oriondev.Viti.storage.database.DataContentProvider;
+import com.oriondev.Viti.storage.database.SQLiteDataException;
+import com.oriondev.Viti.ui.activity.base.SinglePanelScrollActivity;
+import com.oriondev.Viti.ui.view.text.MaterialEditText;
+import com.oriondev.Viti.ui.view.text.NonEmptyTextValidator;
+import com.oriondev.Viti.ui.view.text.Validator;
+import com.oriondev.Viti.ui.view.theme.ThemedDialog;
+import com.oriondev.Viti.utils.CurrencyManager;
 
 /**
  * Created by DucTien on 05/01/19.

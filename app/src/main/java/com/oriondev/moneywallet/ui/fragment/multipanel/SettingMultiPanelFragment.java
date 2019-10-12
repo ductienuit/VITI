@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.fragment.multipanel;
+package com.oriondev.Viti.ui.fragment.multipanel;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -32,13 +32,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.ui.activity.AboutActivity;
-import com.oriondev.moneywallet.ui.adapter.recycler.SettingCategoryAdapter;
-import com.oriondev.moneywallet.ui.fragment.base.MultiPanelFragment;
-import com.oriondev.moneywallet.ui.fragment.secondary.DatabaseSettingFragment;
-import com.oriondev.moneywallet.ui.fragment.secondary.UserInterfaceSettingFragment;
-import com.oriondev.moneywallet.ui.fragment.secondary.UtilitySettingFragment;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.ui.activity.AboutActivity;
+import com.oriondev.Viti.ui.adapter.recycler.SettingCategoryAdapter;
+import com.oriondev.Viti.ui.fragment.base.MultiPanelFragment;
+import com.oriondev.Viti.ui.fragment.secondary.DatabaseSettingFragment;
+import com.oriondev.Viti.ui.fragment.secondary.UserInterfaceSettingFragment;
+import com.oriondev.Viti.ui.fragment.secondary.UtilitySettingFragment;
 
 /**
  * Created by DucTien on 03/03/19.

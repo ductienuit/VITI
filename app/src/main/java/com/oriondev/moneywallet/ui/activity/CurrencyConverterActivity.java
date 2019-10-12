@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.ui.activity;
+package com.oriondev.Viti.ui.activity;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -37,21 +37,21 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.oriondev.moneywallet.R;
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.model.CurrencyUnit;
-import com.oriondev.moneywallet.model.ExchangeRate;
-import com.oriondev.moneywallet.picker.CurrencyPicker;
-import com.oriondev.moneywallet.service.AbstractCurrencyRateDownloadIntentService;
-import com.oriondev.moneywallet.storage.preference.PreferenceManager;
-import com.oriondev.moneywallet.ui.activity.base.SinglePanelActivity;
-import com.oriondev.moneywallet.utils.CurrencyManager;
-import com.oriondev.moneywallet.utils.MoneyFormatter;
+import com.oriondev.Viti.R;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.model.ExchangeRate;
+import com.oriondev.Viti.picker.CurrencyPicker;
+import com.oriondev.Viti.service.AbstractCurrencyRateDownloadIntentService;
+import com.oriondev.Viti.storage.preference.PreferenceManager;
+import com.oriondev.Viti.ui.activity.base.SinglePanelActivity;
+import com.oriondev.Viti.utils.CurrencyManager;
+import com.oriondev.Viti.utils.MoneyFormatter;
 
 import java.math.BigDecimal;
 
 /**
- * Created by andre on 23/03/2018.
+ * Created by andre on 23/03/2019.
  */
 public class CurrencyConverterActivity extends SinglePanelActivity implements View.OnClickListener, CurrencyPicker.Controller {
 

@@ -1,4 +1,4 @@
-package com.oriondev.moneywallet.model;
+package com.oriondev.Viti.model;
 
 /**
  * Created by DucTien on 20/12/19.

@@ -1,23 +1,23 @@
 /*
- * Copyright (c) 2018.
+ * Copyright (c) 2019.
  *
- * This file is part of MoneyWallet.
+ * This file is part of Viti.
  *
- * MoneyWallet is free software: you can redistribute it and/or modify
+ * Viti is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * MoneyWallet is distributed in the hope that it will be useful,
+ * Viti is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with MoneyWallet.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oriondev.moneywallet.picker;
+package com.oriondev.Viti.picker;
 
 import android.Manifest;
 import android.app.Activity;
@@ -40,9 +40,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.webkit.MimeTypeMap;
 
-import com.oriondev.moneywallet.broadcast.LocalAction;
-import com.oriondev.moneywallet.model.Attachment;
-import com.oriondev.moneywallet.service.AttachmentHandlerIntentService;
+import com.oriondev.Viti.broadcast.LocalAction;
+import com.oriondev.Viti.model.Attachment;
+import com.oriondev.Viti.service.AttachmentHandlerIntentService;
 
 import java.io.File;
 import java.util.ArrayDeque;
