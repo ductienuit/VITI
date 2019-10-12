@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.ui.view.text;
 
 /**
- * Created by andrea on 01/05/18.
+ * Created by DucTien on 01/05/19.
  */
 public enum Mode {
 

@@ -35,7 +35,7 @@ import com.google.android.gms.location.places.ui.PlacePicker;
 import com.oriondev.moneywallet.model.Place;
 
 /**
- * Created by andrea on 16/10/18.
+ * Created by DucTien on 16/10/19.
  */
 
 public class MapPlacePicker extends Fragment {

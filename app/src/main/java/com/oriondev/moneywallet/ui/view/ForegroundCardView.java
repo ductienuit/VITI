@@ -29,7 +29,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 24/08/18.
+ * Created by DucTien on 24/08/19.
  */
 public class ForegroundCardView extends CardView {
 

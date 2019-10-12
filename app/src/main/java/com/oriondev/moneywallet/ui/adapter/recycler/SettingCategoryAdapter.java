@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 06/03/18.
+ * Created by DucTien on 06/03/19.
  */
 public class SettingCategoryAdapter extends RecyclerView.Adapter<SettingCategoryAdapter.ViewHolder> {
 

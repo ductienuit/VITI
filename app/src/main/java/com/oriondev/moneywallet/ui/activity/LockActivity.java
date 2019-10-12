@@ -45,7 +45,7 @@ import com.oriondev.moneywallet.ui.activity.base.ThemedActivity;
 import java.util.List;
 
 /**
- * Created by andrea on 24/07/18.
+ * Created by DucTien on 24/07/19.
  */
 public class LockActivity extends ThemedActivity {
 

@@ -24,7 +24,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 
 /**
- * Created by andrea on 30/01/18.
+ * Created by DucTien on 30/01/19.
  */
 
 public class NonEmptyTextValidator implements Validator {

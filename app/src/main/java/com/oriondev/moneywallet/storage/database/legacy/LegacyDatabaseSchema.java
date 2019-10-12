@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.storage.database.legacy;
 
 /**
- * Created by andrea on 02/11/18.
+ * Created by DucTien on 02/10/19.
  */
 /*package-local*/ class LegacyDatabaseSchema {
 

@@ -23,7 +23,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by andrea on 10/03/18.
+ * Created by DucTien on 10/03/19.
  */
 public class Person implements Identifiable, Parcelable {
 

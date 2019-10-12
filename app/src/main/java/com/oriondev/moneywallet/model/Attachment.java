@@ -35,7 +35,7 @@ import java.io.File;
 import java.util.UUID;
 
 /**
- * Created by andrea on 27/03/18.
+ * Created by DucTien on 27/03/19.
  */
 public class Attachment implements Parcelable, Identifiable {
 

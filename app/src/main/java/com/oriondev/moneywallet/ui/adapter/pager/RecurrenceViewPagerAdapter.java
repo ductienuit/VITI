@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.ui.fragment.primary.RecurrentTransactionListFrag
 import com.oriondev.moneywallet.ui.fragment.primary.RecurrentTransferListFragment;
 
 /**
- * Created by andrea on 04/11/18.
+ * Created by DucTien on 04/10/19.
  */
 public class RecurrenceViewPagerAdapter extends FragmentPagerAdapter {
 

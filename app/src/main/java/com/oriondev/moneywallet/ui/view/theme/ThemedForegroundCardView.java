@@ -27,7 +27,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.ui.view.ForegroundCardView;
 
 /**
- * Created by andrea on 24/08/18.
+ * Created by DucTien on 24/08/19.
  */
 public class ThemedForegroundCardView extends ForegroundCardView implements ThemeEngine.ThemeConsumer {
 

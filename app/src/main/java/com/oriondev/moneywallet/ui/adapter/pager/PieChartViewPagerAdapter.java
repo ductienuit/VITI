@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.model.PeriodDetailFlowData;
 import com.oriondev.moneywallet.ui.view.chart.PieChart;
 
 /**
- * Created by andrea on 14/08/18.
+ * Created by DucTien on 14/08/19.
  */
 public class PieChartViewPagerAdapter extends PagerAdapter {
 

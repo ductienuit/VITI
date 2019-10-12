@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public abstract class MultiPanelAppBarItemFragment extends MultiPanelAppBarFragment {
 

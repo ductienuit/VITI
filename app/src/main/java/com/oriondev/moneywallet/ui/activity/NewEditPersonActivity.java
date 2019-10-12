@@ -41,7 +41,7 @@ import com.oriondev.moneywallet.ui.view.text.NonEmptyTextValidator;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 06/03/18.
+ * Created by DucTien on 06/03/19.
  */
 public class NewEditPersonActivity extends NewEditItemActivity implements IconPicker.Controller {
 

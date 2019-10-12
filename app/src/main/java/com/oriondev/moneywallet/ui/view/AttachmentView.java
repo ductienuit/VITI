@@ -36,7 +36,7 @@ import com.oriondev.moneywallet.utils.Utils;
 import java.util.List;
 
 /**
- * Created by andrea on 30/03/18.
+ * Created by DucTien on 30/03/19.
  */
 public class AttachmentView extends LinearLayout {
 

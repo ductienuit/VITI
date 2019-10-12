@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentManager;
 import com.oriondev.moneywallet.ui.fragment.dialog.ExportColumnsDialogFragment;
 
 /**
- * Created by andrea on 21/12/18.
+ * Created by DucTien on 21/12/19.
  */
 public class ExportColumnsPicker extends Fragment implements ExportColumnsDialogFragment.Callback {
 

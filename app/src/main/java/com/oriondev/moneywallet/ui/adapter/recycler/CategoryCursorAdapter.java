@@ -35,7 +35,7 @@ import com.oriondev.moneywallet.ui.view.CategoryChildIndicator;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 12/02/18.
+ * Created by DucTien on 12/02/19.
  */
 public class CategoryCursorAdapter extends AbstractCursorAdapter<CategoryCursorAdapter.CategoryViewHolder> {
 

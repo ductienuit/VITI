@@ -35,7 +35,7 @@ import com.oriondev.moneywallet.utils.Utils;
 import java.util.List;
 
 /**
- * Created by andrea on 26/11/18.
+ * Created by DucTien on 26/10/19.
  */
 public class BackendHandlerIntentService extends IntentService {
 

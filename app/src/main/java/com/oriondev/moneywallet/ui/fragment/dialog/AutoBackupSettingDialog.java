@@ -45,7 +45,7 @@ import com.oriondev.moneywallet.ui.activity.BackendExplorerActivity;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 
 /**
- * Created by andrea on 26/11/18.
+ * Created by DucTien on 26/10/19.
  */
 public class AutoBackupSettingDialog extends DialogFragment {
 

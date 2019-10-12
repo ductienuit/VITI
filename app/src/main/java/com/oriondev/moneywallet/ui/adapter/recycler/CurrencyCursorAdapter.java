@@ -38,7 +38,7 @@ import com.oriondev.moneywallet.storage.database.Contract;
 import java.util.Locale;
 
 /**
- * Created by andrea on 09/02/18.
+ * Created by DucTien on 09/02/19.
  */
 public class CurrencyCursorAdapter extends AbstractCursorAdapter<CurrencyCursorAdapter.CurrencyViewHolder> {
 

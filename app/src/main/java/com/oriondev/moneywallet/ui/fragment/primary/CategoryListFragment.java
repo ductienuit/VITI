@@ -42,7 +42,7 @@ import com.oriondev.moneywallet.ui.fragment.base.CursorListFragment;
 import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by andrea on 11/02/18.
+ * Created by DucTien on 11/02/19.
  */
 public class CategoryListFragment extends CursorListFragment implements CategoryCursorAdapter.CategoryActionListener {
 

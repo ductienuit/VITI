@@ -45,7 +45,7 @@ import com.oriondev.moneywallet.utils.DateFormatter;
 import java.util.Date;
 
 /**
- * Created by andrea on 07/11/18.
+ * Created by DucTien on 07/10/19.
  */
 public class RecurrencePickerDialog extends DialogFragment implements DateTimePicker.Controller {
 

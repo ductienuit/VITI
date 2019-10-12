@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.storage.preference;
 
 /**
- * Created by andrea on 04/09/18.
+ * Created by DucTien on 04/09/19.
  */
 public interface CurrentWalletController {
 

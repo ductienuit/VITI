@@ -22,7 +22,7 @@ package com.oriondev.moneywallet.ui.activity;
 import android.support.v7.widget.Toolbar;
 
 /**
- * Created by andrea on 24/01/18.
+ * Created by DucTien on 24/01/19.
  */
 
 public interface ToolbarController {

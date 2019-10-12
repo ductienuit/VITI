@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.ui.fragment.base.MultiPanelViewPagerFragment;
 
 /**
- * Created by andrea on 17/01/18.
+ * Created by DucTien on 17/01/19.
  */
 public class StubMultiPanelViewPagerFragment extends MultiPanelViewPagerFragment {
 

@@ -57,7 +57,7 @@ import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 01/04/18.
+ * Created by DucTien on 01/04/19.
  */
 public class CategoryItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

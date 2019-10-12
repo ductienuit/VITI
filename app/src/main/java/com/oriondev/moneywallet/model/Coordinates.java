@@ -23,7 +23,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by andrea on 16/10/18.
+ * Created by DucTien on 16/10/19.
  */
 
 public class Coordinates implements Parcelable {

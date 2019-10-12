@@ -31,7 +31,7 @@ import com.oriondev.moneywallet.ui.fragment.single.PeriodDetailSummaryFragment;
 import java.util.Date;
 
 /**
- * Created by andrea on 09/04/18.
+ * Created by DucTien on 09/04/19.
  */
 public class PeriodViewPagerAdapter extends FragmentPagerAdapter {
 

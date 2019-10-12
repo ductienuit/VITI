@@ -53,7 +53,7 @@ import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 24/01/18.
+ * Created by DucTien on 24/01/19.
  */
 public class WalletMultiPanelFragment extends MultiPanelAppBarItemFragment implements LoaderManager.LoaderCallbacks<Cursor>, SwipeRefreshLayout.OnRefreshListener, WalletCursorAdapter.WalletActionListener {
 

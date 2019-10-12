@@ -41,7 +41,7 @@ import com.oriondev.moneywallet.ui.fragment.secondary.UserInterfaceSettingFragme
 import com.oriondev.moneywallet.ui.fragment.secondary.UtilitySettingFragment;
 
 /**
- * Created by andrea on 03/03/18.
+ * Created by DucTien on 03/03/19.
  */
 public class SettingMultiPanelFragment extends MultiPanelFragment implements SettingCategoryAdapter.ActionListener {
 

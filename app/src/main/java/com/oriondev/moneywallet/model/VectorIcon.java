@@ -34,7 +34,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by andrea on 23/01/18.
+ * Created by DucTien on 23/01/19.
  */
 public class VectorIcon extends Icon {
 

@@ -27,7 +27,7 @@ import android.widget.LinearLayout;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 11/08/18.
+ * Created by DucTien on 11/08/19.
  */
 public class ThemedLinearLayout extends LinearLayout implements ThemeEngine.ThemeConsumer {
 

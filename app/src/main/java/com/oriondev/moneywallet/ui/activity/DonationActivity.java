@@ -46,7 +46,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by andrea on 06/12/18.
+ * Created by DucTien on 06/12/19.
  */
 public class DonationActivity extends SinglePanelActivity implements LoaderManager.LoaderCallbacks<JSONObject> {
 

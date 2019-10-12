@@ -34,7 +34,7 @@ import com.oriondev.moneywallet.ui.activity.base.SinglePanelActivity;
 import com.oriondev.moneywallet.view.MapViewWrapper;
 
 /**
- * Created by andrea on 02/11/18.
+ * Created by DucTien on 02/10/19.
  */
 public class PlacePickerActivity extends SinglePanelActivity {
 

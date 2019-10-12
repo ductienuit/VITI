@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.model.Place;
 import com.oriondev.moneywallet.ui.fragment.dialog.PlacePickerDialog;
 
 /**
- * Created by andrea on 10/03/18.
+ * Created by DucTien on 10/03/19.
  */
 
 public class PlacePicker extends Fragment implements PlacePickerDialog.Callback {

@@ -33,7 +33,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 
 /**
- * Created by andrea on 15/04/18.
+ * Created by DucTien on 15/04/19.
  */
 public class ColorPicker extends Fragment implements ColorChooserDialog.ColorCallback {
 

@@ -49,7 +49,7 @@ import com.oriondev.moneywallet.utils.IconLoader;
 import java.util.Date;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public class OverviewSettingDialog extends DialogFragment implements DateTimePicker.Controller, CategoryPicker.Controller {
 

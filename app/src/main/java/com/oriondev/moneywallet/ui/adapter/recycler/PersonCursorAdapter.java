@@ -34,7 +34,7 @@ import com.oriondev.moneywallet.storage.database.Contract;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 04/03/18.
+ * Created by DucTien on 04/03/19.
  */
 public class PersonCursorAdapter extends AbstractCursorAdapter<PersonCursorAdapter.ViewHolder> {
 

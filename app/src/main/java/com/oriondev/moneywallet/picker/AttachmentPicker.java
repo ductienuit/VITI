@@ -51,7 +51,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * Created by andrea on 27/03/18.
+ * Created by DucTien on 27/03/19.
  */
 public class AttachmentPicker extends Fragment {
 

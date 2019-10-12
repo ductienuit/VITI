@@ -28,7 +28,7 @@ import android.support.annotation.StringRes;
 import com.oriondev.moneywallet.model.IFile;
 
 /**
- * Created by andrea on 21/11/18.
+ * Created by DucTien on 21/10/19.
  */
 public abstract class AbstractBackendServiceDelegate {
 

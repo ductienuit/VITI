@@ -29,7 +29,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by andrea on 27/01/18.
+ * Created by DucTien on 27/01/19.
  */
 
 public class IconLoader {

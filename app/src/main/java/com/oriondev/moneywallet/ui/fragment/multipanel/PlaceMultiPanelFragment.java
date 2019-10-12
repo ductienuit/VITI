@@ -44,7 +44,7 @@ import com.oriondev.moneywallet.ui.fragment.secondary.PlaceItemFragment;
 import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class PlaceMultiPanelFragment extends MultiPanelCursorListItemFragment implements PlaceCursorAdapter.ActionListener {
 

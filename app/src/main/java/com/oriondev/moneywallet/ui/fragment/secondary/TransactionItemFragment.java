@@ -63,7 +63,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public class TransactionItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor>,AttachmentView.Controller {
 

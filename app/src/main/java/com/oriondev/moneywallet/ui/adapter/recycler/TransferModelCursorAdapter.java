@@ -40,7 +40,7 @@ import com.oriondev.moneywallet.utils.MoneyFormatter;
 import java.util.Locale;
 
 /**
- * Created by andrea on 14/03/18.
+ * Created by DucTien on 14/03/19.
  */
 public class TransferModelCursorAdapter extends AbstractCursorAdapter<TransferModelCursorAdapter.TransferModelViewHolder> {
 

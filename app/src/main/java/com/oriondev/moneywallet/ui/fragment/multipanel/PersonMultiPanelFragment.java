@@ -41,7 +41,7 @@ import com.oriondev.moneywallet.ui.fragment.secondary.PersonItemFragment;
 import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class PersonMultiPanelFragment extends MultiPanelCursorListItemFragment implements PersonCursorAdapter.ActionListener {
 

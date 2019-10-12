@@ -23,7 +23,7 @@ import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 
 /**
- * Created by andrea on 06/04/18.
+ * Created by DucTien on 06/04/19.
  */
 public abstract class AbstractGenericLoader<T> extends AsyncTaskLoader<T> {
 

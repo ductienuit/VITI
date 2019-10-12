@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.storage.database.Contract;
 import com.oriondev.moneywallet.ui.fragment.primary.CategoryListFragment;
 
 /**
- * Created by andrea on 10/02/18.
+ * Created by DucTien on 10/02/19.
  */
 public class CategoryViewPagerAdapter extends FragmentPagerAdapter {
 

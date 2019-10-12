@@ -28,7 +28,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class CategoryChildIndicator extends View {
 

@@ -37,7 +37,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by andrea on 16/10/18.
+ * Created by DucTien on 16/10/19.
  */
 
 public class MapViewWrapper implements OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {

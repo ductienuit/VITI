@@ -38,7 +38,7 @@ import com.oriondev.moneywallet.utils.DateUtils;
 import java.util.Date;
 
 /**
- * Created by andrea on 10/11/18.
+ * Created by DucTien on 10/10/19.
  */
 public class RecurrenceBroadcastReceiver extends BroadcastReceiver {
 

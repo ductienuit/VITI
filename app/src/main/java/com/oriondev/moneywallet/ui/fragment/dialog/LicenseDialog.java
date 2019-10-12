@@ -39,7 +39,7 @@ import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 import java.util.List;
 
 /**
- * Created by andrea on 06/04/18.
+ * Created by DucTien on 06/04/19.
  */
 public class LicenseDialog extends DialogFragment implements LoaderManager.LoaderCallbacks<List<License>>,LicenseAdapter.Controller {
 

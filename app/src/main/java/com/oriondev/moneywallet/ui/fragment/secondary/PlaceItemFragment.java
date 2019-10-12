@@ -60,7 +60,7 @@ import com.oriondev.moneywallet.view.MapViewWrapper;
 import java.util.Locale;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public class PlaceItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor>, MapViewWrapper.OnMapLoadedCallback {
 

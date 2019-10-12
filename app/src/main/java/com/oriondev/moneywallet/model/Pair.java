@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.model;
 
 /**
- * Created by andrea on 03/03/18.
+ * Created by DucTien on 03/03/19.
  */
 public class Pair<L, R> {
 

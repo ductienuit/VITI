@@ -12,7 +12,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.model.DataFormat;
 
 /**
- * Created by andrea on 20/12/18.
+ * Created by DucTien on 20/12/19.
  */
 public class DataFormatSelectorAdapter extends RecyclerView.Adapter<DataFormatSelectorAdapter.ViewHolder> {
 

@@ -32,7 +32,7 @@ import com.oriondev.moneywallet.utils.DateFormatter;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public class OverviewItemAdapter extends RecyclerView.Adapter<OverviewItemAdapter.ViewHolder> {
 

@@ -31,7 +31,7 @@ import com.oriondev.moneywallet.model.License;
 import java.util.List;
 
 /**
- * Created by andrea on 31/03/18.
+ * Created by DucTien on 31/03/19.
  */
 public class LicenseAdapter extends RecyclerView.Adapter<LicenseAdapter.ViewHolder> {
 

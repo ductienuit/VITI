@@ -27,7 +27,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 10/04/18.
+ * Created by DucTien on 10/04/19.
  */
 public class ThemedTextView extends AppCompatTextView implements ThemeEngine.ThemeConsumer {
 

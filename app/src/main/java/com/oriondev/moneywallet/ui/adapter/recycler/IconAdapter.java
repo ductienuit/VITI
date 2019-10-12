@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 12/08/18.
+ * Created by DucTien on 12/08/19.
  */
 public class IconAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

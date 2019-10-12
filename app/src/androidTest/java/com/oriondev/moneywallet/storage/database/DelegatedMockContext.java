@@ -27,7 +27,7 @@ import android.test.mock.MockContext;
 import java.io.File;
 
 /**
- * Created by andrea on 28/08/18.
+ * Created by DucTien on 28/08/19.
  */
 
 public class DelegatedMockContext extends MockContext {

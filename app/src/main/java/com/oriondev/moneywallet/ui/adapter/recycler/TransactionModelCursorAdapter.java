@@ -38,7 +38,7 @@ import com.oriondev.moneywallet.utils.IconLoader;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 14/03/18.
+ * Created by DucTien on 14/03/19.
  */
 public class TransactionModelCursorAdapter extends AbstractCursorAdapter<TransactionModelCursorAdapter.TransactionModelViewHolder> {
 

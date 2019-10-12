@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.utils.DateFormatter;
 import java.util.Calendar;
 
 /**
- * Created by andrea on 12/11/18.
+ * Created by DucTien on 12/10/19.
  */
 public class LegacyUserPreferences {
 

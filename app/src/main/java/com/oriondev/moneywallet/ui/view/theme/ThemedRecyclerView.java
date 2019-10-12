@@ -25,7 +25,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
 /**
- * Created by andrea on 20/08/18.
+ * Created by DucTien on 20/08/19.
  */
 public class ThemedRecyclerView extends RecyclerView implements ThemeEngine.ThemeConsumer {
 

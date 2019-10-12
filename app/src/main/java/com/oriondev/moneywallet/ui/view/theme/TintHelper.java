@@ -47,7 +47,7 @@ import com.oriondev.moneywallet.utils.Utils;
 import java.lang.reflect.Field;
 
 /**
- * Created by andrea on 11/04/18.
+ * Created by DucTien on 11/04/19.
  */
 /*package-local*/ class TintHelper {
 

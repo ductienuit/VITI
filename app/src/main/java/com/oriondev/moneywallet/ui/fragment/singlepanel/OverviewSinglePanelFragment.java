@@ -50,7 +50,7 @@ import com.oriondev.moneywallet.ui.adapter.recycler.OverviewItemAdapter;
 import com.oriondev.moneywallet.ui.fragment.base.SinglePanelFragment;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public class OverviewSinglePanelFragment extends SinglePanelFragment implements OverviewSettingPicker.Controller, LoaderManager.LoaderCallbacks<OverviewData>, OverviewItemAdapter.Controller, CurrentWalletController {
 

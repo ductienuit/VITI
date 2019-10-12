@@ -41,7 +41,7 @@ import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 /**
- * Created by andrea on 30/07/18.
+ * Created by DucTien on 30/07/19.
  */
 public class LauncherActivity extends ThemedActivity {
 

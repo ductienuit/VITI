@@ -1,7 +1,7 @@
 package com.oriondev.moneywallet.storage.database.data.pdf;
 
 /**
- * Created by andrea on 22/12/18.
+ * Created by DucTien on 22/12/19.
  */
 /*package-local*/ class Constants {
 

@@ -22,7 +22,7 @@ package com.oriondev.moneywallet.model;
 import java.util.List;
 
 /**
- * Created by andrea on 12/08/18.
+ * Created by DucTien on 12/08/19.
  */
 public class IconGroup {
 

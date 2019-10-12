@@ -22,7 +22,7 @@ package com.oriondev.moneywallet.model;
 import com.oriondev.moneywallet.storage.preference.PreferenceManager;
 
 /**
- * Created by andrea on 24/07/18.
+ * Created by DucTien on 24/07/19.
  */
 public enum LockMode {
 

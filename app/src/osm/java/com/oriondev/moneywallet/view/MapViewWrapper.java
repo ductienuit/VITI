@@ -46,7 +46,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 16/10/18.
+ * Created by DucTien on 16/10/19.
  */
 
 public class MapViewWrapper {

@@ -28,7 +28,7 @@ import java.math.MathContext;
 import java.math.RoundingMode;
 
 /**
- * Created by andrea on 31/03/18.
+ * Created by DucTien on 31/03/19.
  */
 public class EquationSolver {
 

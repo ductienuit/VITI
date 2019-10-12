@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 06/04/18.
+ * Created by DucTien on 06/04/19.
  */
 public class LicenseLoader extends AbstractGenericLoader<List<License>> {
 

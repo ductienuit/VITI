@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.ui.view.calendar.TimelineView;
 
 /**
- * Created by andrea on 13/04/18.
+ * Created by DucTien on 13/04/19.
  */
 public class ThemedTimelineView extends TimelineView implements ThemeEngine.ThemeConsumer {
 

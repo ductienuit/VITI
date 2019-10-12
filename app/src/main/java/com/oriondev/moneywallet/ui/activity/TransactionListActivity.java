@@ -28,7 +28,7 @@ import com.oriondev.moneywallet.ui.fragment.multipanel.TransactionMultiPanelFrag
 import java.util.Date;
 
 /**
- * Created by andrea on 04/04/18.
+ * Created by DucTien on 04/04/19.
  */
 public class TransactionListActivity extends MultiPanelActivity {
 

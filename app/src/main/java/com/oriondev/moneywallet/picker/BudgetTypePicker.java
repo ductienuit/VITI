@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.storage.database.Contract;
 import com.oriondev.moneywallet.ui.fragment.dialog.BudgetTypePickerDialog;
 
 /**
- * Created by andrea on 12/03/18.
+ * Created by DucTien on 12/03/19.
  */
 public class BudgetTypePicker extends Fragment implements BudgetTypePickerDialog.Callback {
 

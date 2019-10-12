@@ -22,7 +22,7 @@ package com.oriondev.moneywallet.storage.database;
 import android.database.sqlite.SQLiteException;
 
 /**
- * Created by andrea on 20/07/18.
+ * Created by DucTien on 20/07/19.
  */
 public class SQLiteDataException extends SQLiteException {
 

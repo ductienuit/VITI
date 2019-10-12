@@ -48,7 +48,7 @@ import com.oriondev.moneywallet.storage.database.model.TransferPerson;
 import com.oriondev.moneywallet.storage.database.model.Wallet;
 
 /**
- * Created by andrea on 28/10/18.
+ * Created by DucTien on 28/10/19.
  */
 public class SQLDatabaseExporter {
 

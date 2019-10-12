@@ -45,7 +45,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 27/01/18.
+ * Created by DucTien on 27/01/19.
  */
 public class MaterialEditText extends android.support.v7.widget.AppCompatEditText implements ValueAnimator.AnimatorUpdateListener, View.OnTouchListener {
 

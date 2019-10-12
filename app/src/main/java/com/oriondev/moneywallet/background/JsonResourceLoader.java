@@ -30,7 +30,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by andrea on 08/12/18.
+ * Created by DucTien on 08/12/19.
  */
 public class JsonResourceLoader extends AbstractGenericLoader<JSONObject> {
 

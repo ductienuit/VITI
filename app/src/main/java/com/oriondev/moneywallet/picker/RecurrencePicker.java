@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.model.RecurrenceSetting;
 import com.oriondev.moneywallet.ui.fragment.dialog.RecurrencePickerDialog;
 
 /**
- * Created by andrea on 07/11/18.
+ * Created by DucTien on 07/10/19.
  */
 
 public class RecurrencePicker extends Fragment implements RecurrencePickerDialog.Callback {

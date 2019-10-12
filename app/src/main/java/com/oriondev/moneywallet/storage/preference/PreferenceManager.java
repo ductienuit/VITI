@@ -40,7 +40,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by andrea on 24/01/18.
+ * Created by DucTien on 24/01/19.
  */
 public class PreferenceManager {
 

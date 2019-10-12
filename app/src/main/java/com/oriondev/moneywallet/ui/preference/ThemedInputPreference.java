@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 
 /**
- * Created by andrea on 13/11/18.
+ * Created by DucTien on 13/10/19.
  */
 
 public class ThemedInputPreference extends Preference {

@@ -40,7 +40,7 @@ import com.oriondev.moneywallet.model.PeriodDetailSummaryData;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 16/08/18.
+ * Created by DucTien on 16/08/19.
  */
 public class BarChartViewPagerAdapter  extends PagerAdapter {
 

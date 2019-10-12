@@ -36,7 +36,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 24/01/18.
+ * Created by DucTien on 24/01/19.
  */
 public class StubListFragment extends Fragment {
 

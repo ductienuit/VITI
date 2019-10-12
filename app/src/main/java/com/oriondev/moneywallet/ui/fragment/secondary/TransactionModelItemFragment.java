@@ -54,7 +54,7 @@ import com.oriondev.moneywallet.utils.CurrencyManager;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public class TransactionModelItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

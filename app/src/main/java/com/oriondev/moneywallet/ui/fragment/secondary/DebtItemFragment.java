@@ -62,7 +62,7 @@ import com.oriondev.moneywallet.utils.MoneyFormatter;
 import java.util.Date;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public class DebtItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

@@ -46,7 +46,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 30/07/18.
+ * Created by DucTien on 30/07/19.
  */
 public class TutorialActivity extends AppIntro2 {
 

@@ -27,7 +27,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.utils.Utils;
 
 /**
- * Created by andrea on 09/02/18.
+ * Created by DucTien on 09/02/19.
  */
 public abstract class SinglePanelScrollActivity extends SinglePanelActivity {
 

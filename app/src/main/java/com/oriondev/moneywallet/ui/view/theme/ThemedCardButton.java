@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.ui.view.CardButton;
 
 /**
- * Created by andrea on 20/08/18.
+ * Created by DucTien on 20/08/19.
  */
 public class ThemedCardButton extends CardButton implements ThemeEngine.ThemeConsumer {
 

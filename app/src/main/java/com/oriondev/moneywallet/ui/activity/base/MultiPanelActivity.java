@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.ui.activity.ToolbarController;
 import com.oriondev.moneywallet.ui.fragment.base.MultiPanelFragment;
 
 /**
- * Created by andrea on 06/04/18.
+ * Created by DucTien on 06/04/19.
  */
 public abstract class MultiPanelActivity extends BaseActivity implements ToolbarController {
 

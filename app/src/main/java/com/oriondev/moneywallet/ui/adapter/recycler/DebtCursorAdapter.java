@@ -46,7 +46,7 @@ import com.oriondev.moneywallet.utils.MoneyFormatter;
 import java.util.Date;
 
 /**
- * Created by andrea on 05/03/18.
+ * Created by DucTien on 05/03/19.
  */
 public class DebtCursorAdapter extends AbstractCursorAdapter {
 

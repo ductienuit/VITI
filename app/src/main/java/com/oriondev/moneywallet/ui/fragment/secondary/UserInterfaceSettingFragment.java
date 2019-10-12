@@ -47,7 +47,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Created by andrea on 07/03/18.
+ * Created by DucTien on 07/03/19.
  */
 public class UserInterfaceSettingFragment extends PreferenceFragmentCompat implements ColorPicker.Controller {
 

@@ -38,7 +38,7 @@ import com.oriondev.moneywallet.utils.Utils;
 import java.util.Calendar;
 
 /**
- * Created by andrea on 28/07/18.
+ * Created by DucTien on 28/07/19.
  */
 public class DailyBroadcastReceiver extends BroadcastReceiver {
 

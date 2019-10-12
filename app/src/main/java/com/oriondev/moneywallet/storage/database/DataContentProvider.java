@@ -44,7 +44,7 @@ import com.oriondev.moneywallet.storage.preference.PreferenceManager;
 import java.util.List;
 
 /**
- * Created by andrea on 17/01/18.
+ * Created by DucTien on 17/01/19.
  */
 public class DataContentProvider extends ContentProvider {
 

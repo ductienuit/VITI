@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 28/07/18.
+ * Created by DucTien on 28/07/19.
  */
 public class ThemedPreferenceCategory extends PreferenceCategory {
 

@@ -33,7 +33,7 @@ import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 import com.oriondev.moneywallet.utils.CurrencyManager;
 
 /**
- * Created by andrea on 05/01/19.
+ * Created by DucTien on 05/01/19.
  */
 public class NewEditCurrencyActivity extends SinglePanelScrollActivity {
 

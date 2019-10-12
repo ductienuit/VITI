@@ -27,7 +27,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.ui.view.text.MaterialEditText;
 
 /**
- * Created by andrea on 20/08/18.
+ * Created by DucTien on 20/08/19.
  */
 public class ThemedMaterialEditText extends MaterialEditText implements ThemeEngine.ThemeConsumer {
 

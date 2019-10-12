@@ -29,7 +29,7 @@ import android.view.ViewGroup;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 09/02/18.
+ * Created by DucTien on 09/02/19.
  */
 public abstract class MultiPanelAppBarFragment extends MultiPanelFragment {
 

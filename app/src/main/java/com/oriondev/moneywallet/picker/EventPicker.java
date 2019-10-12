@@ -32,7 +32,7 @@ import com.oriondev.moneywallet.ui.fragment.dialog.EventPickerDialog;
 import java.util.Date;
 
 /**
- * Created by andrea on 10/03/18.
+ * Created by DucTien on 10/03/19.
  */
 public class EventPicker extends Fragment implements EventPickerDialog.Callback {
 

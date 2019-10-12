@@ -47,7 +47,7 @@ import com.oriondev.moneywallet.ui.fragment.secondary.TransferModelItemFragment;
 import com.oriondev.moneywallet.ui.view.theme.ThemeEngine;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class ModelMultiPanelViewPagerFragment extends MultiPanelViewPagerMultiItemFragment {
 

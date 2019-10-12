@@ -27,7 +27,7 @@ import android.os.Build;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 04/12/18.
+ * Created by DucTien on 04/12/19.
  */
 public class NotificationContract {
 

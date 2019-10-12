@@ -25,7 +25,7 @@ import com.oriondev.moneywallet.model.Money;
 import com.oriondev.moneywallet.storage.database.Contract;
 
 /**
- * Created by andrea on 05/03/18.
+ * Created by DucTien on 05/03/19.
  */
 
 public class DebtHeaderCursor extends AbstractHeaderCursor<DebtHeaderCursor.Header> {

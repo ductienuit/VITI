@@ -31,7 +31,7 @@ import com.oriondev.moneywallet.model.Icon;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public class DoubleIconDrawable extends Drawable {
 

@@ -28,7 +28,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.ui.view.calendar.MonthView;
 
 /**
- * Created by andrea on 13/04/18.
+ * Created by DucTien on 13/04/19.
  */
 public class ThemedMonthView extends MonthView implements ThemeEngine.ThemeConsumer {
 

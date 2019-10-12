@@ -32,7 +32,7 @@ import com.philliphsu.bottomsheetpickers.time.BottomSheetTimePickerDialog;
 import com.philliphsu.bottomsheetpickers.time.numberpad.NumberPadTimePickerDialog;
 
 /**
- * Created by andrea on 20/08/18.
+ * Created by DucTien on 20/08/19.
  */
 public class ThemedDialog {
 

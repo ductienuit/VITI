@@ -39,7 +39,7 @@ import com.oriondev.moneywallet.utils.IconLoader;
 import java.util.Date;
 
 /**
- * Created by andrea on 03/03/18.
+ * Created by DucTien on 03/03/19.
  */
 public class EventSelectorCursorAdapter extends AbstractCursorAdapter<EventSelectorCursorAdapter.ViewHolder> {
 

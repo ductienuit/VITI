@@ -25,7 +25,7 @@ import android.os.Parcelable;
 import com.oriondev.moneywallet.storage.database.Contract;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class Category implements Parcelable {
 

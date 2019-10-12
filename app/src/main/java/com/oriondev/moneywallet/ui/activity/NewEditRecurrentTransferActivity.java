@@ -60,7 +60,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by andrea on 06/11/18.
+ * Created by DucTien on 06/10/19.
  */
 public class NewEditRecurrentTransferActivity extends NewEditItemActivity implements CurrencyConverterPicker.Controller,
                                                                                     MoneyPicker.Controller,

@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import com.oriondev.moneywallet.ui.view.text.MaterialTextView;
 
 /**
- * Created by andrea on 01/05/18.
+ * Created by DucTien on 01/05/19.
  */
 public class ThemedMaterialTextView extends MaterialTextView implements ThemeEngine.ThemeConsumer {
 

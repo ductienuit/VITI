@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.broadcast;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public class Message {
 

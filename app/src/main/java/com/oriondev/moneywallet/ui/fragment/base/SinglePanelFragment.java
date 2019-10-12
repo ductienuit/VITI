@@ -39,7 +39,7 @@ import com.oriondev.moneywallet.ui.activity.ToolbarController;
 import com.oriondev.moneywallet.utils.Utils;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public abstract class SinglePanelFragment extends Fragment implements Toolbar.OnMenuItemClickListener {
 

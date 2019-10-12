@@ -56,7 +56,7 @@ import com.oriondev.moneywallet.utils.DateUtils;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public class EventItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

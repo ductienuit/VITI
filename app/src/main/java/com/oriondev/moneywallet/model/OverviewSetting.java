@@ -27,7 +27,7 @@ import com.oriondev.moneywallet.utils.DateUtils;
 import java.util.Date;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public class OverviewSetting implements Parcelable {
 

@@ -45,7 +45,7 @@ import com.oriondev.moneywallet.ui.fragment.multipanel.ModelMultiPanelViewPagerF
 import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by andrea on 14/03/18.
+ * Created by DucTien on 14/03/19.
  */
 public class TransactionModelListFragment extends CursorListFragment implements TransactionModelCursorAdapter.ActionListener {
 

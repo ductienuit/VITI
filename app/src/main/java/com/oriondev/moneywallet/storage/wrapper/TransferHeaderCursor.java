@@ -28,7 +28,7 @@ import com.oriondev.moneywallet.utils.DateUtils;
 import java.util.Date;
 
 /**
- * Created by andrea on 03/03/18.
+ * Created by DucTien on 03/03/19.
  */
 public class TransferHeaderCursor extends AbstractHeaderCursor<DateRangeHeader> {
 

@@ -28,7 +28,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.ui.fragment.primary.BudgetListFragment;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class BudgetViewPagerAdapter extends FragmentPagerAdapter {
 

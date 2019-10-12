@@ -34,7 +34,7 @@ import com.oriondev.moneywallet.ui.activity.CategoryPickerActivity;
 import com.oriondev.moneywallet.ui.fragment.dialog.ParentCategoryPickerDialog;
 
 /**
- * Created by andrea on 02/02/18.
+ * Created by DucTien on 02/02/19.
  */
 public class CategoryPicker extends Fragment implements ParentCategoryPickerDialog.Callback {
 

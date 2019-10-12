@@ -49,7 +49,7 @@ import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 import java.util.Date;
 
 /**
- * Created by andrea on 03/03/18.
+ * Created by DucTien on 03/03/19.
  */
 public class TransactionListFragment extends CursorListFragment implements TransactionCursorAdapter.ActionListener {
 

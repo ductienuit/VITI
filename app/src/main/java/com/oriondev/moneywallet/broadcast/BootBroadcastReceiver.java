@@ -24,7 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 
 /**
- * Created by andrea on 29/07/18.
+ * Created by DucTien on 29/07/19.
  */
 public class BootBroadcastReceiver extends BroadcastReceiver {
 

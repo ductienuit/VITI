@@ -39,7 +39,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.model.OverviewData;
 
 /**
- * Created by andrea on 17/08/18.
+ * Created by DucTien on 17/08/19.
  */
 public class OverviewChartViewPagerAdapter extends PagerAdapter {
 

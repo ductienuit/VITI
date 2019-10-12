@@ -60,7 +60,7 @@ import com.oriondev.moneywallet.utils.MoneyFormatter;
 import java.util.Date;
 
 /**
- * Created by andrea on 06/11/18.
+ * Created by DucTien on 06/10/19.
  */
 public class NewEditRecurrentTransactionActivity extends NewEditItemActivity implements MoneyPicker.Controller,
                                                                                         CategoryPicker.Controller,

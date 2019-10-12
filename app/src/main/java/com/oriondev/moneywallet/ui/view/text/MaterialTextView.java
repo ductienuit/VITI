@@ -35,7 +35,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.storage.cache.TypefaceCache;
 
 /**
- * Created by andrea on 01/05/18.
+ * Created by DucTien on 01/05/19.
  */
 public class MaterialTextView extends AppCompatTextView {
 

@@ -50,7 +50,7 @@ import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 import com.oriondev.moneywallet.utils.IconLoader;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class NewEditCategoryActivity extends NewEditItemActivity implements IconPicker.Controller, CategoryPicker.Controller {
 

@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.ui.fragment.base;
 
 /**
- * Created by andrea on 03/04/18.
+ * Created by DucTien on 03/04/19.
  */
 public interface MultiPanelController extends NavigableFragment {
 

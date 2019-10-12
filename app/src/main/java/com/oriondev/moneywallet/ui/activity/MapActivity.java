@@ -41,7 +41,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by andrea on 04/04/18.
+ * Created by DucTien on 04/04/19.
  */
 public class MapActivity extends SinglePanelActivity implements LoaderManager.LoaderCallbacks<Cursor>, MapViewWrapper.OnMapLoadedCallback, MapViewWrapper.OnInfoWindowClickListener {
 

@@ -32,7 +32,7 @@ import com.oriondev.moneywallet.utils.IconLoader;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 23/01/18.
+ * Created by DucTien on 23/01/19.
  */
 public class WalletAccount extends ProfileDrawerItem {
 

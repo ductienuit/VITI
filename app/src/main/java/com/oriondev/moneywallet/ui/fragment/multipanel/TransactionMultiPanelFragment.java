@@ -50,7 +50,7 @@ import com.oriondev.moneywallet.utils.DateUtils;
 import java.util.Date;
 
 /**
- * Created by andrea on 08/04/18.
+ * Created by DucTien on 08/04/19.
  */
 public class TransactionMultiPanelFragment extends MultiPanelCursorListItemFragment implements TransactionCursorAdapter.ActionListener, CurrentWalletController {
 

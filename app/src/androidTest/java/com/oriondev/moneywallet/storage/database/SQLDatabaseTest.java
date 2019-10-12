@@ -51,7 +51,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
 /**
- * Created by andrea on 28/08/18.
+ * Created by DucTien on 28/08/19.
  */
 public class SQLDatabaseTest {
 

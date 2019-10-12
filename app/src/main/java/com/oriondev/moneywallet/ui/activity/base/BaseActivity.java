@@ -26,7 +26,7 @@ import com.oriondev.moneywallet.storage.preference.PreferenceManager;
 import com.oriondev.moneywallet.ui.activity.LockActivity;
 
 /**
- * Created by andrea on 24/07/18.
+ * Created by DucTien on 24/07/19.
  */
 public abstract class BaseActivity extends ThemedActivity {
 

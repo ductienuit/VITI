@@ -27,7 +27,7 @@ import android.widget.RelativeLayout;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 25/07/18.
+ * Created by DucTien on 25/07/19.
  */
 public class ThemedRelativeLayout extends RelativeLayout implements ThemeEngine.ThemeConsumer {
 

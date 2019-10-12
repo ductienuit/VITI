@@ -32,7 +32,7 @@ import com.oriondev.moneywallet.utils.Utils;
 import java.util.Locale;
 
 /**
- * Created by andrea on 31/01/18.
+ * Created by DucTien on 31/01/19.
  */
 public class CurrencyUnit implements Parcelable {
 

@@ -50,7 +50,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class NewEditEventActivity extends NewEditItemActivity implements IconPicker.Controller, DateTimePicker.Controller {
 

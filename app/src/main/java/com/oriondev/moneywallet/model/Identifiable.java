@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.model;
 
 /**
- * Created by andrea on 11/03/18.
+ * Created by DucTien on 11/03/19.
  */
 
 public interface Identifiable {

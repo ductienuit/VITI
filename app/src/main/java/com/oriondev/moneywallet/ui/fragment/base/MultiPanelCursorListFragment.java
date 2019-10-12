@@ -35,7 +35,7 @@ import com.oriondev.moneywallet.ui.adapter.recycler.AbstractCursorAdapter;
 import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by andrea on 09/02/18.
+ * Created by DucTien on 09/02/19.
  */
 public abstract class MultiPanelCursorListFragment extends MultiPanelFragment implements SwipeRefreshLayout.OnRefreshListener, LoaderManager.LoaderCallbacks<Cursor> {
 

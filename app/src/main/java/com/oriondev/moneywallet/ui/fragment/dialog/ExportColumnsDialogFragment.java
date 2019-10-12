@@ -14,7 +14,7 @@ import com.oriondev.moneywallet.storage.database.data.AbstractDataExporter;
 import com.oriondev.moneywallet.ui.view.theme.ThemedDialog;
 
 /**
- * Created by andrea on 21/12/18.
+ * Created by DucTien on 21/12/19.
  */
 public class ExportColumnsDialogFragment extends DialogFragment {
 

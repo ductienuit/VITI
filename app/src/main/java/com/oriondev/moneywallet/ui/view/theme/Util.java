@@ -24,7 +24,7 @@ import android.support.annotation.ColorInt;
 import android.support.annotation.FloatRange;
 
 /**
- * Created by andrea on 10/04/18.
+ * Created by DucTien on 10/04/19.
  */
 /*package-local*/ class Util {
 

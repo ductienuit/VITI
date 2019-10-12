@@ -22,7 +22,7 @@ package com.oriondev.moneywallet.ui.view.text;
 import android.support.annotation.NonNull;
 
 /**
- * Created by andrea on 30/01/18.
+ * Created by DucTien on 30/01/19.
  */
 public interface Validator {
 

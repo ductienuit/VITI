@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import com.itsronald.widget.ViewPagerIndicator;
 
 /**
- * Created by andrea on 14/08/18.
+ * Created by DucTien on 14/08/19.
  */
 public class ThemedViewPagerIndicator extends ViewPagerIndicator implements ThemeEngine.ThemeConsumer {
 

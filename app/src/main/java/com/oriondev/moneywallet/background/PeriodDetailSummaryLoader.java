@@ -43,7 +43,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by andrea on 14/08/18.
+ * Created by DucTien on 14/08/19.
  */
 public class PeriodDetailSummaryLoader extends AbstractGenericLoader<PeriodDetailSummaryData> {
 

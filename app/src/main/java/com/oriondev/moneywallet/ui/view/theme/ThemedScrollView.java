@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import android.widget.ScrollView;
 
 /**
- * Created by andrea on 20/08/18.
+ * Created by DucTien on 20/08/19.
  */
 public class ThemedScrollView extends ScrollView implements ThemeEngine.ThemeConsumer {
 

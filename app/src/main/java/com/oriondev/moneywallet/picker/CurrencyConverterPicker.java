@@ -32,7 +32,7 @@ import com.oriondev.moneywallet.ui.fragment.dialog.CurrencyConverterDialog;
 import com.oriondev.moneywallet.utils.CurrencyManager;
 
 /**
- * Created by andrea on 15/03/18.
+ * Created by DucTien on 15/03/19.
  */
 public class CurrencyConverterPicker extends Fragment implements CurrencyConverterDialog.Callback {
 

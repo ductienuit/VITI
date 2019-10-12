@@ -46,7 +46,7 @@ import com.oriondev.moneywallet.ui.fragment.secondary.TransactionItemFragment;
 import com.oriondev.moneywallet.ui.fragment.secondary.TransferItemFragment;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class TransactionMultiPanelViewPagerFragment extends MultiPanelViewPagerMultiItemFragment {
 

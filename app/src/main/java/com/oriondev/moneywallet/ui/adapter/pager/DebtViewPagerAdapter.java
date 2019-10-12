@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.storage.database.Contract;
 import com.oriondev.moneywallet.ui.fragment.primary.DebtListFragment;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class DebtViewPagerAdapter extends FragmentPagerAdapter {
 

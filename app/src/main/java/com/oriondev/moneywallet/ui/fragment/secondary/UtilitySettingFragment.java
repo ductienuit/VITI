@@ -52,7 +52,7 @@ import com.oriondev.moneywallet.utils.DateFormatter;
 import java.util.Date;
 
 /**
- * Created by andrea on 07/03/18.
+ * Created by DucTien on 07/03/19.
  */
 public class UtilitySettingFragment extends PreferenceFragmentCompat {
 

@@ -54,7 +54,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by andrea on 31/03/18.
+ * Created by DucTien on 31/03/19.
  */
 public class AboutFragment extends MaterialAboutFragment {
 

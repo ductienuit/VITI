@@ -44,7 +44,7 @@ import com.oriondev.moneywallet.ui.fragment.base.SecondaryPanelFragment;
 import com.oriondev.moneywallet.ui.fragment.secondary.CategoryItemFragment;
 
 /**
- * Created by andrea on 10/02/18.
+ * Created by DucTien on 10/02/19.
  */
 public class CategoryMultiPanelViewPagerFragment extends MultiPanelViewPagerItemFragment {
 

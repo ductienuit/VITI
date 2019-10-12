@@ -42,7 +42,7 @@ import com.oriondev.moneywallet.ui.view.AdvancedRecyclerView;
 import java.util.List;
 
 /**
- * Created by andrea on 03/02/18.
+ * Created by DucTien on 03/02/19.
  */
 public class IconListActivity extends SinglePanelActivity implements SwipeRefreshLayout.OnRefreshListener, LoaderManager.LoaderCallbacks<List<IconGroup>>, IconAdapter.Controller {
 

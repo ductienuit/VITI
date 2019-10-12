@@ -30,7 +30,7 @@ import com.oriondev.moneywallet.model.Person;
 import com.oriondev.moneywallet.ui.fragment.dialog.PeoplePickerDialog;
 
 /**
- * Created by andrea on 10/03/18.
+ * Created by DucTien on 10/03/19.
  */
 public class PersonPicker extends Fragment implements PeoplePickerDialog.Callback {
 

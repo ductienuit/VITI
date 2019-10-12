@@ -39,7 +39,7 @@ import com.oriondev.moneywallet.utils.CurrencyManager;
 import com.oriondev.moneywallet.utils.MoneyFormatter;
 
 /**
- * Created by andrea on 29/07/18.
+ * Created by DucTien on 29/07/19.
  */
 public class CustomDigitSetupDialog extends DialogFragment {
 

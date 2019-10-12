@@ -36,7 +36,7 @@ import com.oriondev.moneywallet.ui.view.theme.ThemeEngine;
 import com.oriondev.moneywallet.utils.CurrencyManager;
 
 /**
- * Created by andrea on 17/01/18.
+ * Created by DucTien on 17/01/19.
  */
 public class App extends Application {
 

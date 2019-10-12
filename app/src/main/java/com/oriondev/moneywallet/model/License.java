@@ -20,7 +20,7 @@
 package com.oriondev.moneywallet.model;
 
 /**
- * Created by andrea on 31/03/18.
+ * Created by DucTien on 31/03/19.
  */
 public class License {
 

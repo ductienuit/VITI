@@ -35,7 +35,7 @@ import com.oriondev.moneywallet.storage.preference.PreferenceManager;
 import java.util.Set;
 
 /**
- * Created by andrea on 27/11/18.
+ * Created by DucTien on 27/10/19.
  */
 public class AutoBackupBroadcastReceiver extends BroadcastReceiver {
 

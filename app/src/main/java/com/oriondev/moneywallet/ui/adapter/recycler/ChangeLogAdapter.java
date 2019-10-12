@@ -34,7 +34,7 @@ import com.oriondev.moneywallet.storage.cache.TypefaceCache;
 import java.util.List;
 
 /**
- * Created by andrea on 06/04/18.
+ * Created by DucTien on 06/04/19.
  */
 public class ChangeLogAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

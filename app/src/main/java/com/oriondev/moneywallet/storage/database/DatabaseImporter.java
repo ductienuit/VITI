@@ -22,7 +22,7 @@ package com.oriondev.moneywallet.storage.database;
 import android.content.ContentResolver;
 
 /**
- * Created by andrea on 25/10/18.
+ * Created by DucTien on 25/10/19.
  */
 
 public interface DatabaseImporter {

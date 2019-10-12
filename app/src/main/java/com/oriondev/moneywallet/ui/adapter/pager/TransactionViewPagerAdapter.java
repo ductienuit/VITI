@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.ui.fragment.primary.TransactionListFragment;
 import com.oriondev.moneywallet.ui.fragment.primary.TransferListFragment;
 
 /**
- * Created by andrea on 02/03/18.
+ * Created by DucTien on 02/03/19.
  */
 public class TransactionViewPagerAdapter extends FragmentPagerAdapter {
 

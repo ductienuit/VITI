@@ -35,7 +35,7 @@ import com.oriondev.moneywallet.R;
 import com.oriondev.moneywallet.utils.Utils;
 
 /**
- * Created by andrea on 01/04/18.
+ * Created by DucTien on 01/04/19.
  */
 public abstract class SecondaryPanelFragment extends Fragment implements Toolbar.OnMenuItemClickListener {
 

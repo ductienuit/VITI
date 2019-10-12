@@ -24,7 +24,7 @@ import com.oriondev.moneywallet.ui.fragment.base.MultiPanelFragment;
 import com.oriondev.moneywallet.ui.fragment.multipanel.WalletMultiPanelFragment;
 
 /**
- * Created by andrea on 17/01/18.
+ * Created by DucTien on 17/01/19.
  */
 public class WalletListActivity extends MultiPanelActivity {
 

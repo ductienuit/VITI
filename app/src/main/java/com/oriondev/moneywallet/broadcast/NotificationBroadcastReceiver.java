@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.service.BackupHandlerIntentService;
 import com.oriondev.moneywallet.ui.notification.NotificationContract;
 
 /**
- * Created by andrea on 01/12/18.
+ * Created by DucTien on 01/12/19.
  */
 public class NotificationBroadcastReceiver extends BroadcastReceiver {
 

@@ -29,7 +29,7 @@ import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 
 /**
- * Created by andrea on 21/08/18.
+ * Created by DucTien on 21/08/19.
  */
 public class ThemedLineChart extends LineChart implements ThemeEngine.ThemeConsumer {
 

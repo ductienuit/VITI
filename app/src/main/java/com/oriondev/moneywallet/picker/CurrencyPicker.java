@@ -33,7 +33,7 @@ import com.oriondev.moneywallet.ui.activity.CurrencyListActivity;
 import com.oriondev.moneywallet.utils.CurrencyManager;
 
 /**
- * Created by andrea on 02/02/18.
+ * Created by DucTien on 02/02/19.
  */
 public class CurrencyPicker extends Fragment {
 

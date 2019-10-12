@@ -27,7 +27,7 @@ import com.andrognito.pinlockview.PinLockView;
 import com.oriondev.moneywallet.R;
 
 /**
- * Created by andrea on 20/08/18.
+ * Created by DucTien on 20/08/19.
  */
 public class ThemedPinLockView extends PinLockView implements ThemeEngine.ThemeConsumer {
 

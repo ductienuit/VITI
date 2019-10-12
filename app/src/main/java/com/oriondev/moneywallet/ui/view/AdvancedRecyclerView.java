@@ -33,7 +33,7 @@ import com.oriondev.moneywallet.R;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 /**
- * Created by andrea on 26/01/18.
+ * Created by DucTien on 26/01/19.
  */
 public class AdvancedRecyclerView extends SwipeRefreshLayout {
 

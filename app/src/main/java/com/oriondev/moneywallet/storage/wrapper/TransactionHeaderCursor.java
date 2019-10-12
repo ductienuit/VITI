@@ -29,7 +29,7 @@ import com.oriondev.moneywallet.utils.DateUtils;
 import java.util.Date;
 
 /**
- * Created by andrea on 03/03/18.
+ * Created by DucTien on 03/03/19.
  */
 public class TransactionHeaderCursor extends AbstractHeaderCursor<TransactionHeaderCursor.Header> {
 
