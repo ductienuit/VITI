@@ -25,12 +25,6 @@
     <string name="menu_budget">"Budžeti"</string>
     <string name="menu_saving">"Štednje"</string>
     <string name="menu_event">"Događaji"</string>
-    <string name="menu_converter">"Pretvarač"</string>
-    <string name="menu_calculator">"Kalkulator"</string>
-    <string name="menu_search_atm">"Traži bankomat"</string>
-    <string name="menu_search_bank">"Traži banku"</string>
-    <string name="menu_setting">"Postavke"</string>
-    <string name="menu_about">"O aplikaciji"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transfers">"Prijenosi"</string>
     <!-- Categories -->
@@ -69,8 +63,6 @@
     <string name="hint_place">"Mjesto"</string>
     <string name="hint_note">"Bilješka"</string>
     <string name="hint_tax">"Porez na transakciju"</string>
-    <string name="hint_atm_name">"Naziv bankomata"</string>
-    <string name="hint_bank_name">"Naziv banke"</string>
     <string name="hint_show_currency_symbol">"Prikaži oznaku valute"</string>
     <string name="hint_group_digits">"Grupiraj znamenke"</string>
     <string name="hint_round_decimals">"Zaokruži decimale"</string>
@@ -91,7 +83,6 @@
     <string name="title_activity_edit_event">"Uredi događaj"</string>
     <string name="title_activity_category_picker">Odaberi ikonu</string>
     <string name="title_activity_calculator">Kalkulator</string>
-    <string name="title_activity_currency_converter">"Pretvarač valuta"</string>
     <string name="menu_advanced_settings">"Napredno"</string>
     <string name="menu_action_edit_item">"Uredi"</string>
     <string name="menu_action_delete_item">"Izbriši"</string>
@@ -127,9 +118,6 @@
     <string name="message_no_category_found">"Nije pronađena niti jedna kategorija"</string>
     <string name="message_no_debt_found">"Nije pronađen niti jedan dug"</string>
     <string name="message_no_recurrence_found">"Nije pronađeno niti jedno ponavljanje"</string>
-    <string name="setting_title_user_interface">"Korisničko sučelje"</string>
-    <string name="setting_title_utility">"Korisno"</string>
-    <string name="setting_title_about">"Informacija"</string>
     <string name="setting_title_ui_income_color">"Boja priljeva"</string>
     <string name="setting_title_ui_expense_color">"Boja odljeva"</string>
     <string name="setting_title_ui_custom_digits">"Stil prikaza znamenki "</string>
@@ -149,7 +137,4 @@
     <string name="setting_item_ui_theme_type_deep_dark">"Jako tamna tema"</string>
     <string name="notification_title_daily_reminder_title">Ima li danas transakcija?</string>
     <string name="notification_title_daily_reminder_text">Dodirni ovdje da je odmah dodaš</string>
-    <string name="about_hint_version">"Inačica"</string>
-    <string name="about_hint_changelog">"Izvještaj promjena"</string>
-    <string name="about_hint_translators">"Prevoditelji"</string>
 </resources>

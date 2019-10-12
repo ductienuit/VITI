@@ -66,20 +66,12 @@ import com.oriondev.Viti.storage.database.DataContentProvider;
 import com.oriondev.Viti.storage.preference.PreferenceManager;
 import com.oriondev.Viti.ui.activity.base.BaseActivity;
 import com.oriondev.Viti.ui.fragment.base.NavigableFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.BudgetMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.CategoryMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.DebtMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.EventMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.ModelMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.PersonMultiPanelFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.PlaceMultiPanelFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.RecurrenceMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.TransactionMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.singlepanel.OverviewSinglePanelFragment;
 import com.oriondev.Viti.ui.view.theme.ITheme;
 import com.oriondev.Viti.ui.view.theme.ThemeEngine;
-import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.oriondev.Viti.ui.view.theme.ThemedRecyclerView;
 import com.oriondev.Viti.utils.IconLoader;
 
@@ -95,21 +87,10 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
     private static final int ID_SECTION_TRANSACTIONS = 0;
     private static final int ID_SECTION_CATEGORIES = 1;
     private static final int ID_SECTION_OVERVIEW = 2;
-    private static final int ID_SECTION_DEBTS = 3;
-    private static final int ID_SECTION_BUDGETS = 4;
     private static final int ID_SECTION_SAVINGS = 5;
     private static final int ID_SECTION_EVENTS = 6;
-    private static final int ID_SECTION_RECURRENCES = 7;
     private static final int ID_SECTION_MODELS = 8;
-    private static final int ID_SECTION_PLACES = 9;
-    private static final int ID_SECTION_PEOPLE = 10;
     private static final int ID_SECTION_CALCULATOR = 11;
-    private static final int ID_SECTION_CONVERTER = 12;
-    private static final int ID_SECTION_ATM = 13;
-    private static final int ID_SECTION_BANK = 14;
-    private static final int ID_SECTION_SETTING = 15;
-    private static final int ID_SECTION_SUPPORT_DEVELOPER = 16;
-    private static final int ID_SECTION_ABOUT = 17;
 
     private final static int ID_ACTION_NEW_WALLET = 1;
     private final static int ID_ACTION_MANAGE_WALLET = 2;
@@ -155,23 +136,8 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                         createDrawerItem(ID_SECTION_TRANSACTIONS, R.drawable.ic_shopping_cart_24dp, R.string.menu_transaction),
                         createDrawerItem(ID_SECTION_CATEGORIES, R.drawable.ic_table_large_24dp, R.string.menu_category),
                         createDrawerItem(ID_SECTION_OVERVIEW, R.drawable.ic_equalizer_24dp, R.string.menu_overview),
-                        //createDrawerItem(ID_SECTION_DEBTS, R.drawable.ic_debt_24dp, R.string.menu_debt),
-                        //createDrawerItem(ID_SECTION_BUDGETS, R.drawable.ic_budget_24dp, R.string.menu_budget),
                         createDrawerItem(ID_SECTION_SAVINGS, R.drawable.ic_saving_24dp, R.string.menu_saving),
                         createDrawerItem(ID_SECTION_EVENTS, R.drawable.ic_assistant_photo_24dp, R.string.menu_event)
-                        //createDrawerItem(ID_SECTION_RECURRENCES, R.drawable.ic_restore_24dp, R.string.menu_recurrences),
-                        //createDrawerItem(ID_SECTION_MODELS, R.drawable.ic_bookmark_black_24dp, R.string.menu_models),
-                        //createDrawerItem(ID_SECTION_PLACES, R.drawable.ic_place_24dp, R.string.menu_place),
-                        //createDrawerItem(ID_SECTION_PEOPLE, R.drawable.ic_people_black_24dp, R.string.menu_people),
-                        //new DividerDrawerItem(),
-                       // createDrawerItem(ID_SECTION_CALCULATOR, R.drawable.ic_calculator_24dp, R.string.menu_calculator),
-                        //createDrawerItem(ID_SECTION_CONVERTER, R.drawable.ic_converter_24dp,R.string.menu_converter),
-                        //createDrawerItem(ID_SECTION_ATM, R.drawable.ic_credit_card_24dp, R.string.menu_search_atm),
-                        //createDrawerItem(ID_SECTION_BANK, R.drawable.ic_account_balance_24dp, R.string.menu_search_bank),
-                        //new DividerDrawerItem(),
-                        //createDrawerItem(ID_SECTION_SETTING, R.drawable.ic_settings_24dp, R.string.menu_setting),
-                        //createDrawerItem(ID_SECTION_SUPPORT_DEVELOPER, R.drawable.ic_favorite_border_black_24dp, R.string.menu_support_developer),
-
                 )
                 .withOnDrawerItemClickListener(this)
                 .build();
@@ -311,16 +277,6 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
         return true;
     }
 
-
-
-    private void showActivityNotFoundDialog() {
-        ThemedDialog.buildMaterialDialog(this)
-                .title(R.string.title_error)
-                .content(R.string.message_error_activity_not_found)
-                .positiveText(android.R.string.ok)
-                .show();
-    }
-
     /**
      * Load the fragment of the specified section inside the frame of the activity.
      * If the fragment is already in the stack of the fragment manager this method will
@@ -361,22 +317,10 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                 return new CategoryMultiPanelViewPagerFragment();
             case ID_SECTION_OVERVIEW:
                 return new OverviewSinglePanelFragment();
-            case ID_SECTION_DEBTS:
-                return new DebtMultiPanelViewPagerFragment();
-            case ID_SECTION_BUDGETS:
-                return new BudgetMultiPanelViewPagerFragment();
-            case ID_SECTION_SAVINGS:
-                return new SavingMultiPanelViewPagerFragment();
-            case ID_SECTION_EVENTS:
-                return new EventMultiPanelViewPagerFragment();
-            case ID_SECTION_RECURRENCES:
-                return new RecurrenceMultiPanelViewPagerFragment();
             case ID_SECTION_MODELS:
                 return new ModelMultiPanelViewPagerFragment();
-            case ID_SECTION_PLACES:
-                return new PlaceMultiPanelFragment();
-            case ID_SECTION_PEOPLE:
-                return new PersonMultiPanelFragment();
+            case ID_SECTION_SAVINGS:
+                return new com.oriondev.Viti.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment();
             default:
                 throw new IllegalArgumentException("Invalid section id: " + identifier);
         }

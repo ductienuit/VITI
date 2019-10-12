@@ -31,13 +31,6 @@
     <string name="menu_models">"Μοντέλα"</string>
     <string name="menu_place">"Μέρη"</string>
     <string name="menu_people">"Άνθρωποι"</string>
-    <string name="menu_converter">"Μετατροπέας"</string>
-    <string name="menu_calculator">"Υπολογιστική"</string>
-    <string name="menu_search_atm">"Αναζήτηση atm"</string>
-    <string name="menu_search_bank">"Αναζήτηση τράπεζας"</string>
-    <string name="menu_setting">"Ρυθμίσεις"</string>
-    <string name="menu_support_developer">"Στήριξε το δημιουργό"</string>
-    <string name="menu_about">"Σχετικά"</string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"Συναλλαγές"</string>
@@ -78,7 +71,6 @@
     <string name="action_add">"Προσθήκη"</string>
     <string name="action_new">"Νέο"</string>
     <string name="action_edit">"Επεξεργασία"</string>
-    <string name="action_search">"Αναζήτηση"</string>
     <string name="action_filter">"Φίλτρο"</string>
     <string name="action_remove">"Αφαίρεση"</string>
     <string name="action_open">"Άνοιγμα"</string>
@@ -133,8 +125,6 @@
     <string name="hint_directory">"Directory"</string>
     <string name="hint_navigate_up">"Πλοήγηση προς τα επάνω"</string>
     <string name="hint_password">"Κωδικός"</string>
-    <string name="hint_atm_name">"Όνομα ATM"</string>
-    <string name="hint_bank_name">"Όνομα τράπεζας"</string>
     <string name="hint_attachments">"Επισυνημμένα"</string>
     <string name="hint_operation_in_progress">"Σε εξέλιξη..."</string>
     <string name="hint_search_something">"Αναζητήστε κάτι"</string>
@@ -199,16 +189,12 @@
     <string name="title_activity_category_sort">"Sort categories"</string>
     <string name="title_activity_icon_list">"Icons"</string>
     <string name="title_activity_backup_services">"Backup services"</string>
-    <string name="title_activity_about">"About"</string>
     <string name="title_activity_calculator">"Calculator"</string>
-    <string name="title_activity_currency_converter">"Currency converter"</string>
-    <string name="title_activity_search_transaction">"Search"</string>
     <string name="title_activity_calendar">"Calendar"</string>
     <string name="title_activity_map">"Map"</string>
     <string name="title_activity_backend_explorer">"Explore backend"</string>
     <string name="title_activity_backend_file_picker">"Pick a file"</string>
     <string name="title_activity_backend_folder_picker">"Pick a folder"</string>
-    <string name="title_activity_support_developer">"Support developer"</string>
     <string name="title_activity_import_data">"Import data"</string>
     <string name="title_activity_export_data">"Export data"</string>
 
@@ -227,7 +213,6 @@
 
     <string name="menu_action_attach_file">"Attach file"</string>
     <string name="menu_action_save_changes">"Save changes"</string>
-    <string name="menu_refresh_currency_rate">"Refresh currency rate"</string>
     <string name="menu_advanced_settings">"Advanced settings"</string>
     <string name="menu_action_edit_item">"Edit"</string>
     <string name="menu_action_delete_item">"Delete"</string>
@@ -311,7 +296,6 @@
     <string name="relative_string_will_end_on">"Will end on: %s"</string>
     <string name="relative_string_money_to_settle_debt">"%s left to settle this debt"</string>
     <string name="relative_string_debt_completed">"This debt has been completed"</string>
-    <string name="relative_string_expired_on">"Expired on: %s"</string>
     <string name="relative_string_will_expire_on">"Will expired on: %s"</string>
     <string name="relative_string_version_name">"Version %s"</string>
 
@@ -362,9 +346,6 @@
     <string name="title_success">"Success"</string>
     <string name="title_failed">"Failed"</string>
     <string name="title_error">"Error"</string>
-    <string name="title_atm_search">"Search ATM"</string>
-    <string name="title_bank_search">"Search bank"</string>
-    <string name="title_changelog">"Changelog"</string>
     <string name="title_licenses">"Licenses"</string>
     <string name="title_debt_insert_master_transaction">"Well done"</string>
     <string name="title_currency_exchange_rate">"Exchange rate"</string>
@@ -417,7 +398,6 @@
     <string name="message_delete_event">"Are you sure you want to delete this event?"</string>
     <string name="message_delete_transaction_model">"Are you sure you want to delete this transaction model?"</string>
     <string name="message_delete_transfer_model">"Are you sure you want to delete this transfer model?"</string>
-    <string name="message_delete_recurrent_transaction">"Are you sure you want to delete this recurrent transaction? All the already generated transactions will not be removed."</string>
     <string name="message_delete_recurrent_transfer">"Are you sure you want to delete this recurrent transfer? All the already generated transfers will not be removed."</string>
     <string name="message_delete_place">"Are you sure you want to delete this place?"</string>
     <string name="message_delete_person">"Are you sure you want to delete this person?"</string>
@@ -455,11 +435,6 @@
     <string name="service_backup_google_drive">"Google Drive"</string>
     <string name="service_backup_external_memory">"External Memory"</string>
 
-    <string name="setting_title_user_interface">"User interface"</string>
-    <string name="setting_title_utility">"Utilities"</string>
-    <string name="setting_title_database">"Database"</string>
-    <string name="setting_title_about">"About"</string>
-
     <string name="setting_category_ui_appearance">"Appearance"</string>
     <string name="setting_category_ui_theme">"Theme"</string>
     <string name="setting_title_ui_income_color">"Income color"</string>
@@ -490,10 +465,6 @@
     <string name="setting_summary_exchange_rate_update">"Last update: %s"</string>
     <string name="setting_title_currency_management">"Manage currencies"</string>
     <string name="setting_summary_currency_management">"Add custom currencies"</string>
-    <string name="setting_subtitle_user_interface">"Personalize it as you want"</string>
-    <string name="setting_subtitle_utility">"Setup the available tools"</string>
-    <string name="setting_subtitle_database">"Manage your data"</string>
-    <string name="setting_subtitle_about">"Credits and licences"</string>
     <string name="setting_item_daily_reminder_none">"Disabled"</string>
     <string name="setting_item_security_none">"Disabled"</string>
     <string name="setting_item_security_pin">"Pin code"</string>
@@ -526,7 +497,6 @@
     <string name="notification_title_backup_restoring">"Backup restoring"</string>
     <string name="notification_title_backup_creation_failed">"Backup creation failed"</string>
     <string name="notification_title_backup_restoring_failed">"Backup restoring failed"</string>
-    <string name="notification_content_downloading_data">"Downloading updated data…"</string>
     <string name="notification_content_caching_data">"Storing updated data…"</string>
     <string name="notification_content_error_message">"Error: %s"</string>
     <string name="notification_content_backup_file_creation">"Writing local backup file…"</string>
@@ -541,24 +511,6 @@
     <string name="message_error_network_connection">"network connection"</string>
     <string name="message_error_invalid_response">"invalid response"</string>
     <string name="message_error_missing_api_key">"missing or invalid api key, please update the api key in settings in order to use this service"</string>
-
-    <string name="about_hint_version">"Build version"</string>
-    <string name="about_hint_changelog">"Changelog"</string>
-    <string name="about_hint_support">"Support the development"</string>
-    <string name="about_hint_rate_app">"Rate this app"</string>
-    <string name="about_hint_open_source_libraries">"Open source libraries"</string>
-    <string name="about_hint_report_bug">"Report a bug"</string>
-    <string name="about_hint_author">"Author"</string>
-    <string name="about_hint_developer">"Developer"</string>
-    <string name="about_hint_fork">"Fork on GitHub"</string>
-    <string name="about_hint_logo_designer">"Logo designer"</string>
-    <string name="about_hint_google_plus">"Google Plus"</string>
-    <string name="about_hint_website">"Website"</string>
-    <string name="about_hint_icon_licenses">"Images and icons"</string>
-    <string name="about_hint_icon_image_intro">"Intro images"</string>
-    <string name="about_hint_md_icons">"Material design icons"</string>
-    <string name="about_hint_icon_pack">"Icon pack"</string>
-    <string name="about_hint_translators">"Translators"</string>
 
     <string name="activity_launcher_legacy_edition_upgrade_title">"Upgrading…"</string>
     <string name="activity_launcher_first_start_title">"Welcome to Viti"</string>
@@ -594,22 +546,6 @@
     <string name="help_insert_fingerprint_failed">"Verification failed, retry"</string>
     <string name="help_fingerprint_not_initialized">"No fingerprint registered on this device"</string>
 
-    <string name="icon_category_clothes">"Clothes"</string>
-    <string name="icon_category_people">"People"</string>
-    <string name="icon_category_toys">"Toys"</string>
-    <string name="icon_category_travel_and_transportation">"Travel and transportation"</string>
-    <string name="icon_category_home">"Home"</string>
-    <string name="icon_category_animals">"Animals"</string>
-    <string name="icon_category_shopping">"Shopping"</string>
-    <string name="icon_category_sport_and_free_time">"Sport and free time"</string>
-    <string name="icon_category_payments">"Payments"</string>
-    <string name="icon_category_party">"Party"</string>
-    <string name="icon_category_food_and_drinks">"Food and drinks"</string>
-    <string name="icon_category_baby">"Baby"</string>
-    <string name="icon_category_beauty_and_wellness">"Beauty and wellness"</string>
-    <string name="icon_category_technology">"Technology"</string>
-    <string name="icon_category_finance">"Finance"</string>
-
     <string name="keyboard_9">9</string>
     <string name="keyboard_8">8</string>
     <string name="keyboard_7">7</string>
@@ -628,7 +564,6 @@
     <string name="keyboard_addition">"+"</string>
     <string name="keyboard_subtraction">"−"</string>
     <string name="keyboard_equal">"="</string>
-    <string name="keyboard_commit">">"</string>
 
     <string name="recurrence_type_daily">"Daily"</string>
     <string name="recurrence_type_weekly">"Weekly"</string>
@@ -681,23 +616,5 @@
     <string name="notification_channel_name_reminder">"Reminder"</string>
     <string name="notification_channel_name_exchange_rate">"Exchange rates"</string>
     <string name="notification_channel_name_error">"Error"</string>
-
-    <string name="activity_donation_first_title">"Thank You!"</string>
-    <string name="activity_donation_first_content">"If you like this application and you find it useful, consider buying me a beer. It will support this project and encourage me to keep it in development."</string>
-    <string name="activity_donation_second_title">"Why should I?"</string>
-    <string name="activity_donation_second_content">"Someone might say, “The best things in life are free” and I agree with it. You can not buy friendship, love or a memory of a beautiful sunrise. That's why I decided to share the source code of this application for free. But unfortunately, life is not free. You have only 24 hours every day of scarce time and you have to make decisions how to spend them to support yourself. If you like this project and you want to see it evolving in future, think about supporting my work to allow me to allocate more time on it. Any contribution makes an immense difference."</string>
-    <string name="activity_donation_third_title">"Can not contribute monetary? No problem, you can still help a lot!"</string>
-    <string name="activity_donation_crypto_address_copied">"Address copied"</string>
-    <string name="activity_donation_action_share_title">"Share"</string>
-    <string name="activity_donation_action_share_content">"Spread the word among your friends"</string>
-    <string name="activity_donation_action_share_message">"Hi, take a look at %s"</string>
-    <string name="activity_donation_action_share_using">"Share using"</string>
-    <string name="activity_donation_action_rate_title">"Rate"</string>
-    <string name="activity_donation_action_rate_content">"Write a 5 start review telling us what you think about it"</string>
-    <string name="activity_donation_action_translate_title">"Translate"</string>
-    <string name="activity_donation_action_translate_content">"Localize the strings in your language"</string>
-    <string name="activity_donation_action_contribute_title">"Contribute"</string>
-    <string name="activity_donation_action_contribute_content">"The source code is public and everyone can collaborate"</string>
-    <string name="activity_donation_final_content">"Every contribution, monetary or non-monetary, is equal and make substantial difference for me. Hope you enjoy it and thanks again for choosing to use this application."</string>
 
 </resources>

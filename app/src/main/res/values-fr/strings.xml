@@ -31,13 +31,6 @@
     <string name="menu_models">"Modèles"</string>
     <string name="menu_place">"Lieux"</string>
     <string name="menu_people">"Personnes"</string>
-    <string name="menu_converter">"Convertisseur"</string>
-    <string name="menu_calculator">"Calculatrice"</string>
-    <string name="menu_search_atm">"Rechercher DAB"</string>
-    <string name="menu_search_bank">"Rechercher banque"</string>
-    <string name="menu_setting">"Paramètres"</string>
-    <string name="menu_support_developer">"Soutenir le développeur"</string>
-    <string name="menu_about">"À propos"</string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"Transactions"</string>
@@ -78,7 +71,6 @@
     <string name="action_add">"Ajouter"</string>
     <string name="action_new">"Nouveau"</string>
     <string name="action_edit">"Éditer"</string>
-    <string name="action_search">"Rechercher"</string>
     <string name="action_filter">"Filtrer"</string>
     <string name="action_remove">"Supprimer"</string>
     <string name="action_open">"Ouvrir"</string>
@@ -133,8 +125,6 @@
     <string name="hint_directory">"Dossier"</string>
     <string name="hint_navigate_up">"Remonter"</string>
     <string name="hint_password">"Mot de passe"</string>
-    <string name="hint_atm_name">"Nom du Distributeur automatique de billets"</string>
-    <string name="hint_bank_name">"Nom de la banque"</string>
     <string name="hint_attachments">"Pièces jointes"</string>
     <string name="hint_operation_in_progress">"En cours…"</string>
     <string name="hint_search_something">"Rechercher quelque chose"</string>
@@ -199,16 +189,12 @@
     <string name="title_activity_category_sort">"Trier les catégories"</string>
     <string name="title_activity_icon_list">Icônes</string>
     <string name="title_activity_backup_services">"Services de sauvegarde"</string>
-    <string name="title_activity_about">À propos</string>
     <string name="title_activity_calculator">Calculatrice</string>
-    <string name="title_activity_currency_converter">"Convertisseur de devises"</string>
-    <string name="title_activity_search_transaction">Rechercher</string>
     <string name="title_activity_calendar">Calendrier</string>
     <string name="title_activity_map">Carte</string>
     <string name="title_activity_backend_explorer">"Explorer les services"</string>
     <string name="title_activity_backend_file_picker">"Choisissez un fichier"</string>
     <string name="title_activity_backend_folder_picker">"Choisissez un dossier"</string>
-    <string name="title_activity_support_developer">Aider le développeur</string>
     <string name="title_activity_import_data">"Importer des données"</string>
     <string name="title_activity_export_data">"Exporter des données"</string>
 
@@ -227,7 +213,6 @@
 
     <string name="menu_action_attach_file">"Pièce jointe"</string>
     <string name="menu_action_save_changes">"Sauvegarder les modifications"</string>
-    <string name="menu_refresh_currency_rate">"Actualiser le taux de change"</string>
     <string name="menu_advanced_settings">"Paramètres avancés"</string>
     <string name="menu_action_edit_item">"Editer"</string>
     <string name="menu_action_delete_item">"Supprimer"</string>
@@ -311,7 +296,6 @@
     <string name="relative_string_will_end_on">"Se terminera le : %s"</string>
     <string name="relative_string_money_to_settle_debt">"Il reste %s pour régler cette dette"</string>
     <string name="relative_string_debt_completed">"Cette dette a été complétée"</string>
-    <string name="relative_string_expired_on">"À expiré le: %s"</string>
     <string name="relative_string_will_expire_on">"Expire le : %s"</string>
     <string name="relative_string_version_name">"Version %s"</string>
 
@@ -362,9 +346,6 @@
     <string name="title_success">Succès</string>
     <string name="title_failed">Échec</string>
     <string name="title_error">Erreur</string>
-    <string name="title_atm_search">"Recherche DAB"</string>
-    <string name="title_bank_search">"Recherche banque"</string>
-    <string name="title_changelog">"Changelog"</string>
     <string name="title_licenses">"Licenses"</string>
     <string name="title_debt_insert_master_transaction">"Bien joué"</string>
     <string name="title_currency_exchange_rate">"Taux de change"</string>
@@ -417,7 +398,6 @@
     <string name="message_delete_event">"Êtes-vous sûr de vouloir supprimer cet événement?"</string>
     <string name="message_delete_transaction_model">"Êtes-vous sûr de vouloir supprimer ce modèle de transaction?"</string>
     <string name="message_delete_transfer_model">"Êtes-vous sûr de vouloir supprimer ce modèle de transfert?"</string>
-    <string name="message_delete_recurrent_transaction">"Êtes-vous sûr de vouloir supprimer cette transaction récurrente? Toutes les transactions déjà générées ne seront pas supprimées."</string>
     <string name="message_delete_recurrent_transfer">"Êtes-vous sûr de vouloir supprimer ce transfert récurrent? Tous les transferts déjà générés ne seront pas supprimés."</string>
     <string name="message_delete_place">"Êtes-vous sûr de vouloir supprimer ce lieu?"</string>
     <string name="message_delete_person">"Êtes-vous sûr de vouloir supprimer cette personne?"</string>
@@ -455,11 +435,6 @@
     <string name="service_backup_google_drive">"Google Drive"</string>
     <string name="service_backup_external_memory">"Mémoire externe"</string>
 
-    <string name="setting_title_user_interface">"Interface"</string>
-    <string name="setting_title_utility">"Utilitaires"</string>
-    <string name="setting_title_database">"Données"</string>
-    <string name="setting_title_about">"À propos"</string>
-
     <string name="setting_category_ui_appearance">"Apparence"</string>
     <string name="setting_category_ui_theme">"Thème"</string>
     <string name="setting_title_ui_income_color">"Couleur des revenues"</string>
@@ -490,10 +465,6 @@
     <string name="setting_summary_exchange_rate_update">"Dernière mise à jour : %s"</string>
     <string name="setting_title_currency_management">"Gérer les devises"</string>
     <string name="setting_summary_currency_management">"Ajouter des devises personnalisées"</string>
-    <string name="setting_subtitle_user_interface">"Personnaliser l'application"</string>
-    <string name="setting_subtitle_utility">"Configuration"</string>
-    <string name="setting_subtitle_database">"Gérer vos données"</string>
-    <string name="setting_subtitle_about">"Crédits et licences"</string>
     <string name="setting_item_daily_reminder_none">"Désactivé"</string>
     <string name="setting_item_security_none">"Désactivé"</string>
     <string name="setting_item_security_pin">"Code PIN"</string>
@@ -526,7 +497,6 @@
     <string name="notification_title_backup_restoring">"Restauration de la sauvegarde"</string>
     <string name="notification_title_backup_creation_failed">"La création de la sauvegarde a échoué"</string>
     <string name="notification_title_backup_restoring_failed">"La restauration de la sauvegarde a échoué"</string>
-    <string name="notification_content_downloading_data">"Téléchargement des données…"</string>
     <string name="notification_content_caching_data">"Stocke les données mises à jour…"</string>
     <string name="notification_content_error_message">"Erreur: %s"</string>
     <string name="notification_content_backup_file_creation">"Écrire du fichier de sauvegarde locale…"</string>
@@ -541,24 +511,6 @@
     <string name="message_error_network_connection">"Connexion réseau"</string>
     <string name="message_error_invalid_response">"Réponse invalide"</string>
     <string name="message_error_missing_api_key">"clé api manquante ou invalide, veuillez mettre à jour la clé api dans les paramètres pour pouvoir utiliser ce service"</string>
-
-    <string name="about_hint_version">"Version"</string>
-    <string name="about_hint_changelog">"Changelog"</string>
-    <string name="about_hint_support">Supporter le développement</string>
-    <string name="about_hint_rate_app">Noter cette appli</string>
-    <string name="about_hint_open_source_libraries">Bibliothèques open source</string>
-    <string name="about_hint_report_bug">Signaler un bug</string>
-    <string name="about_hint_author">Auteur</string>
-    <string name="about_hint_developer">Développeur</string>
-    <string name="about_hint_fork">"Forker sur GitHub"</string>
-    <string name="about_hint_logo_designer">"Concepteur du logo"</string>
-    <string name="about_hint_google_plus">Google Plus</string>
-    <string name="about_hint_website">Site web</string>
-    <string name="about_hint_icon_licenses">Images et icônes</string>
-    <string name="about_hint_icon_image_intro">"Images de présentation"</string>
-    <string name="about_hint_md_icons">"icônes material design"</string>
-    <string name="about_hint_icon_pack">Pack d\'îcones</string>
-    <string name="about_hint_translators">Traducteurs</string>
 
     <string name="activity_launcher_legacy_edition_upgrade_title">"Mise à jour…"</string>
     <string name="activity_launcher_first_start_title">Bienvenue sur Viti</string>
@@ -594,22 +546,6 @@
     <string name="help_insert_fingerprint_failed">"La vérification a échoué, réessayez"</string>
     <string name="help_fingerprint_not_initialized">"Aucune empreinte enregistrée sur cet appareil"</string>
 
-    <string name="icon_category_clothes">"Vêtements"</string>
-    <string name="icon_category_people">"People"</string>
-    <string name="icon_category_toys">"Jouets"</string>
-    <string name="icon_category_travel_and_transportation">"Voyage et transport"</string>
-    <string name="icon_category_home">"Maison"</string>
-    <string name="icon_category_animals">"Animaux"</string>
-    <string name="icon_category_shopping">"Shopping"</string>
-    <string name="icon_category_sport_and_free_time">"Sport et temps libre"</string>
-    <string name="icon_category_payments">"Paiements"</string>
-    <string name="icon_category_party">"Fête"</string>
-    <string name="icon_category_food_and_drinks">"Nourriture et boissons"</string>
-    <string name="icon_category_baby">"Bébé"</string>
-    <string name="icon_category_beauty_and_wellness">"Beauté et bien-être"</string>
-    <string name="icon_category_technology">"Technologie"</string>
-    <string name="icon_category_finance">"Finance"</string>
-
     <string name="keyboard_9">9</string>
     <string name="keyboard_8">8</string>
     <string name="keyboard_7">7</string>
@@ -628,7 +564,6 @@
     <string name="keyboard_addition">"+"</string>
     <string name="keyboard_subtraction">"−"</string>
     <string name="keyboard_equal">"="</string>
-    <string name="keyboard_commit">">"</string>
 
     <string name="recurrence_type_daily">"Quotidien"</string>
     <string name="recurrence_type_weekly">"Hebdomadaire"</string>
@@ -681,23 +616,5 @@
     <string name="notification_channel_name_reminder">"Rappel"</string>
     <string name="notification_channel_name_exchange_rate">"Taux de change"</string>
     <string name="notification_channel_name_error">"Erreur"</string>
-
-    <string name="activity_donation_first_title">Merci!</string>
-    <string name="activity_donation_first_content">"Si vous aimez cette application et que vous la trouvez utile, envisagez de m'acheter une bière. Cela soutiendra ce projet et m'encouragera à maintenir le développement."</string>
-    <string name="activity_donation_second_title">Pourquoi le devrais-je?</string>
-    <string name="activity_donation_second_content">"Quelqu'un pourrait dire: «Les meilleures choses dans la vie sont gratuites» et je suis d'accord avec cela. Vous ne pouvez pas acheter d'amitié, d'amour ou un souvenir d'un beau lever de soleil. C'est pourquoi j'ai décidé de partager gratuitement le code source de cette application. Mais malheureusement, la vie n'est pas gratuite. Vous ne disposez que de 24 heures par jour et vous devez décider comment les dépenser pour subvenir à vos besoins. Si vous aimez ce projet et que vous souhaitez le voir évoluer à l'avenir, pensez à soutenir mon travail pour me permettre de consacrer plus de temps à celui-ci. Toute contribution fait une immense différence."</string>
-    <string name="activity_donation_third_title">"Vous ne pouvez pas contribuer de façon monétaire? Pas de problème, vous pouvez nous aidez de beaucoup d'autre manière!"</string>
-    <string name="activity_donation_crypto_address_copied">Adresse copiée</string>
-    <string name="activity_donation_action_share_title">Partager</string>
-    <string name="activity_donation_action_share_content">Passez le mot à vos amis</string>
-    <string name="activity_donation_action_share_message">Salut, jette un oeil à %s</string>
-    <string name="activity_donation_action_share_using">"Partager en utilisant"</string>
-    <string name="activity_donation_action_rate_title">Noter</string>
-    <string name="activity_donation_action_rate_content">"Mettez 5 étoiles si vous appréciez l'application."</string>
-    <string name="activity_donation_action_translate_title">Traduire</string>
-    <string name="activity_donation_action_translate_content">"Traduisez les chaîne de caractères dans votre langue"</string>
-    <string name="activity_donation_action_contribute_title">Contribuer</string>
-    <string name="activity_donation_action_contribute_content">Le code source est public et tout le monde peut venir y contribuer</string>
-    <string name="activity_donation_final_content">"Chaque contribution, monétaire ou non monétaire est égale et fait une différence substantielle pour moi. J'espère que vous l'apprécierez et merci encore d'avoir choisi d'utiliser cette application."</string>
 
 </resources>

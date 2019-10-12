@@ -28,13 +28,6 @@
     <string name="menu_recurrences">"Regelmäßige Transaktion"</string>
     <string name="menu_place">"Orte"</string>
     <string name="menu_people">"Personen"</string>
-    <string name="menu_converter">"Währungsumrechner"</string>
-    <string name="menu_calculator">"Taschenrechner"</string>
-    <string name="menu_search_atm">"Suche Bankautomaten"</string>
-    <string name="menu_search_bank">"Suche Banken"</string>
-    <string name="menu_setting">"Einstellungen"</string>
-    <string name="menu_support_developer">"Unterstützen"</string>
-    <string name="menu_about">"Über"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"Transaktionen"</string>
     <string name="menu_transaction_tab_transfers">"Überweisungen"</string>
@@ -65,7 +58,6 @@
     <string name="action_add">"Eintrag hinzufügen"</string>
     <string name="action_new">"Neu"</string>
     <string name="action_edit">"Bearbeiten"</string>
-    <string name="action_search">"Suchen"</string>
     <string name="action_filter">"Filtern"</string>
     <string name="action_remove">"Entfernen"</string>
     <string name="action_open">"Öffnen"</string>
@@ -102,8 +94,6 @@
     <string name="hint_place">"Ort"</string>
     <string name="hint_note">"Notiz"</string>
     <string name="hint_tax">"Transaktionssteuer"</string>
-    <string name="hint_atm_name">"Name des Bankautomaten"</string>
-    <string name="hint_bank_name">"Name der Bank"</string>
     <string name="hint_show_currency_symbol">"Währungssymbol anzeigen"</string>
     <string name="hint_group_digits">"Ziffern gruppieren"</string>
     <string name="hint_round_decimals">"Dezimalstellen runden"</string>
@@ -124,7 +114,6 @@
     <string name="title_activity_edit_event">"Ereignis bearbeiten"</string>
     <string name="title_activity_category_picker">Wähle ein Symbol</string>
     <string name="title_activity_calculator">Taschenrechner</string>
-    <string name="title_activity_currency_converter">"Währungsumrechner"</string>
     <string name="menu_advanced_settings">"Erweitert"</string>
     <string name="menu_action_edit_item">"Bearbeiten"</string>
     <string name="menu_action_delete_item">"Löschen"</string>
@@ -160,9 +149,6 @@
     <string name="message_no_category_found">"Kategorie nicht gefunden"</string>
     <string name="message_no_debt_found">"Keine Schulden gefunden"</string>
     <string name="message_no_recurrence_found">"Keine regelmäßige Transaktion gefunden"</string>
-    <string name="setting_title_user_interface">"Benutzeroberfläche"</string>
-    <string name="setting_title_utility">"Dienste"</string>
-    <string name="setting_title_about">"Informationen"</string>
     <string name="setting_title_ui_income_color">"Einkommensfarbe"</string>
     <string name="setting_title_ui_expense_color">"Ausgabenfarbe"</string>
     <string name="setting_title_ui_custom_digits">"Anzeigestil der Ziffern"</string>
@@ -182,9 +168,6 @@
     <string name="setting_item_ui_theme_type_deep_dark">"Tiefdunkles Theme"</string>
     <string name="notification_title_daily_reminder_title">Heutige Transaktionen?</string>
     <string name="notification_title_daily_reminder_text">Tippe hier, um sie sofort hinzuzufügen</string>
-    <string name="about_hint_version">"Version"</string>
-    <string name="about_hint_changelog">"Changelog"</string>
-    <string name="about_hint_translators">"Übersetzer"</string>
     <string name="activity_launcher_first_start_title">Willkommen bei Viti</string>
     <string name="activity_launcher_first_start_content">Benutzt du die App zum ersten Mal oder möchtest du ein Backup wiederherstellen?</string>
     <string name="activity_launcher_first_start_button_restore_backup">Backup wiederherstellen</string>
@@ -197,20 +180,6 @@
     <string name="activity_intro_description_slide_4">Es unterstützt die am meisten genutzten Cloud Anbieter, damit du nie deine Daten verlierst</string>
     <string name="activity_intro_title_slide_5">Gut gemacht</string>
     <string name="activity_intro_description_slide_5">Du wirst jetzt weitergeleitet, um deine erste Geldbörse zu erstellen</string>
-    <string name="activity_donation_first_content">Wenn dir die App gefällt und du sie nützlich findest, gib mir doch ein Bier aus. Das unterstützt das Projekt und motiviert mich, weiterzumachen.</string>
-    <string name="activity_donation_first_title">Danke!</string>
-    <string name="activity_donation_second_title">Warum sollte ich?</string>
-    <string name="activity_donation_third_title">Du kannst kein Geld geben? Kein Problem, du kannst trotzdem mithelfen!</string>
-    <string name="activity_donation_action_share_title">Teilen</string>
-    <string name="activity_donation_action_rate_title">Bewerten</string>
-    <string name="activity_donation_action_rate_content">Schreib eine 5 Sterne Bewertung und sag uns, was du denkst</string>
-    <string name="activity_donation_action_translate_title">Übersetzen</string>
-    <string name="activity_donation_action_translate_content">Übersetze Texte in deine Sprache</string>
-    <string name="activity_donation_action_contribute_content">Der Quelltext ist öffentlich und alle können dazu beitragen.</string>
-    <string name="activity_donation_final_content">Jede Unterstützung, finanziel oder nicht, ist gleichwertig und macht einen fundamentalen Unterschied für mich. Danke dass du diese App benutz. Ich hoffe, sie gefällt dir.</string>
-    <string name="activity_donation_second_content">Manche sagen, \"Die besten Dinge im Leben sind kostenlos\" und da stimme ich zu. Man kann Freundschaft, Liebe oder die Erinnerung an einen Sonnenaufgang nicht kaufen. Deswegen habe ich den Quelltext dieser App kostenlos veröffentlicht. Aber leider ist das Leben nicht kostenlos. Wir haben nur 24 Stunden am Tag und müssen uns entscheiden, wie wir die für uns nutzen. Wenn dir dieses Projekt gefällt, unterstütze meine Arbeit, damit ich mehr Zeit darin investieren kann. Jeder Beitrag macht einen immensen Unterschied.</string>
-    <string name="activity_donation_action_share_content">Erzähl\'s deinen Bekannten</string>
-    <string name="activity_donation_action_contribute_title">Entwickeln</string>
     <string name="keyboard_0">0</string>
     <string name="keyboard_000">000</string>
     <string name="keyboard_1">1</string>
@@ -224,7 +193,6 @@
     <string name="keyboard_9">9</string>
     <string name="keyboard_addition">+</string>
     <string name="keyboard_clear">C</string>
-    <string name="keyboard_commit">></string>
     <string name="keyboard_division">÷</string>
     <string name="keyboard_equal">=</string>
     <string name="keyboard_multiplication">×</string>

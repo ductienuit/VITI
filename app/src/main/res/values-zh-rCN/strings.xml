@@ -25,12 +25,6 @@
     <string name="menu_budget">"预算"</string>
     <string name="menu_saving">"存款"</string>
     <string name="menu_event">"事件"</string>
-    <string name="menu_converter">"汇率换算"</string>
-    <string name="menu_calculator">"计算器"</string>
-    <string name="menu_search_atm">"搜索自动取款机"</string>
-    <string name="menu_search_bank">"搜索银行"</string>
-    <string name="menu_setting">"设置"</string>
-    <string name="menu_about">"关于"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transfers">"转账"</string>
     <!-- Categories -->
@@ -69,8 +63,6 @@
     <string name="hint_place">"地点"</string>
     <string name="hint_note">"笔记"</string>
     <string name="hint_tax">"交易税"</string>
-    <string name="hint_atm_name">"自动取款机名称"</string>
-    <string name="hint_bank_name">"银行名称"</string>
     <string name="hint_show_currency_symbol">"显示货币符号"</string>
     <string name="hint_group_digits">"千位分隔符"</string>
     <string name="hint_round_decimals">"省略小数"</string>
@@ -91,7 +83,6 @@
     <string name="title_activity_edit_event">"编辑事件"</string>
     <string name="title_activity_category_picker">选择一个图标</string>
     <string name="title_activity_calculator">计算器</string>
-    <string name="title_activity_currency_converter">"货币换算"</string>
     <string name="menu_advanced_settings">"高级"</string>
     <string name="menu_action_edit_item">"编辑"</string>
     <string name="menu_action_delete_item">"删除"</string>
@@ -127,9 +118,6 @@
     <string name="message_no_category_found">"找不到分类"</string>
     <string name="message_no_debt_found">"找不到借入款项"</string>
     <string name="message_no_recurrence_found">"找不到重复性交易"</string>
-    <string name="setting_title_user_interface">"用户界面"</string>
-    <string name="setting_title_utility">"功能"</string>
-    <string name="setting_title_about">"信息"</string>
     <string name="setting_title_ui_income_color">"收入颜色"</string>
     <string name="setting_title_ui_expense_color">"支出颜色"</string>
     <string name="setting_title_ui_custom_digits">"数字的显示样式"</string>
@@ -149,7 +137,4 @@
     <string name="setting_item_ui_theme_type_deep_dark">"纯黑主题"</string>
     <string name="notification_title_daily_reminder_title">今天有任何交易吗？</string>
     <string name="notification_title_daily_reminder_text">点击此处立即添加</string>
-    <string name="about_hint_version">"版本"</string>
-    <string name="about_hint_changelog">"更新日志"</string>
-    <string name="about_hint_translators">"翻译者"</string>
 </resources>

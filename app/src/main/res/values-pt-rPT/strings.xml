@@ -25,10 +25,6 @@
     <string name="menu_budget">"Orçamento"</string>
     <string name="menu_saving">"Poupanças"</string>
     <string name="menu_event">"Eventos"</string>
-    <string name="menu_converter">"Conversor"</string>
-    <string name="menu_calculator">"Calculadora"</string>
-    <string name="menu_setting">"Definições"</string>
-    <string name="menu_about">"Sobre"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transfers">"Transferências"</string>
     <!-- Categories -->
@@ -69,7 +65,6 @@
     <string name="title_activity_edit_transaction">"Editar transacção"</string>
     <string name="title_activity_category_picker">Escolher um ícone</string>
     <string name="title_activity_calculator">Calculadora</string>
-    <string name="title_activity_currency_converter">"Conversor de moeda"</string>
     <string name="menu_advanced_settings">"Avançado"</string>
     <string name="menu_action_edit_item">"Editar"</string>
     <string name="menu_action_delete_item">"Eliminar"</string>
@@ -85,14 +80,8 @@
     <string name="message_no_category_found">"Categoria não encontrada"</string>
     <string name="message_no_debt_found">"Dívida não encontrada"</string>
     <string name="message_no_recurrence_found">"Recorrência não encontrada"</string>
-    <string name="setting_title_user_interface">"Interface do utilizador"</string>
-    <string name="setting_title_utility">"Utilidade"</string>
-    <string name="setting_title_about">"Informação"</string>
     <string name="setting_title_ui_income_color">"Cor da receita"</string>
     <string name="setting_title_ui_expense_color">"Cor da despesa"</string>
     <string name="setting_title_ui_date_format">"Formato da data"</string>
     <string name="setting_title_ui_first_day_week">"Primeiro dia da semana"</string>
-    <string name="about_hint_version">"Versão"</string>
-    <string name="about_hint_changelog">"Registo de alterações"</string>
-    <string name="about_hint_translators">"Tradutores"</string>
 </resources>

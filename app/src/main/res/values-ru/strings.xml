@@ -25,12 +25,6 @@
     <string name="menu_budget">"Бюджеты"</string>
     <string name="menu_saving">"Сбережения"</string>
     <string name="menu_event">"События"</string>
-    <string name="menu_converter">"Конвертер"</string>
-    <string name="menu_calculator">"Калькулятор"</string>
-    <string name="menu_search_atm">"Поиск банкоматов"</string>
-    <string name="menu_search_bank">"Поиск банка"</string>
-    <string name="menu_setting">"Настройки"</string>
-    <string name="menu_about">"О программе"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transfers">"Переводы"</string>
     <!-- Categories -->
@@ -69,8 +63,6 @@
     <string name="hint_place">"Место"</string>
     <string name="hint_note">"Заметка"</string>
     <string name="hint_tax">"Налог на операцию"</string>
-    <string name="hint_atm_name">"Имя банкомата"</string>
-    <string name="hint_bank_name">"Имя банка"</string>
     <string name="hint_show_currency_symbol">"Показать значок валюты"</string>
     <string name="hint_group_digits">"Отделять порядки"</string>
     <string name="hint_round_decimals">"Округлять"</string>
@@ -91,7 +83,6 @@
     <string name="title_activity_edit_event">"Редактировать событие"</string>
     <string name="title_activity_category_picker">Выберите иконку</string>
     <string name="title_activity_calculator">Калькулятоh</string>
-    <string name="title_activity_currency_converter">"Конвертер валют"</string>
     <string name="menu_advanced_settings">"Расширенный"</string>
     <string name="menu_action_edit_item">"Редактировать"</string>
     <string name="menu_action_delete_item">"Удалить"</string>
@@ -127,9 +118,6 @@
     <string name="message_no_category_found">"Категория не найдена"</string>
     <string name="message_no_debt_found">"Долги не найдены"</string>
     <string name="message_no_recurrence_found">"Регулярные операции не найдены"</string>
-    <string name="setting_title_user_interface">"Пользовательский интерфейс"</string>
-    <string name="setting_title_utility">"Разное"</string>
-    <string name="setting_title_about">"Информация"</string>
     <string name="setting_title_ui_income_color">"Цвет доходов"</string>
     <string name="setting_title_ui_expense_color">"Цвет расходов"</string>
     <string name="setting_title_ui_custom_digits">"Стиль отображения чисел"</string>
@@ -149,7 +137,4 @@
     <string name="setting_item_ui_theme_type_deep_dark">"Чёрная тема"</string>
     <string name="notification_title_daily_reminder_title">Есть какие-нибудь операции за сегодня?</string>
     <string name="notification_title_daily_reminder_text">Нажмите, чтобы добавить их немедленно</string>
-    <string name="about_hint_version">"Версия"</string>
-    <string name="about_hint_changelog">"История изменений"</string>
-    <string name="about_hint_translators">"Переводчики"</string>
 </resources>

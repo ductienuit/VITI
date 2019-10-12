@@ -25,12 +25,6 @@
     <string name="menu_budget">"Orçamentos"</string>
     <string name="menu_saving">"Poupança"</string>
     <string name="menu_event">"Eventos"</string>
-    <string name="menu_converter">"Conversor"</string>
-    <string name="menu_calculator">"Calculadora"</string>
-    <string name="menu_search_atm">"Buscar caixas eletrônicos"</string>
-    <string name="menu_search_bank">"Buscar bancos"</string>
-    <string name="menu_setting">"Configurações"</string>
-    <string name="menu_about">"Informação"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transfers">"Transferências"</string>
     <!-- Categories -->
@@ -69,8 +63,6 @@
     <string name="hint_place">"Local"</string>
     <string name="hint_note">"Nota"</string>
     <string name="hint_tax">"Taxas da transação"</string>
-    <string name="hint_atm_name">"Nome do caixa eletrônico"</string>
-    <string name="hint_bank_name">"Nome do banco"</string>
     <string name="hint_show_currency_symbol">"Mostrar símbolo da moeda"</string>
     <string name="hint_group_digits">"Dígitos de grupo"</string>
     <string name="hint_round_decimals">"Arredondar casas decimais"</string>
@@ -91,7 +83,6 @@
     <string name="title_activity_edit_event">"Editar evento"</string>
     <string name="title_activity_category_picker">Escolha um ícone</string>
     <string name="title_activity_calculator">Calculadora</string>
-    <string name="title_activity_currency_converter">"Conversor"</string>
     <string name="menu_advanced_settings">"Avançado"</string>
     <string name="menu_action_edit_item">"Editar"</string>
     <string name="menu_action_delete_item">"Excluir"</string>
@@ -127,9 +118,6 @@
     <string name="message_no_category_found">"Nenhuma categoria encontrada"</string>
     <string name="message_no_debt_found">"Nenhum débito encontrado"</string>
     <string name="message_no_recurrence_found">"Nenhuma transação recorrente encontrada"</string>
-    <string name="setting_title_user_interface">"Aparência"</string>
-    <string name="setting_title_utility">"Utilidades"</string>
-    <string name="setting_title_about">"Informações"</string>
     <string name="setting_title_ui_income_color">"Cor da receita"</string>
     <string name="setting_title_ui_expense_color">"Cor da despesa"</string>
     <string name="setting_title_ui_custom_digits">"Estilo de exibição dos dígitos"</string>
@@ -149,7 +137,4 @@
     <string name="setting_item_ui_theme_type_deep_dark">"Tema preto absoluto"</string>
     <string name="notification_title_daily_reminder_title">Alguma transação hoje?</string>
     <string name="notification_title_daily_reminder_text">Toque para adicionar agora</string>
-    <string name="about_hint_version">"Versão"</string>
-    <string name="about_hint_changelog">"Changelog"</string>
-    <string name="about_hint_translators">"Tradutores"</string>
 </resources>
