@@ -74,6 +74,7 @@ import com.oriondev.Viti.ui.view.theme.ITheme;
 import com.oriondev.Viti.ui.view.theme.ThemeEngine;
 import com.oriondev.Viti.ui.view.theme.ThemedRecyclerView;
 import com.oriondev.Viti.utils.IconLoader;
+import com.oriondev.moneywallet.ui.fragment.singlepanel.HomeSinglePanelFragment;
 
 import java.util.Locale;
 
@@ -83,12 +84,11 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
 
     private static final int LOADER_WALLETS = 1;
 
-    private static final int ID_SECTION_HOME = -1;
     private static final int ID_SECTION_TRANSACTIONS = 0;
     private static final int ID_SECTION_CATEGORIES = 1;
     private static final int ID_SECTION_OVERVIEW = 2;
     private static final int ID_SECTION_SAVINGS = 5;
-    private static final int ID_SECTION_EVENTS = 6;
+    private static final int ID_SECTION_HOME = 6;
     private static final int ID_SECTION_MODELS = 8;
     private static final int ID_SECTION_CALCULATOR = 11;
 
@@ -133,11 +133,11 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                 .withActivity(this)
                 .withAccountHeader(mAccountHeader)
                 .addDrawerItems(
+                        createDrawerItem(ID_SECTION_HOME, R.drawable.ic_home_black_24dp, R.string.menu_home),
                         createDrawerItem(ID_SECTION_TRANSACTIONS, R.drawable.ic_shopping_cart_24dp, R.string.menu_transaction),
                         createDrawerItem(ID_SECTION_CATEGORIES, R.drawable.ic_table_large_24dp, R.string.menu_category),
                         createDrawerItem(ID_SECTION_OVERVIEW, R.drawable.ic_equalizer_24dp, R.string.menu_overview),
-                        createDrawerItem(ID_SECTION_SAVINGS, R.drawable.ic_saving_24dp, R.string.menu_saving),
-                        createDrawerItem(ID_SECTION_EVENTS, R.drawable.ic_assistant_photo_24dp, R.string.menu_event)
+                        createDrawerItem(ID_SECTION_SAVINGS, R.drawable.ic_saving_24dp, R.string.menu_saving)
                 )
                 .withOnDrawerItemClickListener(this)
                 .build();
@@ -313,6 +313,8 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
         switch (identifier) {
             case ID_SECTION_TRANSACTIONS:
                 return new TransactionMultiPanelViewPagerFragment();
+            case ID_SECTION_HOME:
+                return new HomeSinglePanelFragment();
             case ID_SECTION_CATEGORIES:
                 return new CategoryMultiPanelViewPagerFragment();
             case ID_SECTION_OVERVIEW:
