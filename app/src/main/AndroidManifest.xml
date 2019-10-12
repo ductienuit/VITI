@@ -82,7 +82,6 @@
         <activity android:name=".ui.activity.CategorySortActivity" />
         <activity android:name=".ui.activity.IconListActivity" />
         <activity android:name=".ui.activity.CalculatorActivity" />
-        <activity android:name=".ui.activity.CurrencyConverterActivity" />
         <activity android:name=".ui.activity.SearchActivity" />
         <activity android:name=".ui.activity.CalendarActivity" />
         <activity android:name=".ui.activity.MapActivity" />
@@ -90,7 +89,6 @@
         <activity android:name=".ui.activity.TransactionListActivity" />
         <activity android:name=".ui.activity.LockActivity" />
         <activity android:name=".ui.activity.BackendExplorerActivity" />
-        <activity android:name=".ui.activity.DonationActivity" />
         <activity android:name=".ui.activity.ImportExportActivity" />
 
         <provider

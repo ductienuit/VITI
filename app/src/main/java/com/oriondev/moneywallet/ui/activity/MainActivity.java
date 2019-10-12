@@ -19,7 +19,6 @@
 
 package com.oriondev.Viti.ui.activity;
 
-import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -38,7 +37,6 @@ import android.support.annotation.StringRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.LoaderManager;
-import android.support.v4.app.SupportActivity;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.support.v4.content.LocalBroadcastManager;
@@ -48,12 +46,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.afollestad.materialdialogs.MaterialDialog;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
-import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileSettingDrawerItem;
@@ -302,22 +298,7 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
             int identifier = (int) drawerItem.getIdentifier();
             switch (identifier) {
                 case ID_SECTION_CALCULATOR:
-                    startActivity(new Intent(this, CalculatorActivity.class));
-                    break;
-                case ID_SECTION_CONVERTER:
-                    startActivity(new Intent(this, CurrencyConverterActivity.class));
-                    break;
-                case ID_SECTION_ATM:
-                    showAtmSearchDialog();
-                    break;
-                case ID_SECTION_BANK:
-                    showBankSearchDialog();
-                    break;
-                case ID_SECTION_SUPPORT_DEVELOPER:
-                    startActivity(new Intent(this, DonationActivity.class));
-                    break;
-                case ID_SECTION_ABOUT:
-                    startActivity(new Intent(this, AboutActivity.class));
+                    startActivity(new Intent(this, com.oriondev.Viti.ui.activity.CalculatorActivity.class));
                     break;
                 default:
                     mCurrentSelection = identifier;
@@ -330,43 +311,7 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
         return true;
     }
 
-    private void showAtmSearchDialog() {
-        ThemedDialog.buildMaterialDialog(this)
-                .title(R.string.title_atm_search)
-                .input(R.string.hint_atm_name, 0, false, new MaterialDialog.InputCallback() {
 
-                    @Override
-                    public void onInput(@NonNull MaterialDialog dialog, CharSequence input) {
-                        Uri mapUri = Uri.parse("geo:0,0?q=atm " + input);
-                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
-                        try {
-                            startActivity(mapIntent);
-                        } catch (ActivityNotFoundException ignore) {
-                            showActivityNotFoundDialog();
-                        }
-                    }
-
-                }).show();
-    }
-
-    private void showBankSearchDialog() {
-        ThemedDialog.buildMaterialDialog(this)
-                .title(R.string.title_bank_search)
-                .input(R.string.hint_bank_name, 0, false, new MaterialDialog.InputCallback() {
-
-                    @Override
-                    public void onInput(@NonNull MaterialDialog dialog, CharSequence input) {
-                        Uri mapUri = Uri.parse("geo:0,0?q=bank " + input);
-                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
-                        try {
-                            startActivity(mapIntent);
-                        } catch (ActivityNotFoundException ignore) {
-                            showActivityNotFoundDialog();
-                        }
-                    }
-
-                }).show();
-    }
 
     private void showActivityNotFoundDialog() {
         ThemedDialog.buildMaterialDialog(this)
