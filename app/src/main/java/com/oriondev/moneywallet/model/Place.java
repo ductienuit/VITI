@@ -23,7 +23,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by DucTien on 10/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public class Place implements Parcelable {

@@ -28,7 +28,7 @@ import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 import java.util.List;
 
 /**
- * Created by DucTien on 27/12/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CategorySortActivity extends SinglePanelSimpleListActivity implements CategorySortCursorAdapter.CategorySortListener {
 

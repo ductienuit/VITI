@@ -53,7 +53,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by DucTien on 04/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class SearchActivity extends SinglePanelActivity implements LoaderManager.LoaderCallbacks<Cursor>,TransactionCursorAdapter.ActionListener, SwipeRefreshLayout.OnRefreshListener {
 

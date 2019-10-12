@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedProgressWheel extends ProgressWheel implements ThemeEngine.ThemeConsumer {
 

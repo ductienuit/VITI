@@ -30,7 +30,7 @@ import com.oriondev.Viti.model.RecurrenceSetting;
 import com.oriondev.Viti.ui.fragment.dialog.RecurrencePickerDialog;
 
 /**
- * Created by DucTien on 07/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public class RecurrencePicker extends Fragment implements RecurrencePickerDialog.Callback {

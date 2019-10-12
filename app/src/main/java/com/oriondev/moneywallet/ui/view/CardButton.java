@@ -27,7 +27,7 @@ import android.util.TypedValue;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 08/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CardButton extends android.support.v7.widget.AppCompatButton {
 

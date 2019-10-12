@@ -28,7 +28,7 @@ import com.oriondev.Viti.R;
 import com.oriondev.Viti.ui.view.SquaredImageView;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedSquaredImageView extends SquaredImageView implements ThemeEngine.ThemeConsumer {
 

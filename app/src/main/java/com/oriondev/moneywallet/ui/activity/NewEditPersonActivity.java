@@ -41,7 +41,7 @@ import com.oriondev.Viti.ui.view.text.NonEmptyTextValidator;
 import com.oriondev.Viti.utils.IconLoader;
 
 /**
- * Created by DucTien on 06/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NewEditPersonActivity extends NewEditItemActivity implements IconPicker.Controller {
 

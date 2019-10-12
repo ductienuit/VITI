@@ -27,7 +27,7 @@ import com.oriondev.Viti.R;
 import com.oriondev.Viti.ui.view.text.MaterialEditText;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedMaterialEditText extends MaterialEditText implements ThemeEngine.ThemeConsumer {
 

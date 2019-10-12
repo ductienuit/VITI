@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import com.oriondev.Viti.ui.view.text.MaterialTextView;
 
 /**
- * Created by DucTien on 01/05/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedMaterialTextView extends MaterialTextView implements ThemeEngine.ThemeConsumer {
 

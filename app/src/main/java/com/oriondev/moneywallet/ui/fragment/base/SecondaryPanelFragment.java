@@ -35,7 +35,7 @@ import com.oriondev.Viti.R;
 import com.oriondev.Viti.utils.Utils;
 
 /**
- * Created by DucTien on 01/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public abstract class SecondaryPanelFragment extends Fragment implements Toolbar.OnMenuItemClickListener {
 

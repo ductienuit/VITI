@@ -27,7 +27,7 @@ import android.util.AttributeSet;
 import com.oriondev.Viti.ui.view.ForegroundCardView;
 
 /**
- * Created by DucTien on 24/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedForegroundCardView extends ForegroundCardView implements ThemeEngine.ThemeConsumer {
 

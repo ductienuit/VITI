@@ -38,7 +38,7 @@ import com.oriondev.Viti.storage.preference.PreferenceManager;
 import java.util.List;
 
 /**
- * Created by DucTien on 17/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class DataContentProvider extends ContentProvider {
 

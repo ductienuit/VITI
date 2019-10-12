@@ -33,7 +33,7 @@ import com.oriondev.Viti.ui.view.theme.ThemeEngine;
 import com.oriondev.Viti.utils.CurrencyManager;
 
 /**
- * Created by DucTien on 17/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class App extends Application {
 

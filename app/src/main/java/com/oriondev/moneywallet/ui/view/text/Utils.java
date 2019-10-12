@@ -31,7 +31,7 @@ import android.util.TypedValue;
 import android.view.View;
 
 /**
- * Created by DucTien on 30/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 /*package-local*/ class Utils {
 

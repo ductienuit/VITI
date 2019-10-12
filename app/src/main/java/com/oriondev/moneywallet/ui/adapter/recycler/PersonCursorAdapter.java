@@ -34,7 +34,7 @@ import com.oriondev.Viti.storage.database.Contract;
 import com.oriondev.Viti.utils.IconLoader;
 
 /**
- * Created by DucTien on 04/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class PersonCursorAdapter extends AbstractCursorAdapter<PersonCursorAdapter.ViewHolder> {
 

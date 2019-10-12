@@ -29,7 +29,7 @@ import android.util.AttributeSet;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 10/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedTabLayout extends TabLayout implements ThemeEngine.ThemeConsumer {
 

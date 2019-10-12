@@ -27,7 +27,7 @@ import com.andrognito.patternlockview.PatternLockView;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedPatternLockView extends PatternLockView implements ThemeEngine.ThemeConsumer {
 

@@ -28,7 +28,7 @@ import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 import java.util.List;
 
 /**
- * Created by DucTien on 05/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public class WalletSortActivity extends SinglePanelSimpleListActivity implements WalletSortCursorAdapter.WalletSortListener {

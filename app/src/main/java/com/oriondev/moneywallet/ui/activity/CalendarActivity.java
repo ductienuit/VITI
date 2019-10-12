@@ -24,7 +24,7 @@ import com.oriondev.Viti.ui.fragment.base.MultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.CalendarMultiPanelFragment;
 
 /**
- * Created by DucTien on 04/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CalendarActivity extends MultiPanelActivity {
 

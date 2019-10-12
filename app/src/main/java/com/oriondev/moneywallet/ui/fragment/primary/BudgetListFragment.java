@@ -41,7 +41,7 @@ import com.oriondev.Viti.ui.fragment.base.CursorListFragment;
 import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by DucTien on 03/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class BudgetListFragment extends CursorListFragment implements BudgetCursorAdapter.ActionListener {
 

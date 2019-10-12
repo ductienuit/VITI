@@ -31,7 +31,7 @@ import com.oriondev.Viti.ui.fragment.single.PeriodDetailSummaryFragment;
 import java.util.Date;
 
 /**
- * Created by DucTien on 09/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class PeriodViewPagerAdapter extends FragmentPagerAdapter {
 

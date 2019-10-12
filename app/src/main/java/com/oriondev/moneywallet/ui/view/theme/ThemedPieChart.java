@@ -28,7 +28,7 @@ import android.util.AttributeSet;
 import com.oriondev.Viti.ui.view.chart.PieChart;
 
 /**
- * Created by DucTien on 21/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedPieChart extends PieChart implements ThemeEngine.ThemeConsumer {
 

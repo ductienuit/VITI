@@ -29,7 +29,7 @@ import com.oriondev.Viti.ui.fragment.primary.TransactionModelListFragment;
 import com.oriondev.Viti.ui.fragment.primary.TransferModelListFragment;
 
 /**
- * Created by DucTien on 02/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ModelViewPagerAdapter extends FragmentPagerAdapter {
 

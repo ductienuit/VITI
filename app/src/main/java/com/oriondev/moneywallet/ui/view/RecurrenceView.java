@@ -34,7 +34,7 @@ import org.dmfs.rfc5545.recur.Freq;
 import org.dmfs.rfc5545.recur.RecurrenceRule;
 
 /**
- * Created by DucTien on 07/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class RecurrenceView extends LinearLayout {
 

@@ -39,7 +39,7 @@ import com.oriondev.Viti.ui.adapter.recycler.AbstractCursorAdapter;
 import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by DucTien on 11/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public abstract class CursorListFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener, LoaderManager.LoaderCallbacks<Cursor>, CurrentWalletController {
 

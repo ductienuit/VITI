@@ -20,7 +20,7 @@
 package com.oriondev.Viti.ui.fragment.base;
 
 /**
- * Created by DucTien on 17/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public interface NavigableFragment {
 

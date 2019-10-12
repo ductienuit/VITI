@@ -31,7 +31,7 @@ import com.oriondev.Viti.model.Wallet;
 import com.oriondev.Viti.ui.fragment.dialog.WalletPickerDialog;
 
 /**
- * Created by DucTien on 09/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class WalletPicker extends Fragment implements WalletPickerDialog.Callback {
 

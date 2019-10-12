@@ -32,7 +32,7 @@ import com.oriondev.Viti.ui.fragment.dialog.CurrencyConverterDialog;
 import com.oriondev.Viti.utils.CurrencyManager;
 
 /**
- * Created by DucTien on 15/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CurrencyConverterPicker extends Fragment implements CurrencyConverterDialog.Callback {
 

@@ -44,7 +44,7 @@ import com.oriondev.Viti.ui.activity.BackendExplorerActivity;
 import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**
- * Created by DucTien on 26/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class AutoBackupSettingDialog extends DialogFragment {
 

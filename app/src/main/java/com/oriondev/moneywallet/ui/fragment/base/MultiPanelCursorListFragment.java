@@ -35,7 +35,7 @@ import com.oriondev.Viti.ui.adapter.recycler.AbstractCursorAdapter;
 import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by DucTien on 09/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public abstract class MultiPanelCursorListFragment extends MultiPanelFragment implements SwipeRefreshLayout.OnRefreshListener, LoaderManager.LoaderCallbacks<Cursor> {
 

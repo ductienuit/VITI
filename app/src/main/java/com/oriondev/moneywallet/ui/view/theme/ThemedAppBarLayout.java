@@ -27,7 +27,7 @@ import android.util.AttributeSet;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 25/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedAppBarLayout extends AppBarLayout implements ThemeEngine.ThemeConsumer {
 

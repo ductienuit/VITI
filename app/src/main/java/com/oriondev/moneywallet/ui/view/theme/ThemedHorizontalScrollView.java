@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import android.widget.HorizontalScrollView;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedHorizontalScrollView extends HorizontalScrollView implements ThemeEngine.ThemeConsumer {
 

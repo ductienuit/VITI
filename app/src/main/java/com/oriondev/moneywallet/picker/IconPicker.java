@@ -46,7 +46,7 @@ import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.oriondev.Viti.utils.Utils;
 
 /**
- * Created by DucTien on 01/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class IconPicker extends Fragment implements ColorChooserDialog.ColorCallback {
 

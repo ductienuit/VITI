@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentManager;
 import com.oriondev.Viti.ui.fragment.dialog.ExportColumnsDialogFragment;
 
 /**
- * Created by DucTien on 21/12/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ExportColumnsPicker extends Fragment implements ExportColumnsDialogFragment.Callback {
 

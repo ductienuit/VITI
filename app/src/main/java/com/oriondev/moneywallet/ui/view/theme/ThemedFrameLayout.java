@@ -27,7 +27,7 @@ import android.widget.FrameLayout;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 11/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedFrameLayout extends FrameLayout implements ThemeEngine.ThemeConsumer {
 

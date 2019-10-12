@@ -36,7 +36,7 @@ import com.oriondev.Viti.model.LocalFile;
 import com.oriondev.Viti.ui.activity.BackendExplorerActivity;
 
 /**
- * Created by DucTien on 01/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class LocalFilePicker extends Fragment {
 

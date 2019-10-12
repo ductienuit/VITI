@@ -40,7 +40,7 @@ import com.oriondev.Viti.utils.MoneyFormatter;
 import java.util.Locale;
 
 /**
- * Created by DucTien on 14/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class TransferModelCursorAdapter extends AbstractCursorAdapter<TransferModelCursorAdapter.TransferModelViewHolder> {
 

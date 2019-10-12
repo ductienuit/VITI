@@ -46,7 +46,7 @@ import com.oriondev.Viti.utils.IconLoader;
 import com.oriondev.Viti.view.MapViewWrapper;
 
 /**
- * Created by DucTien on 06/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NewEditPlaceActivity extends NewEditItemActivity implements IconPicker.Controller, MapViewWrapper.OnMapLoadedCallback, MapPlacePicker.Controller {
 

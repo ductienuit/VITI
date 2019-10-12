@@ -46,7 +46,7 @@ import com.oriondev.Viti.ui.fragment.multipanel.ModelMultiPanelViewPagerFragment
 import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 
 /**
- * Created by DucTien on 14/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class TransferModelListFragment extends CursorListFragment implements TransferModelCursorAdapter.ActionListener {
 

@@ -38,7 +38,7 @@ import com.oriondev.Viti.storage.database.Contract;
 import java.util.Locale;
 
 /**
- * Created by DucTien on 09/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CurrencyCursorAdapter extends AbstractCursorAdapter<CurrencyCursorAdapter.CurrencyViewHolder> {
 

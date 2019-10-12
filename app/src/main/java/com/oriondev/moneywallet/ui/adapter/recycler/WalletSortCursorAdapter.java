@@ -39,7 +39,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by DucTien on 12/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class WalletSortCursorAdapter extends AbstractCursorAdapter<WalletSortCursorAdapter.WalletViewHolder> {
 

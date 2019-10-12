@@ -30,7 +30,7 @@ import com.oriondev.Viti.model.Person;
 import com.oriondev.Viti.ui.fragment.dialog.PeoplePickerDialog;
 
 /**
- * Created by DucTien on 10/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class PersonPicker extends Fragment implements PeoplePickerDialog.Callback {
 

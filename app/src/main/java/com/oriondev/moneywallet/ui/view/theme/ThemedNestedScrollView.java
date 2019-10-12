@@ -26,7 +26,7 @@ import android.support.v4.widget.NestedScrollView;
 import android.util.AttributeSet;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedNestedScrollView extends NestedScrollView implements ThemeEngine.ThemeConsumer {
 

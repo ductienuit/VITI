@@ -72,7 +72,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Created by DucTien on 16/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NewEditTransferActivity extends NewEditItemActivity  implements CurrencyConverterPicker.Controller,
                                                                             MoneyPicker.Controller,

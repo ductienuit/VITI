@@ -40,7 +40,7 @@ import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 /**
- * Created by DucTien on 30/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class LauncherActivity extends ThemedActivity {
 

@@ -65,7 +65,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Created by DucTien on 06/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NewEditDebtActivity extends NewEditItemActivity implements IconPicker.Controller,
                                                                         MoneyPicker.Controller,

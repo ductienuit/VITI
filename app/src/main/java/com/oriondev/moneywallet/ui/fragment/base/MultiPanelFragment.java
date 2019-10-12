@@ -40,7 +40,7 @@ import com.oriondev.Viti.ui.activity.ToolbarController;
 import com.oriondev.Viti.utils.Utils;
 
 /**
- * Created by DucTien on 09/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public abstract class MultiPanelFragment extends Fragment implements MultiPanelController, Toolbar.OnMenuItemClickListener {
 

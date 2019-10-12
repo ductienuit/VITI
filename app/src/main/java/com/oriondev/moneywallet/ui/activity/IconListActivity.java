@@ -42,7 +42,7 @@ import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 import java.util.List;
 
 /**
- * Created by DucTien on 03/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class IconListActivity extends SinglePanelActivity implements SwipeRefreshLayout.OnRefreshListener, LoaderManager.LoaderCallbacks<List<IconGroup>>, IconAdapter.Controller {
 

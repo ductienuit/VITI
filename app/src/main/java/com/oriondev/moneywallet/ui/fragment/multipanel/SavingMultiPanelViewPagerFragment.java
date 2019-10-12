@@ -40,7 +40,7 @@ import com.oriondev.Viti.ui.fragment.base.SecondaryPanelFragment;
 import com.oriondev.Viti.ui.fragment.secondary.SavingItemFragment;
 
 /**
- * Created by DucTien on 02/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class SavingMultiPanelViewPagerFragment extends MultiPanelViewPagerItemFragment {
 
