@@ -79,7 +79,6 @@ import com.oriondev.Viti.ui.fragment.multipanel.PersonMultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.PlaceMultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.RecurrenceMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.SettingMultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.TransactionMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.singlepanel.OverviewSinglePanelFragment;
 import com.oriondev.Viti.ui.view.theme.ITheme;
@@ -160,23 +159,23 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                         createDrawerItem(ID_SECTION_TRANSACTIONS, R.drawable.ic_shopping_cart_24dp, R.string.menu_transaction),
                         createDrawerItem(ID_SECTION_CATEGORIES, R.drawable.ic_table_large_24dp, R.string.menu_category),
                         createDrawerItem(ID_SECTION_OVERVIEW, R.drawable.ic_equalizer_24dp, R.string.menu_overview),
-                        createDrawerItem(ID_SECTION_DEBTS, R.drawable.ic_debt_24dp, R.string.menu_debt),
-                        createDrawerItem(ID_SECTION_BUDGETS, R.drawable.ic_budget_24dp, R.string.menu_budget),
+                        //createDrawerItem(ID_SECTION_DEBTS, R.drawable.ic_debt_24dp, R.string.menu_debt),
+                        //createDrawerItem(ID_SECTION_BUDGETS, R.drawable.ic_budget_24dp, R.string.menu_budget),
                         createDrawerItem(ID_SECTION_SAVINGS, R.drawable.ic_saving_24dp, R.string.menu_saving),
-                        createDrawerItem(ID_SECTION_EVENTS, R.drawable.ic_assistant_photo_24dp, R.string.menu_event),
-                        createDrawerItem(ID_SECTION_RECURRENCES, R.drawable.ic_restore_24dp, R.string.menu_recurrences),
-                        createDrawerItem(ID_SECTION_MODELS, R.drawable.ic_bookmark_black_24dp, R.string.menu_models),
-                        createDrawerItem(ID_SECTION_PLACES, R.drawable.ic_place_24dp, R.string.menu_place),
-                        createDrawerItem(ID_SECTION_PEOPLE, R.drawable.ic_people_black_24dp, R.string.menu_people),
-                        new DividerDrawerItem(),
-                        createDrawerItem(ID_SECTION_CALCULATOR, R.drawable.ic_calculator_24dp, R.string.menu_calculator),
-                        createDrawerItem(ID_SECTION_CONVERTER, R.drawable.ic_converter_24dp,R.string.menu_converter),
-                        createDrawerItem(ID_SECTION_ATM, R.drawable.ic_credit_card_24dp, R.string.menu_search_atm),
-                        createDrawerItem(ID_SECTION_BANK, R.drawable.ic_account_balance_24dp, R.string.menu_search_bank),
-                        new DividerDrawerItem(),
-                        createDrawerItem(ID_SECTION_SETTING, R.drawable.ic_settings_24dp, R.string.menu_setting),
-                        createDrawerItem(ID_SECTION_SUPPORT_DEVELOPER, R.drawable.ic_favorite_border_black_24dp, R.string.menu_support_developer),
-                        createDrawerItem(ID_SECTION_ABOUT, R.drawable.ic_info_outline_24dp, R.string.menu_about)
+                        createDrawerItem(ID_SECTION_EVENTS, R.drawable.ic_assistant_photo_24dp, R.string.menu_event)
+                        //createDrawerItem(ID_SECTION_RECURRENCES, R.drawable.ic_restore_24dp, R.string.menu_recurrences),
+                        //createDrawerItem(ID_SECTION_MODELS, R.drawable.ic_bookmark_black_24dp, R.string.menu_models),
+                        //createDrawerItem(ID_SECTION_PLACES, R.drawable.ic_place_24dp, R.string.menu_place),
+                        //createDrawerItem(ID_SECTION_PEOPLE, R.drawable.ic_people_black_24dp, R.string.menu_people),
+                        //new DividerDrawerItem(),
+                       // createDrawerItem(ID_SECTION_CALCULATOR, R.drawable.ic_calculator_24dp, R.string.menu_calculator),
+                        //createDrawerItem(ID_SECTION_CONVERTER, R.drawable.ic_converter_24dp,R.string.menu_converter),
+                        //createDrawerItem(ID_SECTION_ATM, R.drawable.ic_credit_card_24dp, R.string.menu_search_atm),
+                        //createDrawerItem(ID_SECTION_BANK, R.drawable.ic_account_balance_24dp, R.string.menu_search_bank),
+                        //new DividerDrawerItem(),
+                        //createDrawerItem(ID_SECTION_SETTING, R.drawable.ic_settings_24dp, R.string.menu_setting),
+                        //createDrawerItem(ID_SECTION_SUPPORT_DEVELOPER, R.drawable.ic_favorite_border_black_24dp, R.string.menu_support_developer),
+
                 )
                 .withOnDrawerItemClickListener(this)
                 .build();
@@ -433,8 +432,6 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                 return new PlaceMultiPanelFragment();
             case ID_SECTION_PEOPLE:
                 return new PersonMultiPanelFragment();
-            case ID_SECTION_SETTING:
-                return new SettingMultiPanelFragment();
             default:
                 throw new IllegalArgumentException("Invalid section id: " + identifier);
         }

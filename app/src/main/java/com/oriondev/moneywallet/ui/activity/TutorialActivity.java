@@ -82,7 +82,7 @@ public class TutorialActivity extends AppIntro2 {
     @Override
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
-        startActivityForResult(new Intent(this, NewEditWalletActivity.class), REQUEST_NEW_WALLET);
+        startActivityForResult(new Intent(this, com.oriondev.Viti.ui.activity.NewEditWalletActivity.class), REQUEST_NEW_WALLET);
     }
 
     @Override

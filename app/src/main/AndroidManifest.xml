@@ -83,7 +83,6 @@
         <activity android:name=".ui.activity.IconListActivity" />
         <activity android:name=".ui.activity.CalculatorActivity" />
         <activity android:name=".ui.activity.CurrencyConverterActivity" />
-        <activity android:name=".ui.activity.AboutActivity" />
         <activity android:name=".ui.activity.SearchActivity" />
         <activity android:name=".ui.activity.CalendarActivity" />
         <activity android:name=".ui.activity.MapActivity" />
