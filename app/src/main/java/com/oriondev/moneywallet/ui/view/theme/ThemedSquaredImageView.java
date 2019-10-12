@@ -22,7 +22,6 @@ package com.oriondev.Viti.ui.view.theme;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.PorterDuff;
-import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
 import com.oriondev.Viti.R;

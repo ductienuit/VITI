@@ -5,12 +5,10 @@ import android.text.TextUtils;
 
 import com.opencsv.CSVReaderHeaderAware;
 import com.oriondev.Viti.model.CurrencyUnit;
-import com.oriondev.Viti.model.Money;
 import com.oriondev.Viti.storage.database.Contract;
 import com.oriondev.Viti.storage.database.data.AbstractDataImporter;
 import com.oriondev.Viti.utils.CurrencyManager;
 import com.oriondev.Viti.utils.DateUtils;
-import com.oriondev.Viti.utils.MoneyFormatter;
 
 import java.io.File;
 import java.io.FileReader;

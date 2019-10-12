@@ -22,7 +22,7 @@ package com.oriondev.Viti.storage.database;
 import android.content.ContentResolver;
 
 /**
- * Created by DucTien on 25/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public interface DatabaseImporter {

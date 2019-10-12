@@ -22,7 +22,6 @@ import com.oriondev.Viti.storage.database.Contract;
 import com.oriondev.Viti.storage.database.DataContentProvider;
 import com.oriondev.Viti.ui.activity.base.SinglePanelSimpleListActivity;
 import com.oriondev.Viti.ui.adapter.recycler.AbstractCursorAdapter;
-import com.oriondev.Viti.ui.adapter.recycler.CategorySortCursorAdapter;
 import com.oriondev.Viti.ui.adapter.recycler.WalletSortCursorAdapter;
 import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 

@@ -25,10 +25,8 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 
-import com.oriondev.Viti.model.IFile;
-
 /**
- * Created by DucTien on 21/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public abstract class AbstractBackendServiceDelegate {
 

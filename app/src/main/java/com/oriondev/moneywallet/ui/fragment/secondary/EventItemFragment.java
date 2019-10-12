@@ -56,7 +56,7 @@ import com.oriondev.Viti.utils.DateUtils;
 import com.oriondev.Viti.utils.IconLoader;
 
 /**
- * Created by DucTien on 03/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class EventItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

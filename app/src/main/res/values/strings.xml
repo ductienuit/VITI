@@ -5,14 +5,9 @@
     <string name="menu_transaction">"Giao dịch"</string>
     <string name="menu_category">"Thể loại"</string>
     <string name="menu_overview">"Tổng quan"</string>
-    <string name="menu_debt">"Nợ"</string>
-    <string name="menu_budget">"Ngân sách"</string>
     <string name="menu_saving">"Tiết kiệm"</string>
     <string name="menu_event">"Sự kiện"</string>
-    <string name="menu_recurrences">"Tái phát"</string>
     <string name="menu_models">"Người mẫu"</string>
-    <string name="menu_place">"Nơi"</string>
-    <string name="menu_people">"Mọi người"</string>
 
 
     <string name="menu_transaction_tab_transactions">"Giao dịch"</string>
@@ -202,7 +197,6 @@
     <string name="menu_action_unarchive_item">"Vô chủ"</string>
     <string name="menu_action_search_item">"Tìm kiếm"</string>
     <string name="menu_action_open_calendar">"Lịch"</string>
-    <string name="menu_action_open_map">"Bản đồ"</string>
     <string name="menu_action_sort_items">"Sắp xếp"</string>
     <string name="menu_action_show_transaction_list">"Hiển thị giao dịch"</string>
     <string name="menu_action_service_disconnect">"Ngắt kết nối"</string>

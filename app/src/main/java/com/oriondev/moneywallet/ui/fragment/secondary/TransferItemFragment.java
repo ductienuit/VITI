@@ -62,7 +62,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by DucTien on 03/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class TransferItemFragment extends SecondaryPanelFragment implements AttachmentView.Controller, LoaderManager.LoaderCallbacks<Cursor> {
 

@@ -30,13 +30,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by DucTien on 24/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class StubListFragment extends Fragment {
 

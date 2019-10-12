@@ -39,7 +39,7 @@ import com.oriondev.Viti.utils.CurrencyManager;
 import com.oriondev.Viti.utils.MoneyFormatter;
 
 /**
- * Created by DucTien on 29/07/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class CustomDigitSetupDialog extends DialogFragment {
 

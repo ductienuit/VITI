@@ -32,7 +32,7 @@ import com.oriondev.Viti.utils.DateFormatter;
 import com.oriondev.Viti.utils.MoneyFormatter;
 
 /**
- * Created by DucTien on 17/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class OverviewItemAdapter extends RecyclerView.Adapter<OverviewItemAdapter.ViewHolder> {
 

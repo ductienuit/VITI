@@ -57,7 +57,7 @@ import com.oriondev.Viti.utils.MoneyFormatter;
 import java.util.Date;
 
 /**
- * Created by DucTien on 03/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class BudgetItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

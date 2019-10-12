@@ -39,7 +39,7 @@ import com.oriondev.Viti.R;
 import com.oriondev.Viti.model.OverviewData;
 
 /**
- * Created by DucTien on 17/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class OverviewChartViewPagerAdapter extends PagerAdapter {
 

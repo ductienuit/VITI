@@ -30,12 +30,12 @@ import android.support.v4.app.FragmentManager;
 
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
-import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.location.places.ui.PlacePicker;
+import com.google.android.gms.maps.model.LatLng;
 import com.oriondev.Viti.model.Place;
 
 /**
- * Created by DucTien on 16/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 
 public class MapPlacePicker extends Fragment {

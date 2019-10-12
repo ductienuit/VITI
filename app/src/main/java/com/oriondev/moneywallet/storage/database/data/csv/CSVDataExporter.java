@@ -4,7 +4,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.text.TextUtils;
 
-import com.opencsv.CSVParserWriter;
 import com.opencsv.CSVWriter;
 import com.oriondev.Viti.model.CurrencyUnit;
 import com.oriondev.Viti.model.Wallet;

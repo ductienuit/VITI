@@ -54,7 +54,7 @@ import com.oriondev.Viti.utils.CurrencyManager;
 import com.oriondev.Viti.utils.MoneyFormatter;
 
 /**
- * Created by DucTien on 03/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class TransferModelItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

@@ -21,13 +21,8 @@
     <string name="menu_transaction">"Transaktionen"</string>
     <string name="menu_category">"Kategorien"</string>
     <string name="menu_overview">"Verlauf"</string>
-    <string name="menu_debt">"Schulden"</string>
-    <string name="menu_budget">"Budgets"</string>
     <string name="menu_saving">"Sparbeträge"</string>
     <string name="menu_event">"Ereignisse"</string>
-    <string name="menu_recurrences">"Regelmäßige Transaktion"</string>
-    <string name="menu_place">"Orte"</string>
-    <string name="menu_people">"Personen"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"Transaktionen"</string>
     <string name="menu_transaction_tab_transfers">"Überweisungen"</string>
@@ -119,7 +114,6 @@
     <string name="menu_action_delete_item">"Löschen"</string>
     <string name="menu_action_search_item">"Suche"</string>
     <string name="menu_action_open_calendar">"Kalender"</string>
-    <string name="menu_action_open_map">"Karte"</string>
     <string name="menu_action_service_disconnect">"Trennen"</string>
     <string name="error_input_missing_wallet">"Bitte wähle eine gültige Geldbörse"</string>
     <string name="error_input_missing_category">"Bitte wähle eine gültige Kategorie"</string>

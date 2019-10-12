@@ -25,7 +25,6 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.storage.cache.TypefaceCache;
 
 /**
  * Created by DucTien on 08/03/19.

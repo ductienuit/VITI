@@ -47,14 +47,13 @@ import android.widget.TextView;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.AbstractBackendServiceDelegate;
+import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.BackendServiceFactory;
 import com.oriondev.Viti.broadcast.LocalAction;
 import com.oriondev.Viti.model.IFile;
 import com.oriondev.Viti.service.BackupHandlerIntentService;
 import com.oriondev.Viti.storage.database.backup.BackupManager;
-import com.oriondev.Viti.ui.activity.BackendExplorerActivity;
 import com.oriondev.Viti.ui.adapter.recycler.BackupFileAdapter;
 import com.oriondev.Viti.ui.fragment.base.MultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.base.NavigableFragment;
@@ -66,7 +65,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by DucTien on 21/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class BackupHandlerFragment extends Fragment implements BackupFileAdapter.Controller, SwipeRefreshLayout.OnRefreshListener, Toolbar.OnMenuItemClickListener, AbstractBackendServiceDelegate.BackendServiceStatusListener {
 

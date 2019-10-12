@@ -31,9 +31,7 @@ import android.widget.TextView;
 
 import com.oriondev.Viti.R;
 import com.oriondev.Viti.model.Icon;
-import com.oriondev.Viti.model.Pair;
 import com.oriondev.Viti.storage.database.Contract;
-import com.oriondev.Viti.ui.view.CategoryChildIndicator;
 import com.oriondev.Viti.utils.IconLoader;
 
 import java.util.ArrayList;

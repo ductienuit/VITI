@@ -39,7 +39,7 @@ import com.oriondev.Viti.ui.activity.ToolbarController;
 import com.oriondev.Viti.utils.Utils;
 
 /**
- * Created by DucTien on 17/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public abstract class SinglePanelFragment extends Fragment implements Toolbar.OnMenuItemClickListener {
 

@@ -49,7 +49,7 @@ import com.oriondev.Viti.utils.IconLoader;
 import java.util.Date;
 
 /**
- * Created by DucTien on 17/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class OverviewSettingDialog extends DialogFragment implements DateTimePicker.Controller, CategoryPicker.Controller {
 

@@ -21,8 +21,6 @@
     <string name="menu_transaction">"收支"</string>
     <string name="menu_category">"分类"</string>
     <string name="menu_overview">"概览"</string>
-    <string name="menu_debt">"债务"</string>
-    <string name="menu_budget">"预算"</string>
     <string name="menu_saving">"存款"</string>
     <string name="menu_event">"事件"</string>
     <!-- Transactions -->
@@ -88,7 +86,6 @@
     <string name="menu_action_delete_item">"删除"</string>
     <string name="menu_action_search_item">"搜索"</string>
     <string name="menu_action_open_calendar">"日历"</string>
-    <string name="menu_action_open_map">"地图"</string>
     <string name="menu_action_service_disconnect">"断开"</string>
     <string name="error_input_missing_wallet">"请选择一个有效的钱包"</string>
     <string name="error_input_missing_category">"请选择一个有效的分类"</string>

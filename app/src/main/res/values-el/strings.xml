@@ -23,14 +23,9 @@
     <string name="menu_transaction">"Συναλλαγές"</string>
     <string name="menu_category">"Κατηγορίες"</string>
     <string name="menu_overview">"Επισκόπηση"</string>
-    <string name="menu_debt">"Χρέη"</string>
-    <string name="menu_budget">"Προϋπολογισμοί"</string>
     <string name="menu_saving">"Εξοικονομήσεις"</string>
     <string name="menu_event">"Συμβάντα"</string>
-    <string name="menu_recurrences">"Επαναλήψεις"</string>
     <string name="menu_models">"Μοντέλα"</string>
-    <string name="menu_place">"Μέρη"</string>
-    <string name="menu_people">"Άνθρωποι"</string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"Συναλλαγές"</string>
@@ -220,7 +215,6 @@
     <string name="menu_action_unarchive_item">"Unarchive"</string>
     <string name="menu_action_search_item">"Search"</string>
     <string name="menu_action_open_calendar">"Calendar"</string>
-    <string name="menu_action_open_map">"Map"</string>
     <string name="menu_action_sort_items">"Sort"</string>
     <string name="menu_action_show_transaction_list">"Show transactions"</string>
     <string name="menu_action_service_disconnect">"Disconnect"</string>

@@ -23,14 +23,9 @@
     <string name="menu_transaction">"Transactions"</string>
     <string name="menu_category">"Catégories"</string>
     <string name="menu_overview">"Graphiques"</string>
-    <string name="menu_debt">"Dettes"</string>
-    <string name="menu_budget">"Budgets"</string>
     <string name="menu_saving">"Économies"</string>
     <string name="menu_event">"Événements"</string>
-    <string name="menu_recurrences">"Récurrent"</string>
     <string name="menu_models">"Modèles"</string>
-    <string name="menu_place">"Lieux"</string>
-    <string name="menu_people">"Personnes"</string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"Transactions"</string>
@@ -220,7 +215,6 @@
     <string name="menu_action_unarchive_item">"Désarchiver"</string>
     <string name="menu_action_search_item">"rechercher"</string>
     <string name="menu_action_open_calendar">"Calendrier"</string>
-    <string name="menu_action_open_map">"Carte"</string>
     <string name="menu_action_sort_items">"Trier"</string>
     <string name="menu_action_show_transaction_list">"Afficher les transactions"</string>
     <string name="menu_action_service_disconnect">"Déconnecter"</string>

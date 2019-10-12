@@ -23,14 +23,9 @@
     <string name="menu_transaction">"معاملات"</string>
     <string name="menu_category">"دسته بندی‌ها"</string>
     <string name="menu_overview">"بررسی اجمالی"</string>
-    <string name="menu_debt">"بدهی ها"</string>
-    <string name="menu_budget">"بودجه‌ها"</string>
     <string name="menu_saving">"پس اندازها"</string>
     <string name="menu_event">"رخدادها"</string>
-    <string name="menu_recurrences">"باز رخدادها"</string>
     <string name="menu_models">"مدل‌ها"</string>
-    <string name="menu_place">"مکان‌ها"</string>
-    <string name="menu_people">"افراد"</string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions">"معاملات"</string>
@@ -200,7 +195,6 @@
     <string name="menu_action_unarchive_item">"بازخوانی"</string>
     <string name="menu_action_search_item">"جستجو"</string>
     <string name="menu_action_open_calendar">"تقویم"</string>
-    <string name="menu_action_open_map">"نقشه"</string>
     <string name="menu_action_show_transaction_list">"نمایش معاملات"</string>
     <string name="menu_action_service_disconnect">"قطع اتصال"</string>
     <string name="menu_action_service_auto_backup">"پشتیبان گیری خودکار"</string>

@@ -23,14 +23,9 @@
     <string name="menu_transaction"> "İşlemler" </string>
     <string name="menu_category"> "Kategoriler" </string>
     <string name="menu_overview"> "Genel Bakış" </string>
-    <string name="menu_debt"> "Borçlar" </string>
-    <string name="menu_budget"> "Bütçeler" </string>
     <string name="menu_saving"> "Tasarruf" </string>
     <string name="menu_event"> "Etkinlikler" </string>
-    <string name="menu_recurrences"> "Tekrarlayan işlemler" </string>
     <string name="menu_models"> "Modeller" </string>
-    <string name="menu_place"> "Yerler" </string>
-    <string name="menu_people"> "Kişiler" </string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions"> "İşlemler" </string>
@@ -214,7 +209,6 @@
     <string name="menu_action_unarchive_item"> "Arşivden çıkar" </string>
     <string name="menu_action_search_item"> "Ara" </string>
     <string name="menu_action_open_calendar"> "Takvim" </string>
-    <string name="menu_action_open_map"> "Harita" </string>
     <string name="menu_action_sort_items"> "Sırala" </string>
     <string name="menu_action_show_transaction_list"> "İşlemleri göster" </string>
     <string name="menu_action_service_disconnect"> "Bağlantıyı Kes" </string>

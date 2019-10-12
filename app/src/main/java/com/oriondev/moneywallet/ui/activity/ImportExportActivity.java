@@ -32,7 +32,6 @@ import com.oriondev.Viti.picker.ImportExportFormatPicker;
 import com.oriondev.Viti.picker.LocalFilePicker;
 import com.oriondev.Viti.picker.WalletPicker;
 import com.oriondev.Viti.service.ImportExportIntentService;
-import com.oriondev.Viti.storage.database.DataContentProvider;
 import com.oriondev.Viti.ui.activity.base.SinglePanelActivity;
 import com.oriondev.Viti.ui.fragment.dialog.GenericProgressDialog;
 import com.oriondev.Viti.ui.view.text.MaterialEditText;

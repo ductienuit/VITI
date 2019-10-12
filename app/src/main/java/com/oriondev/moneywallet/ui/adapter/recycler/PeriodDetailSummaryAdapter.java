@@ -32,7 +32,7 @@ import com.oriondev.Viti.utils.DateFormatter;
 import com.oriondev.Viti.utils.MoneyFormatter;
 
 /**
- * Created by DucTien on 14/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class PeriodDetailSummaryAdapter extends RecyclerView.Adapter<PeriodDetailSummaryAdapter.ViewHolder> {
 

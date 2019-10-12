@@ -30,7 +30,7 @@ import com.oriondev.Viti.utils.DateFormatter;
 import java.util.Calendar;
 
 /**
- * Created by DucTien on 12/10/19.
+ * Created by DucTien on 112/10/2019.
  */
 public class LegacyUserPreferences {
 

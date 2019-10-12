@@ -40,7 +40,6 @@ import com.oriondev.Viti.api.BackendServiceFactory;
 import com.oriondev.Viti.broadcast.AutoBackupBroadcastReceiver;
 import com.oriondev.Viti.model.IFile;
 import com.oriondev.Viti.storage.preference.BackendManager;
-import com.oriondev.Viti.storage.preference.PreferenceManager;
 import com.oriondev.Viti.ui.activity.BackendExplorerActivity;
 import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 

@@ -21,8 +21,6 @@
     <string name="menu_transaction">"Tranzacții"</string>
     <string name="menu_category">"Categorii"</string>
     <string name="menu_overview">"Prezentare generală"</string>
-    <string name="menu_debt">"Datorii"</string>
-    <string name="menu_budget">"Bugete"</string>
     <string name="menu_saving">"Economii"</string>
     <string name="menu_event">"Evenimente"</string>
     <!-- Transactions -->
@@ -83,7 +81,6 @@
     <string name="menu_action_delete_item">"Ștergere"</string>
     <string name="menu_action_search_item">"Căutare"</string>
     <string name="menu_action_open_calendar">"Calendar"</string>
-    <string name="menu_action_open_map">"Hartă"</string>
     <string name="menu_action_service_disconnect">"Deconectare"</string>
     <string name="error_input_missing_wallet">"Vă rugăm să selectați un portofel valid"</string>
     <string name="error_input_missing_category">"Vă rugăm să selectați o categorie validă"</string>

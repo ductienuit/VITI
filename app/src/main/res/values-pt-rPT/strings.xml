@@ -21,8 +21,6 @@
     <string name="menu_transaction">"Transacções"</string>
     <string name="menu_category">"Categorias"</string>
     <string name="menu_overview">"Visão geral"</string>
-    <string name="menu_debt">"Dívidas"</string>
-    <string name="menu_budget">"Orçamento"</string>
     <string name="menu_saving">"Poupanças"</string>
     <string name="menu_event">"Eventos"</string>
     <!-- Transactions -->
@@ -70,7 +68,6 @@
     <string name="menu_action_delete_item">"Eliminar"</string>
     <string name="menu_action_search_item">"Pesquisar"</string>
     <string name="menu_action_open_calendar">"Calendário"</string>
-    <string name="menu_action_open_map">"Mapa"</string>
     <string name="menu_action_service_disconnect">"Sair"</string>
     <string name="error_input_missing_wallet">"Por favor seleccione uma carteira válida"</string>
     <string name="error_input_missing_category">"Por favor seleccione uma categoria válida"</string>

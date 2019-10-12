@@ -27,7 +27,7 @@ import android.os.Build;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 04/12/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NotificationContract {
 

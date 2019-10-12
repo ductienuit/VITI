@@ -50,7 +50,7 @@ import com.oriondev.Viti.ui.adapter.recycler.OverviewItemAdapter;
 import com.oriondev.Viti.ui.fragment.base.SinglePanelFragment;
 
 /**
- * Created by DucTien on 17/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class OverviewSinglePanelFragment extends SinglePanelFragment implements OverviewSettingPicker.Controller, LoaderManager.LoaderCallbacks<OverviewData>, OverviewItemAdapter.Controller, CurrentWalletController {
 

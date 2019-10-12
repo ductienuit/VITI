@@ -21,8 +21,6 @@
     <string name="menu_transaction">"Transakcie"</string>
     <string name="menu_category">"Kategórie"</string>
     <string name="menu_overview">"Prehľad"</string>
-    <string name="menu_debt">"Dlhy"</string>
-    <string name="menu_budget">"Rozpočty"</string>
     <string name="menu_saving">"Úspory"</string>
     <string name="menu_event">"Udalosti"</string>
     <!-- Transactions -->
@@ -88,7 +86,6 @@
     <string name="menu_action_delete_item">"Vymazať"</string>
     <string name="menu_action_search_item">"Hľadať"</string>
     <string name="menu_action_open_calendar">"Kalendár"</string>
-    <string name="menu_action_open_map">"Mapa"</string>
     <string name="menu_action_service_disconnect">"Odpojiť"</string>
     <string name="error_input_missing_wallet">"Prosím, vyberte platnú peňaženku"</string>
     <string name="error_input_missing_category">"Prosím, vyberte platnú kategóriu"</string>

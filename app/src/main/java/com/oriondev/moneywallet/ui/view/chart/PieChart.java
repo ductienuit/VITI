@@ -36,7 +36,7 @@ import android.view.View;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 13/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class PieChart extends View {
 

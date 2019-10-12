@@ -24,35 +24,16 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
-import android.view.MenuItem;
-import android.widget.EditText;
 
-import com.afollestad.materialdialogs.color.ColorChooserDialog;
-import com.github.rubensousa.bottomsheetbuilder.BottomSheetBuilder;
-import com.github.rubensousa.bottomsheetbuilder.adapter.BottomSheetItemClickListener;
-import com.oriondev.Viti.R;
 import com.oriondev.Viti.api.BackendServiceFactory;
-import com.oriondev.Viti.api.disk.DiskBackendService;
-import com.oriondev.Viti.model.ColorIcon;
-import com.oriondev.Viti.model.Icon;
 import com.oriondev.Viti.model.LocalFile;
-import com.oriondev.Viti.model.VectorIcon;
 import com.oriondev.Viti.ui.activity.BackendExplorerActivity;
-import com.oriondev.Viti.ui.activity.IconListActivity;
-import com.oriondev.Viti.ui.activity.ImportExportActivity;
-import com.oriondev.Viti.ui.view.theme.ThemedDialog;
-import com.oriondev.Viti.utils.Utils;
 
 /**
  * Created by DucTien on 01/02/19.

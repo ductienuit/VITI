@@ -20,25 +20,19 @@
 package com.oriondev.Viti.storage.database;
 
 import android.annotation.SuppressLint;
-import android.content.BroadcastReceiver;
 import android.content.ContentProvider;
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.UriMatcher;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.content.LocalBroadcastManager;
 
 import com.oriondev.Viti.BuildConfig;
-import com.oriondev.Viti.broadcast.LocalAction;
-import com.oriondev.Viti.service.BackupHandlerIntentService;
 import com.oriondev.Viti.storage.preference.PreferenceManager;
 
 import java.util.List;

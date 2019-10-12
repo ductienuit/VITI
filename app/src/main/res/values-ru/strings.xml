@@ -21,8 +21,6 @@
     <string name="menu_transaction">"Операции"</string>
     <string name="menu_category">"Категории"</string>
     <string name="menu_overview">"Обзор"</string>
-    <string name="menu_debt">"Долги"</string>
-    <string name="menu_budget">"Бюджеты"</string>
     <string name="menu_saving">"Сбережения"</string>
     <string name="menu_event">"События"</string>
     <!-- Transactions -->
@@ -88,7 +86,6 @@
     <string name="menu_action_delete_item">"Удалить"</string>
     <string name="menu_action_search_item">"Поиск"</string>
     <string name="menu_action_open_calendar">"Календарь"</string>
-    <string name="menu_action_open_map">"Карта"</string>
     <string name="menu_action_service_disconnect">"Отключить"</string>
     <string name="error_input_missing_wallet">"Пожалуйста, выберите нужный счёт"</string>
     <string name="error_input_missing_category">"Пожалуйста, выберите нужную категорию"</string>

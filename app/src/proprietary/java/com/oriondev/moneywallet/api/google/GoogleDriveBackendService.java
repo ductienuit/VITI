@@ -35,21 +35,16 @@ import com.google.android.gms.drive.Drive;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.AbstractBackendServiceDelegate;
+import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.BackendServiceFactory;
-import com.oriondev.Viti.model.IFile;
 import com.oriondev.Viti.ui.view.theme.ThemedDialog;
-import com.oriondev.Viti.utils.ProgressInputStream;
-import com.oriondev.Viti.utils.ProgressOutputStream;
 
-import java.io.File;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /**
- * Created by DucTien on 21/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class GoogleDriveBackendService extends AbstractBackendServiceDelegate {
 

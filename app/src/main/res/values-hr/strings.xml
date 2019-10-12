@@ -21,8 +21,6 @@
     <string name="menu_transaction">"Transakcije"</string>
     <string name="menu_category">"Kategorije"</string>
     <string name="menu_overview">"Pregled"</string>
-    <string name="menu_debt">"Dugovi"</string>
-    <string name="menu_budget">"Budžeti"</string>
     <string name="menu_saving">"Štednje"</string>
     <string name="menu_event">"Događaji"</string>
     <!-- Transactions -->
@@ -88,7 +86,6 @@
     <string name="menu_action_delete_item">"Izbriši"</string>
     <string name="menu_action_search_item">"Pretraži"</string>
     <string name="menu_action_open_calendar">"Kalendar"</string>
-    <string name="menu_action_open_map">"Karta"</string>
     <string name="menu_action_service_disconnect">"Odspoji"</string>
     <string name="error_input_missing_wallet">"Molim odaberi ispravan novčanik"</string>
     <string name="error_input_missing_category">"Molim odaberi ispravnu kategoriju"</string>

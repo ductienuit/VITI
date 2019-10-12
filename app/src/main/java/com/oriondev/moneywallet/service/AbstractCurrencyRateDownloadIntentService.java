@@ -21,7 +21,6 @@ package com.oriondev.Viti.service;
 
 import android.app.Activity;
 import android.app.IntentService;
-import android.app.Notification;
 import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
@@ -29,9 +28,9 @@ import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.content.LocalBroadcastManager;
 
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.service.openexchangerates.OpenExchangeRatesCurrencyRateDownloadIntentService;
 import com.oriondev.Viti.broadcast.LocalAction;
 import com.oriondev.Viti.model.CurrencyUnit;
+import com.oriondev.Viti.service.openexchangerates.OpenExchangeRatesCurrencyRateDownloadIntentService;
 import com.oriondev.Viti.storage.cache.ExchangeRateCache;
 import com.oriondev.Viti.storage.preference.PreferenceManager;
 import com.oriondev.Viti.ui.notification.NotificationContract;

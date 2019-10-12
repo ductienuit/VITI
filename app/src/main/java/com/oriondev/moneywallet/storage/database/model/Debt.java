@@ -20,7 +20,7 @@
 package com.oriondev.Viti.storage.database.model;
 
 /**
- * Created by DucTien on 27/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class Debt extends BaseItem {
 

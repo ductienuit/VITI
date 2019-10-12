@@ -38,14 +38,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.api.disk.DiskBackendService;
 import com.oriondev.Viti.api.disk.DiskBackendServiceAPI;
 import com.oriondev.Viti.broadcast.LocalAction;
 import com.oriondev.Viti.model.IFile;
-import com.oriondev.Viti.model.LocalFile;
 import com.oriondev.Viti.service.BackendHandlerIntentService;
 import com.oriondev.Viti.ui.activity.base.SinglePanelActivity;
 import com.oriondev.Viti.ui.adapter.recycler.BackupFileAdapter;
@@ -100,7 +97,7 @@ public class BackendExplorerActivity extends SinglePanelActivity implements Swip
         intentFilter.addAction(LocalAction.ACTION_BACKEND_SERVICE_FINISHED);
         mLocalBroadcastManager = LocalBroadcastManager.getInstance(this);
         mLocalBroadcastManager.registerReceiver(mLocalBroadcastReceiver, intentFilter);
-    }
+    }//Gấp đéo gì lâu vãi
 
     @Override
     protected void onViewCreated(Bundle savedInstanceState) {

@@ -27,8 +27,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
 import com.oriondev.Viti.model.DataFormat;
-import com.oriondev.Viti.storage.database.Contract;
-import com.oriondev.Viti.ui.fragment.dialog.BudgetTypePickerDialog;
 import com.oriondev.Viti.ui.fragment.dialog.DataFormatPickerDialog;
 
 /**
