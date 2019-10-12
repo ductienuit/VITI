@@ -20,7 +20,7 @@
 package com.oriondev.Viti.storage.database.legacy;
 
 /**
- * Created by DucTien on 02/10/19.
+ * Created by DucTien on 012/10/2019.
  */
 /*package-local*/ class LegacyDatabaseSchema {
 

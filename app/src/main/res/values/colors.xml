@@ -24,6 +24,4 @@
     <color name="colorAccent">#FF4081</color>
     <color name="textPrimary">#DE000000</color>
     <color name="textSecondary">#8A000000</color>
-    <color name="textPrimaryInverted">#DEFFFFFF</color>
-    <color name="textSecondaryInverted">#8AFFFFFF</color>
 </resources>

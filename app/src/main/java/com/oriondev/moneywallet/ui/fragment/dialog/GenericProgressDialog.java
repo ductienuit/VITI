@@ -26,8 +26,6 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.oriondev.Viti.R;
-import com.oriondev.Viti.service.BackupHandlerIntentService;
 import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**

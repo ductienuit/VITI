@@ -40,7 +40,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by DucTien on 07/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class RecurrenceSetting implements Parcelable {
 

@@ -29,7 +29,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by DucTien on 08/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class MaterialProgressBar extends View {
 

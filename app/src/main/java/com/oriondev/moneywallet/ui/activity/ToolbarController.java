@@ -22,7 +22,7 @@ package com.oriondev.Viti.ui.activity;
 import android.support.v7.widget.Toolbar;
 
 /**
- * Created by DucTien on 24/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public interface ToolbarController {

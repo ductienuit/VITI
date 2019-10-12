@@ -20,7 +20,7 @@
 package com.oriondev.Viti.storage.preference;
 
 /**
- * Created by DucTien on 04/09/19.
+ * Created by DucTien on 13/10/2019.
  */
 public interface CurrentWalletController {
 

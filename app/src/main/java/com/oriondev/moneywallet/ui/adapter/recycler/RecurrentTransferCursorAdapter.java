@@ -42,7 +42,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by DucTien on 03/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class RecurrentTransferCursorAdapter extends AbstractCursorAdapter<RecurrentTransferCursorAdapter.RecurrentTransferViewHolder> {
 

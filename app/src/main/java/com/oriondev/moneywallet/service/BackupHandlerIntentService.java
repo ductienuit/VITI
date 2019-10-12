@@ -20,7 +20,6 @@
 package com.oriondev.Viti.service;
 
 import android.app.IntentService;
-import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -35,7 +34,6 @@ import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 
-import com.oriondev.Viti.BuildConfig;
 import com.oriondev.Viti.R;
 import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.BackendServiceFactory;
@@ -74,7 +72,7 @@ import java.util.Locale;
 import java.util.UUID;
 
 /**
- * Created by DucTien on 21/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class BackupHandlerIntentService extends IntentService {
 

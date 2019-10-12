@@ -21,16 +21,8 @@
     <string name="menu_transaction">"Transakcie"</string>
     <string name="menu_category">"Kategórie"</string>
     <string name="menu_overview">"Prehľad"</string>
-    <string name="menu_debt">"Dlhy"</string>
-    <string name="menu_budget">"Rozpočty"</string>
     <string name="menu_saving">"Úspory"</string>
     <string name="menu_event">"Udalosti"</string>
-    <string name="menu_converter">"Konvertor"</string>
-    <string name="menu_calculator">"Kalkulačka"</string>
-    <string name="menu_search_atm">"Hľadať bankomat"</string>
-    <string name="menu_search_bank">"Hľadať banku"</string>
-    <string name="menu_setting">"Nastavenia"</string>
-    <string name="menu_about">"O aplikácii"</string>
     <!-- Transactions -->
     <string name="menu_transaction_tab_transfers">"Prevody"</string>
     <!-- Categories -->
@@ -69,8 +61,6 @@
     <string name="hint_place">"Miesto"</string>
     <string name="hint_note">"Poznámka"</string>
     <string name="hint_tax">"Daň z transakcie"</string>
-    <string name="hint_atm_name">"Názov bankomatu"</string>
-    <string name="hint_bank_name">"Názov banky"</string>
     <string name="hint_show_currency_symbol">"Zobraziť symbol meny"</string>
     <string name="hint_group_digits">"Zoskupenie číslic"</string>
     <string name="hint_round_decimals">"Zaokrúhlenie desatinných miest"</string>
@@ -91,13 +81,11 @@
     <string name="title_activity_edit_event">"Upraviť udalosť"</string>
     <string name="title_activity_category_picker">Vyľba ikony</string>
     <string name="title_activity_calculator">Kalkulačka</string>
-    <string name="title_activity_currency_converter">"Konvertor meny"</string>
     <string name="menu_advanced_settings">"Pokročilé"</string>
     <string name="menu_action_edit_item">"Upraviť"</string>
     <string name="menu_action_delete_item">"Vymazať"</string>
     <string name="menu_action_search_item">"Hľadať"</string>
     <string name="menu_action_open_calendar">"Kalendár"</string>
-    <string name="menu_action_open_map">"Mapa"</string>
     <string name="menu_action_service_disconnect">"Odpojiť"</string>
     <string name="error_input_missing_wallet">"Prosím, vyberte platnú peňaženku"</string>
     <string name="error_input_missing_category">"Prosím, vyberte platnú kategóriu"</string>
@@ -127,9 +115,6 @@
     <string name="message_no_category_found">"Žiadna kategória nenájdená"</string>
     <string name="message_no_debt_found">"Žiadne dlhy nenájdené"</string>
     <string name="message_no_recurrence_found">"Žiadne opakovanie nenájdené"</string>
-    <string name="setting_title_user_interface">"Používateľské rozhranie"</string>
-    <string name="setting_title_utility">"Užitočné"</string>
-    <string name="setting_title_about">"Informácie"</string>
     <string name="setting_title_ui_income_color">"Farba príjmov"</string>
     <string name="setting_title_ui_expense_color">"Farba výdavkov"</string>
     <string name="setting_title_ui_custom_digits">"Štýl zobrazenia číslic"</string>
@@ -149,7 +134,4 @@
     <string name="setting_item_ui_theme_type_deep_dark">"Hlboká tmavá téma"</string>
     <string name="notification_title_daily_reminder_title">Nejaká transakcia na dnes?</string>
     <string name="notification_title_daily_reminder_text">Kliknite tu, pre okamžité pridanie</string>
-    <string name="about_hint_version">"Verzia"</string>
-    <string name="about_hint_changelog">"Zoznam zmien"</string>
-    <string name="about_hint_translators">"Prekladatelia"</string>
 </resources>

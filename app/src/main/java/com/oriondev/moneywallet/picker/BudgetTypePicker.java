@@ -30,7 +30,7 @@ import com.oriondev.Viti.storage.database.Contract;
 import com.oriondev.Viti.ui.fragment.dialog.BudgetTypePickerDialog;
 
 /**
- * Created by DucTien on 12/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class BudgetTypePicker extends Fragment implements BudgetTypePickerDialog.Callback {
 

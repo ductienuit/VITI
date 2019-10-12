@@ -22,7 +22,7 @@ package com.oriondev.Viti.ui.view.chart;
 import android.graphics.drawable.Drawable;
 
 /**
- * Created by DucTien on 13/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class PieSlice {
 

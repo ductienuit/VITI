@@ -1,30 +1,14 @@
-/*
- * Copyright (c) 2019.
- *
- * This file is part of Viti.
- *
- * Viti is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Viti is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Viti.  If not, see <http://www.gnu.org/licenses/>.
- */
+package com.oriondev.moneywallet.ui.fragment.singlepanel;
 
-package com.oriondev.Viti.ui.fragment.singlepanel;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.app.Fragment;
 import android.support.annotation.MenuRes;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
@@ -37,45 +21,25 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.background.OverviewDataLoader;
+import com.oriondev.Viti.dev.R;
 import com.oriondev.Viti.model.OverviewData;
 import com.oriondev.Viti.model.OverviewSetting;
 import com.oriondev.Viti.model.PeriodMoney;
-import com.oriondev.Viti.picker.OverviewSettingPicker;
-import com.oriondev.Viti.storage.preference.CurrentWalletController;
-import com.oriondev.Viti.storage.preference.PreferenceManager;
-import com.oriondev.Viti.ui.activity.PeriodDetailActivity;
-import com.oriondev.Viti.ui.adapter.pager.OverviewChartViewPagerAdapter;
-import com.oriondev.Viti.ui.adapter.recycler.OverviewItemAdapter;
-import com.oriondev.Viti.ui.fragment.base.SinglePanelFragment;
 
 /**
- * Created by DucTien on 12/10/2019.
+ * A simple {@link Fragment} subclass.
  */
-public class OverviewSinglePanelFragment extends SinglePanelFragment implements OverviewSettingPicker.Controller, LoaderManager.LoaderCallbacks<OverviewData>, OverviewItemAdapter.Controller, CurrentWalletController {
-
-    private static final int LOADER_OVERVIEW_DATA = 34848;
+public class HomeSinglePanelFragment extends com.oriondev.Viti.ui.fragment.base.SinglePanelFragment implements com.oriondev.Viti.picker.OverviewSettingPicker.Controller, LoaderManager.LoaderCallbacks<com.oriondev.Viti.model.OverviewData>, com.oriondev.Viti.ui.adapter.recycler.OverviewItemAdapter.Controller, com.oriondev.Viti.storage.preference.CurrentWalletController {
+    private static final int LOADER_HOME_DATA = 34848;
 
     private static final String TAG_SETTING_PICKER = "OverviewSinglePanelFragment::Tag::OverviewSettingPicker";
 
-    private OverviewChartViewPagerAdapter mViewPagerAdapter;
-    private OverviewItemAdapter mRecyclerViewAdapter;
+    private com.oriondev.Viti.ui.adapter.pager.OverviewChartViewPagerAdapter mViewPagerAdapter;
+    private com.oriondev.Viti.ui.adapter.recycler.OverviewItemAdapter mRecyclerViewAdapter;
 
-    private OverviewSettingPicker mOverviewSettingPicker;
+    private com.oriondev.Viti.picker.OverviewSettingPicker mOverviewSettingPicker;
 
     private BroadcastReceiver mBroadcastReceiver;
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        mBroadcastReceiver = PreferenceManager.registerCurrentWalletObserver(context, this);
-    }
-
-    @Override
-    public void onDetach() {
-        PreferenceManager.unregisterCurrentWalletObserver(getActivity(), mBroadcastReceiver);
-        super.onDetach();
-    }
 
     @Override
     protected void onCreatePanelView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -84,16 +48,26 @@ public class OverviewSinglePanelFragment extends SinglePanelFragment implements 
         RecyclerView recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         // initialize adapters
-        mViewPagerAdapter = new OverviewChartViewPagerAdapter();
-        mRecyclerViewAdapter = new OverviewItemAdapter(this);
+        mViewPagerAdapter = new com.oriondev.Viti.ui.adapter.pager.OverviewChartViewPagerAdapter();
+        mRecyclerViewAdapter = new com.oriondev.Viti.ui.adapter.recycler.OverviewItemAdapter(this);
         // attach adapters
         viewPager.setAdapter(mViewPagerAdapter);
         recyclerView.setAdapter(mRecyclerViewAdapter);
         // initialize picker
         FragmentManager fragmentManager = getChildFragmentManager();
-        mOverviewSettingPicker = OverviewSettingPicker.createPicker(fragmentManager, TAG_SETTING_PICKER);
+        mOverviewSettingPicker = com.oriondev.Viti.picker.OverviewSettingPicker.createPicker(fragmentManager, TAG_SETTING_PICKER);
+    }
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        mBroadcastReceiver = com.oriondev.Viti.storage.preference.PreferenceManager.registerCurrentWalletObserver(context, this);
     }
 
+    @Override
+    public void onDetach() {
+        com.oriondev.Viti.storage.preference.PreferenceManager.unregisterCurrentWalletObserver(getActivity(), mBroadcastReceiver);
+        super.onDetach();
+    }
     @Override
     protected int getTitleRes() {
         return R.string.menu_overview;
@@ -119,14 +93,14 @@ public class OverviewSinglePanelFragment extends SinglePanelFragment implements 
 
     @Override
     public void onOverviewSettingChanged(String tag, OverviewSetting overviewSetting) {
-        getLoaderManager().restartLoader(LOADER_OVERVIEW_DATA, null, this);
+        getLoaderManager().restartLoader(LOADER_HOME_DATA, null, this);
     }
 
     @NonNull
     @Override
     public Loader<OverviewData> onCreateLoader(int id, Bundle args) {
         OverviewSetting setting = mOverviewSettingPicker.getCurrentSettings();
-        return new OverviewDataLoader(getActivity(), setting);
+        return new com.oriondev.Viti.background.OverviewDataLoader(getActivity(), setting);
     }
 
     @Override
@@ -142,14 +116,14 @@ public class OverviewSinglePanelFragment extends SinglePanelFragment implements 
 
     @Override
     public void onPeriodClick(PeriodMoney periodMoney) {
-        Intent intent = new Intent(getActivity(), PeriodDetailActivity.class);
-        intent.putExtra(PeriodDetailActivity.START_DATE, periodMoney.getStartDate());
-        intent.putExtra(PeriodDetailActivity.END_DATE, periodMoney.getEndDate());
+        Intent intent = new Intent(getActivity(), com.oriondev.Viti.ui.activity.PeriodDetailActivity.class);
+        intent.putExtra(com.oriondev.Viti.ui.activity.PeriodDetailActivity.START_DATE, periodMoney.getStartDate());
+        intent.putExtra(com.oriondev.Viti.ui.activity.PeriodDetailActivity.END_DATE, periodMoney.getEndDate());
         startActivity(intent);
     }
 
     @Override
     public void onCurrentWalletChanged(long walletId) {
-        getLoaderManager().restartLoader(LOADER_OVERVIEW_DATA, null, this);
+        getLoaderManager().restartLoader(LOADER_HOME_DATA, null, this);
     }
 }

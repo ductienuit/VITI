@@ -22,14 +22,13 @@ import com.oriondev.Viti.storage.database.Contract;
 import com.oriondev.Viti.storage.database.DataContentProvider;
 import com.oriondev.Viti.ui.activity.base.SinglePanelSimpleListActivity;
 import com.oriondev.Viti.ui.adapter.recycler.AbstractCursorAdapter;
-import com.oriondev.Viti.ui.adapter.recycler.CategorySortCursorAdapter;
 import com.oriondev.Viti.ui.adapter.recycler.WalletSortCursorAdapter;
 import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 
 import java.util.List;
 
 /**
- * Created by DucTien on 05/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public class WalletSortActivity extends SinglePanelSimpleListActivity implements WalletSortCursorAdapter.WalletSortListener {

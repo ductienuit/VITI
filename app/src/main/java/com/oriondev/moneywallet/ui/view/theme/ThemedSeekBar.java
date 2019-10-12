@@ -24,7 +24,7 @@ import android.support.v7.widget.AppCompatSeekBar;
 import android.util.AttributeSet;
 
 /**
- * Created by DucTien on 27/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class ThemedSeekBar extends AppCompatSeekBar implements ThemeEngine.ThemeConsumer {
 

@@ -29,13 +29,13 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.dropbox.core.android.Auth;
 import com.oriondev.Viti.BuildConfig;
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.AbstractBackendServiceDelegate;
+import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.BackendServiceFactory;
 import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**
- * Created by DucTien on 21/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class DropboxBackendService extends AbstractBackendServiceDelegate {
 

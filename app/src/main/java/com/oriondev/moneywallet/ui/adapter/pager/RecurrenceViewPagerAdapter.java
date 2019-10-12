@@ -29,7 +29,7 @@ import com.oriondev.Viti.ui.fragment.primary.RecurrentTransactionListFragment;
 import com.oriondev.Viti.ui.fragment.primary.RecurrentTransferListFragment;
 
 /**
- * Created by DucTien on 04/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class RecurrenceViewPagerAdapter extends FragmentPagerAdapter {
 

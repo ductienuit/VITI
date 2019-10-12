@@ -27,7 +27,7 @@ import android.widget.RelativeLayout;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 25/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedRelativeLayout extends RelativeLayout implements ThemeEngine.ThemeConsumer {
 

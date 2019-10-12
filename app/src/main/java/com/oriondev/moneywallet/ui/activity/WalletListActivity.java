@@ -24,7 +24,7 @@ import com.oriondev.Viti.ui.fragment.base.MultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.WalletMultiPanelFragment;
 
 /**
- * Created by DucTien on 17/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class WalletListActivity extends MultiPanelActivity {
 

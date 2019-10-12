@@ -22,7 +22,7 @@ package com.oriondev.Viti.model;
 import com.oriondev.Viti.storage.preference.PreferenceManager;
 
 /**
- * Created by DucTien on 24/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public enum LockMode {
 

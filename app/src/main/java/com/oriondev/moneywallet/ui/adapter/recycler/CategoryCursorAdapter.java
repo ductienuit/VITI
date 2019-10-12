@@ -35,7 +35,7 @@ import com.oriondev.Viti.ui.view.CategoryChildIndicator;
 import com.oriondev.Viti.utils.IconLoader;
 
 /**
- * Created by DucTien on 12/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CategoryCursorAdapter extends AbstractCursorAdapter<CategoryCursorAdapter.CategoryViewHolder> {
 

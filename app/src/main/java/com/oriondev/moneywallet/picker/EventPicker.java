@@ -32,7 +32,7 @@ import com.oriondev.Viti.ui.fragment.dialog.EventPickerDialog;
 import java.util.Date;
 
 /**
- * Created by DucTien on 10/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class EventPicker extends Fragment implements EventPickerDialog.Callback {
 

@@ -29,7 +29,7 @@ import com.oriondev.Viti.storage.database.Contract;
 import com.oriondev.Viti.ui.fragment.primary.DebtListFragment;
 
 /**
- * Created by DucTien on 02/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class DebtViewPagerAdapter extends FragmentPagerAdapter {
 

@@ -25,7 +25,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 
 /**
- * Created by DucTien on 26/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public abstract class AbstractCursorAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {

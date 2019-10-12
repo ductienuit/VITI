@@ -33,7 +33,6 @@ import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.oriondev.Viti.R;
 import com.oriondev.Viti.broadcast.LocalAction;
-import com.oriondev.Viti.broadcast.RecurrenceBroadcastReceiver;
 import com.oriondev.Viti.service.UpgradeLegacyEditionIntentService;
 import com.oriondev.Viti.storage.preference.PreferenceManager;
 import com.oriondev.Viti.ui.activity.base.ThemedActivity;
@@ -41,7 +40,7 @@ import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 /**
- * Created by DucTien on 30/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class LauncherActivity extends ThemedActivity {
 

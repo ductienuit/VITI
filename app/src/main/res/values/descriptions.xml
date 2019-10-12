@@ -31,7 +31,6 @@
     <string name="description_event_icon">"Event icon"</string>
     <string name="description_place_icon">"Place icon"</string>
     <string name="description_person_icon">"Person icon"</string>
-    <string name="description_budget_type_icon">"Budget type icon"</string>
     <string name="description_selector_icon">"Selector icon"</string>
     <string name="description_remove_icon">"Remove icon"</string>
     <string name="description_file_icon">"File icon"</string>

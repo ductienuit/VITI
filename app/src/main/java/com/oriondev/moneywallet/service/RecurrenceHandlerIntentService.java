@@ -41,7 +41,7 @@ import org.dmfs.rfc5545.recur.RecurrenceRuleIterator;
 import java.util.Date;
 
 /**
- * Created by DucTien on 11/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class RecurrenceHandlerIntentService extends JobIntentService {
 

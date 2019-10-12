@@ -19,7 +19,6 @@
 
 package com.oriondev.Viti.ui.activity;
 
-import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -38,7 +37,6 @@ import android.support.annotation.StringRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.LoaderManager;
-import android.support.v4.app.SupportActivity;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.support.v4.content.LocalBroadcastManager;
@@ -48,12 +46,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.afollestad.materialdialogs.MaterialDialog;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
-import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileSettingDrawerItem;
@@ -70,23 +66,15 @@ import com.oriondev.Viti.storage.database.DataContentProvider;
 import com.oriondev.Viti.storage.preference.PreferenceManager;
 import com.oriondev.Viti.ui.activity.base.BaseActivity;
 import com.oriondev.Viti.ui.fragment.base.NavigableFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.BudgetMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.CategoryMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.DebtMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.EventMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.ModelMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.PersonMultiPanelFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.PlaceMultiPanelFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.RecurrenceMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment;
-import com.oriondev.Viti.ui.fragment.multipanel.SettingMultiPanelFragment;
 import com.oriondev.Viti.ui.fragment.multipanel.TransactionMultiPanelViewPagerFragment;
 import com.oriondev.Viti.ui.fragment.singlepanel.OverviewSinglePanelFragment;
 import com.oriondev.Viti.ui.view.theme.ITheme;
 import com.oriondev.Viti.ui.view.theme.ThemeEngine;
-import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.oriondev.Viti.ui.view.theme.ThemedRecyclerView;
 import com.oriondev.Viti.utils.IconLoader;
+import com.oriondev.moneywallet.ui.fragment.singlepanel.HomeSinglePanelFragment;
 
 import java.util.Locale;
 
@@ -96,25 +84,13 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
 
     private static final int LOADER_WALLETS = 1;
 
-    private static final int ID_SECTION_HOME = -1;
     private static final int ID_SECTION_TRANSACTIONS = 0;
     private static final int ID_SECTION_CATEGORIES = 1;
     private static final int ID_SECTION_OVERVIEW = 2;
-    private static final int ID_SECTION_DEBTS = 3;
-    private static final int ID_SECTION_BUDGETS = 4;
     private static final int ID_SECTION_SAVINGS = 5;
-    private static final int ID_SECTION_EVENTS = 6;
-    private static final int ID_SECTION_RECURRENCES = 7;
+    private static final int ID_SECTION_HOME = 6;
     private static final int ID_SECTION_MODELS = 8;
-    private static final int ID_SECTION_PLACES = 9;
-    private static final int ID_SECTION_PEOPLE = 10;
     private static final int ID_SECTION_CALCULATOR = 11;
-    private static final int ID_SECTION_CONVERTER = 12;
-    private static final int ID_SECTION_ATM = 13;
-    private static final int ID_SECTION_BANK = 14;
-    private static final int ID_SECTION_SETTING = 15;
-    private static final int ID_SECTION_SUPPORT_DEVELOPER = 16;
-    private static final int ID_SECTION_ABOUT = 17;
 
     private final static int ID_ACTION_NEW_WALLET = 1;
     private final static int ID_ACTION_MANAGE_WALLET = 2;
@@ -157,26 +133,11 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
                 .withActivity(this)
                 .withAccountHeader(mAccountHeader)
                 .addDrawerItems(
+                        createDrawerItem(ID_SECTION_HOME, R.drawable.ic_home_black_24dp, R.string.menu_home),
                         createDrawerItem(ID_SECTION_TRANSACTIONS, R.drawable.ic_shopping_cart_24dp, R.string.menu_transaction),
                         createDrawerItem(ID_SECTION_CATEGORIES, R.drawable.ic_table_large_24dp, R.string.menu_category),
                         createDrawerItem(ID_SECTION_OVERVIEW, R.drawable.ic_equalizer_24dp, R.string.menu_overview),
-                        createDrawerItem(ID_SECTION_DEBTS, R.drawable.ic_debt_24dp, R.string.menu_debt),
-                        createDrawerItem(ID_SECTION_BUDGETS, R.drawable.ic_budget_24dp, R.string.menu_budget),
-                        createDrawerItem(ID_SECTION_SAVINGS, R.drawable.ic_saving_24dp, R.string.menu_saving),
-                        createDrawerItem(ID_SECTION_EVENTS, R.drawable.ic_assistant_photo_24dp, R.string.menu_event),
-                        createDrawerItem(ID_SECTION_RECURRENCES, R.drawable.ic_restore_24dp, R.string.menu_recurrences),
-                        createDrawerItem(ID_SECTION_MODELS, R.drawable.ic_bookmark_black_24dp, R.string.menu_models),
-                        createDrawerItem(ID_SECTION_PLACES, R.drawable.ic_place_24dp, R.string.menu_place),
-                        createDrawerItem(ID_SECTION_PEOPLE, R.drawable.ic_people_black_24dp, R.string.menu_people),
-                        new DividerDrawerItem(),
-                        createDrawerItem(ID_SECTION_CALCULATOR, R.drawable.ic_calculator_24dp, R.string.menu_calculator),
-                        createDrawerItem(ID_SECTION_CONVERTER, R.drawable.ic_converter_24dp,R.string.menu_converter),
-                        createDrawerItem(ID_SECTION_ATM, R.drawable.ic_credit_card_24dp, R.string.menu_search_atm),
-                        createDrawerItem(ID_SECTION_BANK, R.drawable.ic_account_balance_24dp, R.string.menu_search_bank),
-                        new DividerDrawerItem(),
-                        createDrawerItem(ID_SECTION_SETTING, R.drawable.ic_settings_24dp, R.string.menu_setting),
-                        createDrawerItem(ID_SECTION_SUPPORT_DEVELOPER, R.drawable.ic_favorite_border_black_24dp, R.string.menu_support_developer),
-                        createDrawerItem(ID_SECTION_ABOUT, R.drawable.ic_info_outline_24dp, R.string.menu_about)
+                        createDrawerItem(ID_SECTION_SAVINGS, R.drawable.ic_saving_24dp, R.string.menu_saving)
                 )
                 .withOnDrawerItemClickListener(this)
                 .build();
@@ -303,22 +264,7 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
             int identifier = (int) drawerItem.getIdentifier();
             switch (identifier) {
                 case ID_SECTION_CALCULATOR:
-                    startActivity(new Intent(this, CalculatorActivity.class));
-                    break;
-                case ID_SECTION_CONVERTER:
-                    startActivity(new Intent(this, CurrencyConverterActivity.class));
-                    break;
-                case ID_SECTION_ATM:
-                    showAtmSearchDialog();
-                    break;
-                case ID_SECTION_BANK:
-                    showBankSearchDialog();
-                    break;
-                case ID_SECTION_SUPPORT_DEVELOPER:
-                    startActivity(new Intent(this, DonationActivity.class));
-                    break;
-                case ID_SECTION_ABOUT:
-                    startActivity(new Intent(this, AboutActivity.class));
+                    startActivity(new Intent(this, com.oriondev.Viti.ui.activity.CalculatorActivity.class));
                     break;
                 default:
                     mCurrentSelection = identifier;
@@ -329,52 +275,6 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
         mDrawer.closeDrawer();
         mDrawer.setSelection(mCurrentSelection, false);
         return true;
-    }
-
-    private void showAtmSearchDialog() {
-        ThemedDialog.buildMaterialDialog(this)
-                .title(R.string.title_atm_search)
-                .input(R.string.hint_atm_name, 0, false, new MaterialDialog.InputCallback() {
-
-                    @Override
-                    public void onInput(@NonNull MaterialDialog dialog, CharSequence input) {
-                        Uri mapUri = Uri.parse("geo:0,0?q=atm " + input);
-                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
-                        try {
-                            startActivity(mapIntent);
-                        } catch (ActivityNotFoundException ignore) {
-                            showActivityNotFoundDialog();
-                        }
-                    }
-
-                }).show();
-    }
-
-    private void showBankSearchDialog() {
-        ThemedDialog.buildMaterialDialog(this)
-                .title(R.string.title_bank_search)
-                .input(R.string.hint_bank_name, 0, false, new MaterialDialog.InputCallback() {
-
-                    @Override
-                    public void onInput(@NonNull MaterialDialog dialog, CharSequence input) {
-                        Uri mapUri = Uri.parse("geo:0,0?q=bank " + input);
-                        Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
-                        try {
-                            startActivity(mapIntent);
-                        } catch (ActivityNotFoundException ignore) {
-                            showActivityNotFoundDialog();
-                        }
-                    }
-
-                }).show();
-    }
-
-    private void showActivityNotFoundDialog() {
-        ThemedDialog.buildMaterialDialog(this)
-                .title(R.string.title_error)
-                .content(R.string.message_error_activity_not_found)
-                .positiveText(android.R.string.ok)
-                .show();
     }
 
     /**
@@ -413,28 +313,16 @@ public class MainActivity extends BaseActivity implements DrawerController, Acco
         switch (identifier) {
             case ID_SECTION_TRANSACTIONS:
                 return new TransactionMultiPanelViewPagerFragment();
+            case ID_SECTION_HOME:
+                return new HomeSinglePanelFragment();
             case ID_SECTION_CATEGORIES:
                 return new CategoryMultiPanelViewPagerFragment();
             case ID_SECTION_OVERVIEW:
                 return new OverviewSinglePanelFragment();
-            case ID_SECTION_DEBTS:
-                return new DebtMultiPanelViewPagerFragment();
-            case ID_SECTION_BUDGETS:
-                return new BudgetMultiPanelViewPagerFragment();
-            case ID_SECTION_SAVINGS:
-                return new SavingMultiPanelViewPagerFragment();
-            case ID_SECTION_EVENTS:
-                return new EventMultiPanelViewPagerFragment();
-            case ID_SECTION_RECURRENCES:
-                return new RecurrenceMultiPanelViewPagerFragment();
             case ID_SECTION_MODELS:
                 return new ModelMultiPanelViewPagerFragment();
-            case ID_SECTION_PLACES:
-                return new PlaceMultiPanelFragment();
-            case ID_SECTION_PEOPLE:
-                return new PersonMultiPanelFragment();
-            case ID_SECTION_SETTING:
-                return new SettingMultiPanelFragment();
+            case ID_SECTION_SAVINGS:
+                return new com.oriondev.Viti.ui.fragment.multipanel.SavingMultiPanelViewPagerFragment();
             default:
                 throw new IllegalArgumentException("Invalid section id: " + identifier);
         }

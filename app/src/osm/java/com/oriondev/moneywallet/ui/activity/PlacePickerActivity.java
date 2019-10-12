@@ -34,7 +34,7 @@ import com.oriondev.Viti.ui.activity.base.SinglePanelActivity;
 import com.oriondev.Viti.view.MapViewWrapper;
 
 /**
- * Created by DucTien on 02/10/19.
+ * Created by DucTien on 012/10/2019.
  */
 public class PlacePickerActivity extends SinglePanelActivity {
 

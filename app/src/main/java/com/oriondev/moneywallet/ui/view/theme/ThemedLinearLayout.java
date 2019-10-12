@@ -27,7 +27,7 @@ import android.widget.LinearLayout;
 import com.oriondev.Viti.R;
 
 /**
- * Created by DucTien on 11/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedLinearLayout extends LinearLayout implements ThemeEngine.ThemeConsumer {
 

@@ -27,10 +27,7 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
 import android.text.TextUtils;
-import android.util.SparseLongArray;
 
-import com.oriondev.Viti.model.CurrencyUnit;
-import com.oriondev.Viti.utils.CurrencyManager;
 import com.oriondev.Viti.utils.DateUtils;
 import com.oriondev.Viti.utils.MoneyFormatter;
 
@@ -38,20 +35,11 @@ import org.dmfs.rfc5545.DateTime;
 import org.dmfs.rfc5545.recur.InvalidRecurrenceRuleException;
 import org.dmfs.rfc5545.recur.RecurrenceRule;
 import org.dmfs.rfc5545.recur.RecurrenceRuleIterator;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 import java.util.UUID;
 
 /**

@@ -57,7 +57,7 @@ import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.oriondev.Viti.utils.IconLoader;
 
 /**
- * Created by DucTien on 01/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CategoryItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

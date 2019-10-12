@@ -22,14 +22,13 @@ package com.oriondev.Viti.ui.view.theme;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.PorterDuff;
-import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
 import com.oriondev.Viti.R;
 import com.oriondev.Viti.ui.view.SquaredImageView;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedSquaredImageView extends SquaredImageView implements ThemeEngine.ThemeConsumer {
 

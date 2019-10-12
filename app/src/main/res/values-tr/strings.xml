@@ -23,21 +23,9 @@
     <string name="menu_transaction"> "İşlemler" </string>
     <string name="menu_category"> "Kategoriler" </string>
     <string name="menu_overview"> "Genel Bakış" </string>
-    <string name="menu_debt"> "Borçlar" </string>
-    <string name="menu_budget"> "Bütçeler" </string>
     <string name="menu_saving"> "Tasarruf" </string>
     <string name="menu_event"> "Etkinlikler" </string>
-    <string name="menu_recurrences"> "Tekrarlayan işlemler" </string>
     <string name="menu_models"> "Modeller" </string>
-    <string name="menu_place"> "Yerler" </string>
-    <string name="menu_people"> "Kişiler" </string>
-    <string name="menu_converter"> "Dönüştürücü" </string>
-    <string name="menu_calculator"> "Hesap Makinesi" </string>
-    <string name="menu_search_atm"> "Arama atm" </string>
-    <string name="menu_search_bank"> "Arama banka" </string>
-    <string name="menu_setting"> "Ayarlar" </string>
-    <string name="menu_support_developer"> "Geliştiriciye destek ol" </string>
-    <string name="menu_about"> "Hakkında" </string>
 
     <!-- Transactions -->
     <string name="menu_transaction_tab_transactions"> "İşlemler" </string>
@@ -78,7 +66,6 @@
     <string name="action_add"> "Ekle" </string>
     <string name="action_new"> "Yeni" </string>
     <string name="action_edit"> "Düzenle" </string>
-    <string name="action_search"> "Ara" </string>
     <string name="action_filter"> "Filtre" </string>
     <string name="action_remove"> "Kaldır" </string>
     <string name="action_open"> "Aç" </string>
@@ -132,8 +119,6 @@
     <string name="hint_directory"> "Dizin" </string>
     <string name="hint_navigate_up"> "Gezin" "</string>
     <string name="hint_password"> "Şifre" </string>
-    <string name="hint_atm_name"> "ATM adı" </string>
-    <string name="hint_bank_name"> "Banka adı" </string>
     <string name="hint_attachments"> "Ekler" </string>
     <string name="hint_operation_in_progress"> "Devam ediyor…" </string>
     <string name="hint_search_something"> "Bir şey arayın" </string>
@@ -193,16 +178,12 @@
     <string name="title_activity_category_sort"> "Kategorileri sırala" </string>
     <string name="title_activity_icon_list"> "Simgeler" </string>
     <string name="title_activity_backup_services"> "Yedekleme hizmetleri" </string>
-    <string name="title_activity_about"> "Hakkında" </string>
     <string name="title_activity_calculator"> "Hesap Makinesi" </string>
-    <string name="title_activity_currency_converter"> "Para birimi dönüştürücü" </string>
-    <string name="title_activity_search_transaction"> "Ara" </string>
     <string name="title_activity_calendar"> "Takvim" </string>
     <string name="title_activity_map"> "Harita" </string>
     <string name="title_activity_backend_explorer"> "Arka ucu keşfedin" </string>
     <string name="title_activity_backend_file_picker"> "Bir dosya seç" </string>
     <string name="title_activity_backend_folder_picker"> "Bir klasör seçin" </string>
-    <string name="title_activity_support_developer"> "Geliştiriciye destek ol" </string>
     <string name="title_activity_import_data"> "Verileri içe aktar" </string>
     <string name="title_activity_export_data"> "Verileri dışa aktar" "</string>
 
@@ -221,7 +202,6 @@
 
     <string name="menu_action_attach_file"> "Dosya ekle" </string>
     <string name="menu_action_save_changes"> "Değişiklikleri kaydet" </string>
-    <string name="menu_refresh_currency_rate"> "Para birimi oranını yenile" </string>
     <string name="menu_advanced_settings"> "Gelişmiş ayarlar" </string>
     <string name="menu_action_edit_item"> "Düzenle" </string>
     <string name="menu_action_delete_item"> "Sil" </string>
@@ -229,7 +209,6 @@
     <string name="menu_action_unarchive_item"> "Arşivden çıkar" </string>
     <string name="menu_action_search_item"> "Ara" </string>
     <string name="menu_action_open_calendar"> "Takvim" </string>
-    <string name="menu_action_open_map"> "Harita" </string>
     <string name="menu_action_sort_items"> "Sırala" </string>
     <string name="menu_action_show_transaction_list"> "İşlemleri göster" </string>
     <string name="menu_action_service_disconnect"> "Bağlantıyı Kes" </string>
@@ -303,7 +282,6 @@
     <string name="relative_string_will_end_on"> "Şununla bitecek: %s" </string>
     <string name="relative_string_money_to_settle_debt">"%s bu borcu kapatmak için kaldı "</string>
     <string name="relative_string_debt_completed"> "Bu borç tamamlandı" </string>
-    <string name="relative_string_expired_on"> "Sona erme tarihi: %s" </string>
     <string name="relative_string_will_expire_on"> "Süresi dolmuş: %s" </string>
     <string name="relative_string_version_name"> "%s Sürüm" </string>
 
@@ -354,9 +332,6 @@
     <string name="title_success"> "Başarı" </string>
     <string name="title_failed"> "Başarısız" </string>
     <string name="title_error"> "Hata" </string>
-    <string name="title_atm_search"> "ATM’yi Ara" </string>
-    <string name="title_bank_search"> "Arama bankası" </string>
-    <string name="title_changelog"> "Değişiklikler" </string>
     <string name="title_licenses"> "Lisanslar" </string>
     <string name="title_debt_insert_master_transaction"> "Aferin" </string>
     <string name="title_currency_exchange_rate"> "Döviz kuru" </string>
@@ -405,7 +380,6 @@
     <string name="message_delete_event"> "Bu etkinliği silmek istediğinize emin misiniz?" </string>
     <string name="message_delete_transaction_model"> "Bu işlem modelini silmek istediğinize emin misiniz?" </string>
     <string name="message_delete_transfer_model"> "Bu transfer modelini silmek istediğinize emin misiniz?" </string>
-    <string name="message_delete_recurrent_transaction"> "Bu tekrarlayan işlemi silmek istediğinize emin misiniz? Daha önce üretilmiş tüm işlemler kaldırılmayacak." </string>
     <string name="message_delete_recurrent_transfer"> "Bu tekrarlayan transferi silmek istediğinizden emin misiniz? Zaten oluşturulan tüm transferler kaldırılmayacak." </string>
     <string name="message_delete_place"> "Bu yeri silmek istediğinize emin misiniz?" </string>
     <string name="message_delete_person"> "Bu kişiyi silmek istediğinize emin misiniz?" </string>
@@ -443,11 +417,6 @@
     <string name="service_backup_google_drive">"Google Drive"</string>
     <string name="service_backup_external_memory">"Harici bellek"</string>
 
-    <string name="setting_title_user_interface"> "Kullanıcı arayüzü" </string>
-    <string name="setting_title_utility"> "Yardımcı Programlar" </string>
-    <string name="setting_title_database"> "Veritabanı" </string>
-    <string name="setting_title_about"> "Hakkında" </string>
-
     <string name="setting_category_ui_appearance"> "Görünüm" </string>
     <string name="setting_category_ui_theme"> "Tema" </string>
     <string name="setting_title_ui_income_color"> "Gelir rengi" </string>
@@ -476,10 +445,6 @@
     <string name="setting_summary_exchange_rate_api_key_missing"> "Api anahtarı eksik" </string>
     <string name="setting_title_exchange_rate_update"> "Döviz kurlarını güncelle" </string>
     <string name="setting_summary_exchange_rate_update"> "Son güncelleme:% s" </string>
-    <string name="setting_subtitle_user_interface"> "İstediğiniz gibi kişiselleştirin" </string>
-    <string name="setting_subtitle_utility"> "Kullanılabilir araçları ayarlayın" </string>
-    <string name="setting_subtitle_database"> "Verilerinizi yönetin" </string>
-    <string name="setting_subtitle_about"> "Krediler ve lisanslar" </string>
     <string name="setting_item_daily_reminder_none"> "Devre dışı" </string>
     <string name="setting_item_security_none"> "Devre dışı" </string>
     <string name="setting_item_security_pin"> "Pin kodu" </string>
@@ -512,7 +477,6 @@
     <string name="notification_title_backup_restoring"> "Yedekleme geri yükleme" </string>
     <string name="notification_title_backup_creation_failed"> "Yedekleme oluşturma başarısız oldu" </string>
     <string name="notification_title_backup_restoring_failed"> "Yedekleme geri yükleme başarısız oldu" </string>
-    <string name="notification_content_downloading_data"> "Güncellenmiş veri indiriliyor…" </string>
     <string name="notification_content_caching_data"> "Güncellenmiş veri kaydediliyor…" </string>
     <string name="notification_content_error_message"> "Hata:% s" </string>
     <string name="notification_content_backup_file_creation"> "Yerel yedekleme dosyası yazılıyor…" </string>
@@ -527,24 +491,6 @@
     <string name="message_error_network_connection"> "ağ bağlantısı" </string>
     <string name="message_error_invalid_response"> "geçersiz yanıt" </string>
     <string name="message_error_missing_api_key"> "eksik veya geçersiz api anahtarı, lütfen bu hizmeti kullanmak için ayarlardaki api anahtarını güncelleyin" </string>
-
-    <string name="about_hint_version"> "Sürüm oluştur" </string>
-    <string name="about_hint_changelog"> "Değişiklikler" </string>
-    <string name="about_hint_support"> "Gelişimi destekleyin" </string>
-    <string name="about_hint_rate_app"> "Bu uygulamaya puan verin" </string>
-    <string name="about_hint_open_source_libraries"> "Açık kaynak kütüphaneleri" </string>
-    <string name="about_hint_report_bug"> "Hata bildir" </string>
-    <string name="about_hint_author"> "Yazar" </string>
-    <string name="about_hint_developer"> "Geliştirici" </string>
-    <string name="about_hint_fork"> "GitHub'ta çatal" </string>
-    <string name="about_hint_logo_designer"> "Logo tasarımcısı" </string>
-    <string name="about_hint_google_plus"> "Google Plus" </string>
-    <string name="about_hint_website"> "Web sitesi" </string>
-    <string name="about_hint_icon_licenses"> "Resimler ve simgeler" </string>
-    <string name="about_hint_icon_image_intro"> "Intro images" </string>
-    <string name="about_hint_md_icons"> "Malzeme tasarım ikonları" </string>
-    <string name="about_hint_icon_pack"> "Simge paketi" </string>
-    <string name="about_hint_translators"> "Çevirmenler" </string>
 
     <string name="activity_launcher_legacy_edition_upgrade_title"> "Yükseltme…" </string>
     <string name="activity_launcher_first_start_title"> "Viti'e Hoş Geldiniz" </string>
@@ -580,22 +526,6 @@
     <string name="help_insert_fingerprint_failed"> "Doğrulama başarısız oldu, tekrar deneyin" </string>
     <string name="help_fingerprint_not_initialized"> "Bu cihaza parmak izi kaydedilmedi" </string>
 
-    <string name="icon_category_clothes"> "Giysiler" </string>
-    <string name="icon_category_people"> "Kişiler" </string>
-    <string name="icon_category_toys"> "Oyuncaklar" </string>
-    <string name="icon_category_travel_and_transportation"> "Seyahat ve ulaşım" </string>
-    <string name="icon_category_home"> "Ev" </string>
-    <string name="icon_category_animals"> "Hayvanlar" </string>
-    <string name="icon_category_shopping"> "Alışveriş" </string>
-    <string name="icon_category_sport_and_free_time"> "Spor ve serbest zaman" </string>
-    <string name="icon_category_payments"> "Ödemeler" </string>
-    <string name="icon_category_party"> "Parti" </string>
-    <string name="icon_category_food_and_drinks"> "Yiyecek ve içecekler" </string>
-    <string name="icon_category_baby"> "Bebek" </string>
-    <string name="icon_category_beauty_and_wellness"> "Güzellik ve sağlık" </string>
-    <string name="icon_category_technology"> "Teknoloji" </string>
-    <string name="icon_category_finance"> "Finans" </string>
-
     <string name="keyboard_9">9</string>
     <string name="keyboard_8">8</string>
     <string name="keyboard_7">7</string>
@@ -614,7 +544,6 @@
     <string name="keyboard_addition">"+"</string>
     <string name="keyboard_subtraction">"−"</string>
     <string name="keyboard_equal">"="</string>
-    <string name="keyboard_commit">">"</string>
 
     <string name="recurrence_type_daily"> "Günlük" </string>
     <string name="recurrence_type_weekly"> "Haftalık" </string>
@@ -667,23 +596,5 @@
     <string name="notification_channel_name_reminder"> "Hatırlatıcı" </string>
     <string name="notification_channel_name_exchange_rate"> "Döviz kurları" </string>
     <string name="notification_channel_name_error"> "Hata" </string>
-
-    <string name="activity_donation_first_title"> "Teşekkürler!" </string>
-    <string name="activity_donation_first_content"> "Bu uygulamayı beğendiyseniz ve faydalı bulursanız, bana bir bira almayı düşünün. Bu projeyi destekleyecek ve geliştirmeye devam etmemi teşvik edecek." </string>
-    <string name="activity_donation_second_title"> "Neden yapayım?" </string>
-    <string name="activity_donation_second_content"> "Birisi,“ Hayattaki en güzel şeyler ücretsizdir ”diyebilir ve ben de aynı fikirdeyim. Arkadaşlık, sevgi veya güzel gün doğumu hatıralarını satın alamazsınız. Bu yüzden paylaşmaya karar verdim. Bu uygulamanın kaynak kodu ücretsizdir.Ama ne yazık ki, hayat özgür değil.Kırma zamanının her günü sadece 24 saatiniz var ve kendinizi desteklemek için nasıl harcayacağınıza karar vermek zorundasınız. Bu projeyi seviyorsanız ve görmek istiyorsanız Gelecekte evrimleşiyor, üzerinde daha fazla zaman ayırmama izin vermek için çalışmamı desteklemeyi düşünüyorum. Herhangi bir katkı büyük bir fark yaratıyor. "</string>
-    <string name="activity_donation_third_title"> "Parasal katkı sağlayamıyor musunuz? Sorun değil, yine de çok yardımcı olabilirsiniz!" </string>
-    <string name="activity_donation_crypto_address_copied"> "Adres kopyalandı" </string>
-    <string name="activity_donation_action_share_title"> "Paylaş" </string>
-    <string name="activity_donation_action_share_content"> "Sözcüğü arkadaşların arasında yay" "</string>
-    <string name="activity_donation_action_share_message"> "Merhaba,% s bölümüne bir göz atın" </string>
-    <string name="activity_donation_action_share_using"> "" ile paylaşın </string>
-    <string name="activity_donation_action_rate_title"> "Rate" </string>
-    <string name="activity_donation_action_rate_content"> "Bize ne düşündüğünüzü söyleyen 5 başlangıçlı bir inceleme yazın" </string>
-    <string name="activity_donation_action_translate_title"> "Çevir" </string>
-    <string name="activity_donation_action_translate_content"> "Dizeleri kendi dilinizde yerelleştirin" </string>
-    <string name="activity_donation_action_contribute_title"> "Contribute" </string>
-    <string name="activity_donation_action_contribute_content"> "Kaynak kodu herkese açık ve herkes işbirliği yapabilir" </string>
-    <string name="activity_donation_final_content"> "Parasal veya parasal olmayan her katkı benim için eşit ve önemli bir fark yaratıyor. Umarım beğenirsiniz ve bu uygulamayı kullanmayı seçtiğiniz için tekrar teşekkürler." </string>
 
 </resources>

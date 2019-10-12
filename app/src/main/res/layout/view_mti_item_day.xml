@@ -21,7 +21,6 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mt_layout_toolbar"
     android:layout_width="@dimen/view_mti_timeline_width"
     android:layout_height="@dimen/view_mti_timeline_height"
     android:clickable="true"

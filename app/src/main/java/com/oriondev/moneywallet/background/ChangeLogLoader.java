@@ -32,7 +32,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by DucTien on 06/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class ChangeLogLoader extends AbstractGenericLoader<List<ChangeLog>> {
 

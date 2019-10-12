@@ -45,7 +45,7 @@ import com.oriondev.Viti.ui.activity.base.ThemedActivity;
 import java.util.List;
 
 /**
- * Created by DucTien on 24/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class LockActivity extends ThemedActivity {
 

@@ -21,8 +21,6 @@ package com.oriondev.Viti.ui.fragment.base;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.IdRes;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.MenuRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -42,7 +40,7 @@ import com.oriondev.Viti.ui.activity.ToolbarController;
 import com.oriondev.Viti.utils.Utils;
 
 /**
- * Created by DucTien on 09/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public abstract class MultiPanelFragment extends Fragment implements MultiPanelController, Toolbar.OnMenuItemClickListener {
 

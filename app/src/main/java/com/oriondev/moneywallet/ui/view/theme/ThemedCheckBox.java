@@ -24,7 +24,7 @@ import android.support.v7.widget.AppCompatCheckBox;
 import android.util.AttributeSet;
 
 /**
- * Created by DucTien on 20/08/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedCheckBox extends AppCompatCheckBox implements ThemeEngine.ThemeConsumer {
 

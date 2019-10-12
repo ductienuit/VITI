@@ -20,11 +20,8 @@
 package com.oriondev.Viti.model;
 
 import android.os.Parcel;
-import android.os.Parcelable;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by andre on 21/03/2019.

@@ -25,7 +25,7 @@ import android.os.Parcelable;
 import com.oriondev.Viti.storage.database.Contract;
 
 /**
- * Created by DucTien on 02/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class Category implements Parcelable {
 

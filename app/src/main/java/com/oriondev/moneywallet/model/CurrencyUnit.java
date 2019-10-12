@@ -32,7 +32,7 @@ import com.oriondev.Viti.utils.Utils;
 import java.util.Locale;
 
 /**
- * Created by DucTien on 31/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CurrencyUnit implements Parcelable {
 

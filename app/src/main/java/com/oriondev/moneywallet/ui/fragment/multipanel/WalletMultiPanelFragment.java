@@ -53,7 +53,7 @@ import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 import com.oriondev.Viti.utils.MoneyFormatter;
 
 /**
- * Created by DucTien on 24/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class WalletMultiPanelFragment extends MultiPanelAppBarItemFragment implements LoaderManager.LoaderCallbacks<Cursor>, SwipeRefreshLayout.OnRefreshListener, WalletCursorAdapter.WalletActionListener {
 

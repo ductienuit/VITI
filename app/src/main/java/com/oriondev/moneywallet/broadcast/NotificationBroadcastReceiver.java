@@ -29,7 +29,7 @@ import com.oriondev.Viti.service.BackupHandlerIntentService;
 import com.oriondev.Viti.ui.notification.NotificationContract;
 
 /**
- * Created by DucTien on 01/12/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class NotificationBroadcastReceiver extends BroadcastReceiver {
 

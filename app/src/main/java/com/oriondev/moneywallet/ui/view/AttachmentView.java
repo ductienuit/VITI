@@ -36,7 +36,7 @@ import com.oriondev.Viti.utils.Utils;
 import java.util.List;
 
 /**
- * Created by DucTien on 30/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class AttachmentView extends LinearLayout {
 

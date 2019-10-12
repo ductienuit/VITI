@@ -32,7 +32,7 @@ import com.oriondev.Viti.utils.DateFormatter;
 import java.util.Date;
 
 /**
- * Created by DucTien on 04/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class PeriodDetailActivity extends SinglePanelViewPagerActivity {
 

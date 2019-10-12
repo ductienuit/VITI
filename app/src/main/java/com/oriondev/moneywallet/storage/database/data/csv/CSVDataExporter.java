@@ -4,7 +4,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.text.TextUtils;
 
-import com.opencsv.CSVParserWriter;
 import com.opencsv.CSVWriter;
 import com.oriondev.Viti.model.CurrencyUnit;
 import com.oriondev.Viti.model.Wallet;
@@ -20,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by DucTien on 21/12/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CSVDataExporter extends AbstractDataExporter {
 

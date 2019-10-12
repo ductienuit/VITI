@@ -47,7 +47,7 @@ import com.oriondev.Viti.utils.Utils;
 import java.lang.reflect.Field;
 
 /**
- * Created by DucTien on 11/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 /*package-local*/ class TintHelper {
 

@@ -49,7 +49,7 @@ import com.oriondev.Viti.ui.view.AdvancedRecyclerView;
 import java.util.Date;
 
 /**
- * Created by DucTien on 03/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class TransactionListFragment extends CursorListFragment implements TransactionCursorAdapter.ActionListener {
 

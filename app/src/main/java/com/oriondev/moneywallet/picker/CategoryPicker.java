@@ -34,7 +34,7 @@ import com.oriondev.Viti.ui.activity.CategoryPickerActivity;
 import com.oriondev.Viti.ui.fragment.dialog.ParentCategoryPickerDialog;
 
 /**
- * Created by DucTien on 02/02/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class CategoryPicker extends Fragment implements ParentCategoryPickerDialog.Callback {
 

@@ -31,7 +31,7 @@ import com.oriondev.Viti.model.License;
 import java.util.List;
 
 /**
- * Created by DucTien on 31/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class LicenseAdapter extends RecyclerView.Adapter<LicenseAdapter.ViewHolder> {
 

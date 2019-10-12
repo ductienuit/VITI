@@ -20,10 +20,7 @@
 package com.oriondev.Viti;
 
 import android.app.Application;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
 import android.content.Context;
-import android.os.Build;
 import android.support.multidex.MultiDex;
 
 import com.oriondev.Viti.broadcast.AutoBackupBroadcastReceiver;
@@ -36,7 +33,7 @@ import com.oriondev.Viti.ui.view.theme.ThemeEngine;
 import com.oriondev.Viti.utils.CurrencyManager;
 
 /**
- * Created by DucTien on 17/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class App extends Application {
 

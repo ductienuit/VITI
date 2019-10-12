@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import com.oriondev.Viti.ui.view.calendar.TimelineView;
 
 /**
- * Created by DucTien on 13/04/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ThemedTimelineView extends TimelineView implements ThemeEngine.ThemeConsumer {
 

@@ -50,7 +50,7 @@ import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 import com.oriondev.Viti.utils.IconLoader;
 
 /**
- * Created by DucTien on 02/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NewEditCategoryActivity extends NewEditItemActivity implements IconPicker.Controller, CategoryPicker.Controller {
 

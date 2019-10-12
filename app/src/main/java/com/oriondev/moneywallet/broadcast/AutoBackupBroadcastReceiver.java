@@ -35,7 +35,7 @@ import com.oriondev.Viti.storage.preference.PreferenceManager;
 import java.util.Set;
 
 /**
- * Created by DucTien on 27/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class AutoBackupBroadcastReceiver extends BroadcastReceiver {
 

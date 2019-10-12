@@ -20,7 +20,7 @@
 package com.oriondev.Viti.broadcast;
 
 /**
- * Created by DucTien on 03/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class Message {
 

@@ -47,7 +47,7 @@ import com.oriondev.Viti.ui.fragment.secondary.TransferModelItemFragment;
 import com.oriondev.Viti.ui.view.theme.ThemeEngine;
 
 /**
- * Created by DucTien on 02/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class ModelMultiPanelViewPagerFragment extends MultiPanelViewPagerMultiItemFragment {
 

@@ -35,7 +35,7 @@ import com.oriondev.Viti.R;
 import com.oriondev.Viti.storage.cache.TypefaceCache;
 
 /**
- * Created by DucTien on 01/05/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class MaterialTextView extends AppCompatTextView {
 

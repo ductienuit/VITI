@@ -60,7 +60,7 @@ import com.oriondev.Viti.utils.MoneyFormatter;
 import java.util.Date;
 
 /**
- * Created by DucTien on 06/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class NewEditRecurrentTransactionActivity extends NewEditItemActivity implements MoneyPicker.Controller,
                                                                                         CategoryPicker.Controller,

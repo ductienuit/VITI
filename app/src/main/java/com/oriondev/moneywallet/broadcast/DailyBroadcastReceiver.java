@@ -20,7 +20,6 @@
 package com.oriondev.Viti.broadcast;
 
 import android.app.AlarmManager;
-import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -38,7 +37,7 @@ import com.oriondev.Viti.utils.Utils;
 import java.util.Calendar;
 
 /**
- * Created by DucTien on 28/07/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class DailyBroadcastReceiver extends BroadcastReceiver {
 

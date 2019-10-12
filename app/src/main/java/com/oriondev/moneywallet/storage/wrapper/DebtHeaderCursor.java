@@ -25,7 +25,7 @@ import com.oriondev.Viti.model.Money;
 import com.oriondev.Viti.storage.database.Contract;
 
 /**
- * Created by DucTien on 05/03/19.
+ * Created by DucTien on 13/10/2019.
  */
 
 public class DebtHeaderCursor extends AbstractHeaderCursor<DebtHeaderCursor.Header> {

@@ -20,7 +20,7 @@
 package com.oriondev.Viti.ui.view.text;
 
 /**
- * Created by DucTien on 01/05/19.
+ * Created by DucTien on 13/10/2019.
  */
 public enum Mode {
 

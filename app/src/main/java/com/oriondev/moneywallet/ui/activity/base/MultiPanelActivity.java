@@ -29,7 +29,7 @@ import com.oriondev.Viti.ui.activity.ToolbarController;
 import com.oriondev.Viti.ui.fragment.base.MultiPanelFragment;
 
 /**
- * Created by DucTien on 06/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public abstract class MultiPanelActivity extends BaseActivity implements ToolbarController {
 

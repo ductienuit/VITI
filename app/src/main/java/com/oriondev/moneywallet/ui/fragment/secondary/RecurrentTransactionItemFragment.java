@@ -58,7 +58,7 @@ import org.dmfs.rfc5545.recur.InvalidRecurrenceRuleException;
 import java.util.Date;
 
 /**
- * Created by DucTien on 04/10/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class RecurrentTransactionItemFragment extends SecondaryPanelFragment implements LoaderManager.LoaderCallbacks<Cursor> {
 

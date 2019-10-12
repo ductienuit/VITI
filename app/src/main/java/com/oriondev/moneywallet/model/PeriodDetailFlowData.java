@@ -24,7 +24,7 @@ import com.oriondev.Viti.ui.view.chart.PieData;
 import java.util.List;
 
 /**
- * Created by DucTien on 13/08/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class PeriodDetailFlowData {
 

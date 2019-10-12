@@ -27,8 +27,6 @@ import android.support.v4.graphics.ColorUtils;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.oriondev.Viti.utils.Utils;
-
 import java.util.ArrayList;
 import java.util.List;
 

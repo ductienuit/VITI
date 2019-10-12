@@ -37,7 +37,6 @@ import com.oriondev.Viti.storage.database.DataContentProvider;
 import com.oriondev.Viti.storage.database.DatabaseImporter;
 import com.oriondev.Viti.storage.database.ImportException;
 import com.oriondev.Viti.storage.database.SQLDatabaseImporter;
-import com.oriondev.Viti.storage.database.SQLiteDataException;
 import com.oriondev.Viti.storage.database.model.Attachment;
 import com.oriondev.Viti.storage.database.model.Budget;
 import com.oriondev.Viti.storage.database.model.BudgetWallet;
@@ -57,7 +56,6 @@ import com.oriondev.Viti.utils.Utils;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;

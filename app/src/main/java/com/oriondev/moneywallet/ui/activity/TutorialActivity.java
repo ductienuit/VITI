@@ -46,7 +46,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by DucTien on 30/07/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class TutorialActivity extends AppIntro2 {
 
@@ -82,7 +82,7 @@ public class TutorialActivity extends AppIntro2 {
     @Override
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
-        startActivityForResult(new Intent(this, NewEditWalletActivity.class), REQUEST_NEW_WALLET);
+        startActivityForResult(new Intent(this, com.oriondev.Viti.ui.activity.NewEditWalletActivity.class), REQUEST_NEW_WALLET);
     }
 
     @Override

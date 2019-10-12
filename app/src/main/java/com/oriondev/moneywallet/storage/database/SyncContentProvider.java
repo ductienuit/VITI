@@ -33,8 +33,6 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.oriondev.Viti.storage.preference.PreferenceManager;
-
 /**
  * This content provider exposes the full SQLiteDatabase structure.
  * The goal is to make the full tables available to backup and sync components.

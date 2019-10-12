@@ -32,15 +32,12 @@ import com.oriondev.Viti.BuildConfig;
 import com.oriondev.Viti.broadcast.DailyBroadcastReceiver;
 import com.oriondev.Viti.broadcast.LocalAction;
 import com.oriondev.Viti.model.Group;
-import com.oriondev.Viti.model.IFile;
 import com.oriondev.Viti.model.LockMode;
 
 import java.util.Calendar;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
- * Created by DucTien on 24/01/19.
+ * Created by DucTien on 13/10/2019.
  */
 public class PreferenceManager {
 

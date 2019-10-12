@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 /**
- * Created by DucTien on 03/04/19.
+ * Created by DucTien on 12/10/2019.
  */
 public abstract class MultiPanelCursorListItemFragment extends MultiPanelCursorListFragment {
 

@@ -23,7 +23,6 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -31,15 +30,13 @@ import android.support.v4.content.ContextCompat;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.oriondev.Viti.R;
-import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.AbstractBackendServiceDelegate;
+import com.oriondev.Viti.api.BackendException;
 import com.oriondev.Viti.api.BackendServiceFactory;
-import com.oriondev.Viti.model.IFile;
-import com.oriondev.Viti.model.LocalFile;
 import com.oriondev.Viti.ui.view.theme.ThemedDialog;
 
 /**
- * Created by DucTien on 21/10/19.
+ * Created by DucTien on 12/10/2019.
  */
 public class DiskBackendService extends AbstractBackendServiceDelegate {
 
